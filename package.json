@@ -1,0 +1,35 @@
+{
+  "name": "ts-foursquare-playground",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:arnaud-zg/ts-foursquare-playground.git",
+  "license": "MIT",
+  "dependencies": {
+    "react": "16.8.6",
+    "ts-foursquare": "0.1.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@storybook/addon-actions": "5.1.9",
+    "@storybook/addon-info": "5.1.9",
+    "@storybook/addon-links": "5.1.9",
+    "@storybook/addons": "5.1.9",
+    "@storybook/react": "5.1.9",
+    "@types/jest": "24.0.15",
+    "@types/storybook__react": "4.0.2",
+    "awesome-typescript-loader": "5.2.1",
+    "babel-loader": "8.0.6",
+    "jest": "24.8.0",
+    "node-sass": "^4.12.0",
+    "react-docgen-typescript-loader": "3.1.0",
+    "sass-loader": "^7.1.0",
+    "tailwindcss": "^1.0.5",
+    "ts-jest": "24.0.2",
+    "typesafe-actions": "^4.4.2",
+    "typescript": "3.5.3"
+  },
+  "scripts": {
+    "start:storybook": "start-storybook -p 6006",
+    "build:storybook": "build-storybook"
+  }
+}
