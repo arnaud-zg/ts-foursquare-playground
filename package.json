@@ -34,6 +34,6 @@
   "scripts": {
     "start:storybook": "start-storybook -p 6006",
     "build:storybook": "build-storybook -c .storybook -o docs",
-    "snapshot": "build-storybook && percy-storybook --widths=360,720,1280 --build_dir=docs"
+    "snapshot": "build-storybook && percy-storybook --widths=360,720,1080,1800 --build_dir=docs"
   }
 }
