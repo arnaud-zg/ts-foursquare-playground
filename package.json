@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.5.5",
+    "@percy/storybook": "3.2.0",
     "@storybook/addon-actions": "5.1.9",
     "@storybook/addon-info": "5.1.9",
     "@storybook/addon-links": "5.1.9",
@@ -33,6 +34,7 @@
   },
   "scripts": {
     "start:storybook": "start-storybook -p 6006",
-    "build:storybook": "build-storybook -c .storybook -o docs"
+    "build:storybook": "build-storybook -c .storybook -o docs",
+    "snapshot": "build-storybook && percy-storybook --widths=320,1280 --build_dir=docs"
   }
 }
