@@ -1,6 +1,10 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { EVenuesAction } from 'ts-foursquare'
+import {
+  EVenuesAction,
+  requestGetVenuesSearch,
+  resolveGetVenuesSearch,
+} from 'ts-foursquare'
 import Action from '../../src/Action'
 import Layout from '../../src/Layout'
 
@@ -10,9 +14,29 @@ Object.keys(EVenuesAction).map(actionKey => {
   const actionType = EVenuesAction[actionKey as EVenuesAction]
 
   venuesStories.add(`${actionType}`, () => {
+    let actionCaller
+    let actionPayload
+
+    switch (actionType) {
+      case EVenuesAction.REQUEST_GET_VENUES_SEARCH:
+        actionCaller = requestGetVenuesSearch
+        actionPayload = { query: '' }
+        break
+      case EVenuesAction.RESOLVE_GET_VENUES_SEARCH:
+        actionCaller = resolveGetVenuesSearch
+        actionPayload = {}
+        break
+      default:
+        break
+    }
+
     return (
       <Layout>
-        <Action name={actionType} action={() => {}} />
+        <Action
+          name={actionType}
+          actionCaller={actionCaller}
+          actionPayload={actionPayload}
+        />
       </Layout>
     )
   })
