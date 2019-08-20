@@ -1103,7 +1103,7 @@
     percy-client "^3.0.0"
     slugify "^1.1.0"
 
-"@percy/storybook@^3.2.0":
+"@percy/storybook@3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@percy/storybook/-/storybook-3.2.0.tgz#d2bbe4c7bbdcf8342c8449280a6ffcdce9bada8d"
   dependencies:
