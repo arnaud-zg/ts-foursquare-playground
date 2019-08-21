@@ -28,7 +28,7 @@
     "react-docgen-typescript-loader": "3.1.1",
     "sass-loader": "7.1.0",
     "standard-version": "7.0.0",
-    "tailwindcss": "1.0.5",
+    "tailwindcss": "1.1.2",
     "ts-jest": "24.0.2",
     "typescript": "3.5.3"
   },
