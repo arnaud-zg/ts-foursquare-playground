@@ -35,7 +35,7 @@
   "scripts": {
     "build:storybook": "build-storybook -c .storybook -o docs",
     "release": "standard-version",
-    "snapshot": "build-storybook && percy-storybook --widths=360,720,1080 --build_dir=docs",
+    "snapshot": "build-storybook && percy-storybook --widths=360,1080 --build_dir=docs",
     "start:storybook": "start-storybook -p 6006"
   }
 }
