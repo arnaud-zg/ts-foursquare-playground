@@ -10,6 +10,7 @@ install:
   - yarn install --check-files
 
 script:
-  - yarn run build:storybook
+  - yarn run test:lint
   - yarn run test:coverage:report
+  - yarn run build:storybook
   - yarn run snapshot
