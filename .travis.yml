@@ -11,4 +11,5 @@ install:
 
 script:
   - yarn run build:storybook
+  - yarn run test:coverage:report
   - yarn run snapshot
