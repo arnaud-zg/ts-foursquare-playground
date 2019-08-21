@@ -5,8 +5,8 @@ import {
   requestGetVenuesSearch,
   resolveGetVenuesSearch,
 } from 'ts-foursquare'
-import Action from '../../src/Action'
-import Layout from '../../src/Layout'
+import { Action } from '../../src/Action'
+import { Layout } from '../../src/Layout'
 
 const venuesStories = storiesOf('2-Module/Venues/Action', module)
 

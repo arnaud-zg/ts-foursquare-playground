@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Header = () => (
+export const Header = () => (
   <div className="bg-gray-400 w-full p-2">
     <div className="container mx-auto rounded-t m-2">
       <div className="text-center text-black">
@@ -19,5 +19,3 @@ const Header = () => (
     </div>
   </div>
 )
-
-export default Header

@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react'
-import PutCredentialsForm from '../Forms/Life/PutCredentialsForm'
+import { PutCredentialsForm } from '../Forms/Life/PutCredentialsForm'
 
 interface IActionPayload {
   [key: string]: any
@@ -14,7 +14,7 @@ interface IProps {
   formPayload?: ReactNode
 }
 
-class Action extends React.Component<IProps, IState> {
+export class Action extends React.Component<IProps, IState> {
   render() {
     const { name, actionCaller, actionPayload, formPayload } = this.props
     const action = actionCaller(actionPayload)
@@ -79,5 +79,3 @@ class Action extends React.Component<IProps, IState> {
     )
   }
 }
-
-export default Action
