@@ -10,5 +10,6 @@ install:
   - yarn install --check-files
 
 script:
+  - yarn run test:lint
   - yarn run build:storybook
   - yarn run snapshot
