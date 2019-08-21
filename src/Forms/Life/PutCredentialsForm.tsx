@@ -67,7 +67,7 @@ class PutCredentialsForm extends React.Component<IProps> {
                       form.errors.clientId ? ' border border-red-600' : ''
                     }`}
                     type="text"
-                    placeholder="clientId"
+                    placeholder="Ex: 1234"
                   />
                 </div>
               )}
@@ -89,7 +89,7 @@ class PutCredentialsForm extends React.Component<IProps> {
                       form.errors.clientId ? ' border border-red-600' : ''
                     }`}
                     type="text"
-                    placeholder="clientSecret"
+                    placeholder="Ex: 1234"
                   />
                 </div>
               )}
