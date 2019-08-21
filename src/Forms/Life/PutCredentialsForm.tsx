@@ -33,7 +33,7 @@ interface IProps {
   onSubmit: (values: IPayload) => void
 }
 
-class PutCredentialsForm extends React.Component<IProps> {
+export class PutCredentialsForm extends React.Component<IProps> {
   render() {
     const { onSubmit } = this.props
     return (
@@ -126,5 +126,3 @@ class PutCredentialsForm extends React.Component<IProps> {
     )
   }
 }
-
-export default PutCredentialsForm
