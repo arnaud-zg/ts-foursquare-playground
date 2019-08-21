@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component/Result renders correctly 1`] = `
+<article
+  className="flex-1 border-b"
+>
+  <div
+    className="h-full border-l-2 bg-grey-lightest border-indigo"
+  >
+    <header
+      className="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none"
+    >
+      <span
+        className="text-indigo font-thin text-xl"
+      >
+        Result
+      </span>
+    </header>
+    <div
+      className="pl-8 pr-8 pb-5 text-grey-darkest select-none"
+    >
+      Cool Content
+    </div>
+  </div>
+</article>
+`;

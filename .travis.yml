@@ -12,4 +12,5 @@ install:
 script:
   - yarn run test:lint
   - yarn run build:storybook
+  - yarn run test:coverage:report
   - yarn run snapshot

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component/Card renders correctly 1`] = `
+<article
+  className="flex-1 border-b"
+>
+  <div
+    className="h-full border-l-2 bg-grey-lightest border-indigo"
+  />
+</article>
+`;
+
+exports[`Component/CardContent renders correctly 1`] = `
+<div
+  className="pl-8 pr-8 pb-5 text-grey-darkest select-none"
+/>
+`;

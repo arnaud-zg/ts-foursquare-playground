@@ -5,9 +5,11 @@
   "repository": "git@github.com:arnaud-zg/ts-foursquare-playground.git",
   "license": "MIT",
   "dependencies": {
+    "codecov": "3.5.0",
     "formik": "^1.5.8",
     "react": "16.9.0",
-    "react-dom": "16.9.0",
+    "react-dom": "^16.9.0",
+    "react-test-renderer": "^16.9.0",
     "ts-foursquare": "0.1.7",
     "yup": "^0.27.0"
   },
@@ -19,7 +21,9 @@
     "@storybook/addon-links": "5.1.11",
     "@storybook/addons": "5.1.11",
     "@storybook/react": "5.1.11",
-    "@types/jest": "24.0.18",
+    "@types/jest": "^24.0.18",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-test-renderer": "^16.9.0",
     "@types/storybook__react": "4.0.2",
     "@types/yup": "0.26.23",
     "awesome-typescript-loader": "5.2.1",
@@ -42,6 +46,9 @@
     "test:lint": "tslint --project tsconfig.json --config tslint.json",
     "release": "standard-version",
     "snapshot": "build-storybook && percy-storybook --widths=360,1080 --build_dir=docs",
-    "start:storybook": "start-storybook -p 6006"
+    "start:storybook": "start-storybook -p 6006",
+    "test:coverage:report": "npm run test:coverage && codecov -f coverage/*.json",
+    "test:coverage": "jest --coverage",
+    "test": "jest"
   }
 }
