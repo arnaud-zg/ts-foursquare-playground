@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react'
-import PutCredentialsForm from '../Forms/Life/PutCredentialsForm'
+import { PutCredentialsForm } from '../Forms/Life/PutCredentialsForm'
 import { Result } from '../Result'
 import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
