@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import { ELifeAction, getLife, putCredentials } from 'ts-foursquare'
-import Action from '../../src/Action'
+import { Action } from '../../src/Action'
 import Layout from '../../src/Layout'
 import PutCredentialsForm from '../../src/Forms/Life/PutCredentialsForm'
 
