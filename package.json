@@ -42,12 +42,12 @@
     "typescript": "3.5.3"
   },
   "scripts": {
+    "build:storybook:report": "yarn run build:storybook && percy-storybook --widths=360,1080 --build_dir=docs",
     "build:storybook": "build-storybook -c .storybook -o docs",
     "test:lint": "tslint --project tsconfig.json --config tslint.json",
     "release": "standard-version",
-    "snapshot": "build-storybook && percy-storybook --widths=360,1080 --build_dir=docs",
     "start:storybook": "start-storybook -p 6006",
-    "test:coverage:report": "npm run test:coverage && codecov -f coverage/*.json",
+    "test:coverage:report": "yarn run test:coverage && codecov -f coverage/*.json",
     "test:coverage": "jest --coverage",
     "test": "jest"
   }
