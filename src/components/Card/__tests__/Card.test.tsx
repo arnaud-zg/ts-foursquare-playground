@@ -1,6 +1,6 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
-import { Card, CardContent } from '../'
+import { Card, CardContent } from '..'
 
 describe('Component/Card', () => {
   it('renders correctly', () => {

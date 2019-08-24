@@ -1,11 +1,11 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import { ELifeAction, getLife, putCredentials } from 'ts-foursquare'
-import { Action } from '../../src/Action'
+import { Action } from '../../src/components/Action'
 import { Layout } from '../../src/Layout'
-import { PutCredentialsForm } from '../../src/Forms/Life'
+import { PutCredentialsForm } from '../../src/components/Forms/Life'
 import { withRedux } from '../../src/hoc/withRedux'
-import { GetLifeForm } from '../../src/Forms/Life'
+import { GetLifeForm } from '../../src/components/Forms/Life'
 
 const lifeStories = storiesOf('2-Module/Life/Action', module)
 
