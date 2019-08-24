@@ -1,9 +1,9 @@
 import React from 'react'
-import renderer from 'react-test-renderer'
-import { Action } from '..'
-import { ELifeAction, putCredentials, configureStore } from 'ts-foursquare'
-import { PutCredentialsForm } from '../../Forms/Life'
 import { Provider } from 'react-redux'
+import renderer from 'react-test-renderer'
+import { configureStore, ELifeAction, putCredentials } from 'ts-foursquare'
+import { Action } from '..'
+import { PutCredentialsForm } from '../../Forms/Life'
 
 const store = configureStore()
 

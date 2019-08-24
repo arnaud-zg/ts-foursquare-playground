@@ -1,7 +1,7 @@
 import { connect } from 'react-redux'
 import {
-  initialState,
   credentialsSelector,
+  initialState,
   putCredentials,
 } from 'ts-foursquare'
 import { NResolve } from 'ts-foursquare/types/resolve'

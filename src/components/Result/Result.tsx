@@ -1,8 +1,8 @@
 import React from 'react'
-import { Header } from '../Header'
-import { Card, CardContent } from '../Card'
-import { Life } from './Life'
 import { ELifeAction } from 'ts-foursquare'
+import { Card, CardContent } from '../Card'
+import { Header } from '../Header'
+import { Life } from './Life'
 
 interface Props {
   actionType: string

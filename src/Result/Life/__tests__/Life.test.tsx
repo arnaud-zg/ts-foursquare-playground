@@ -1,8 +1,8 @@
 import React from 'react'
-import renderer from 'react-test-renderer'
-import { Life } from '..'
 import { Provider } from 'react-redux'
+import renderer from 'react-test-renderer'
 import { configureStore } from 'ts-foursquare'
+import { Life } from '..'
 
 const store = configureStore()
 

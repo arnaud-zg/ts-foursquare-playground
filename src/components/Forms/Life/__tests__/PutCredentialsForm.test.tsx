@@ -1,8 +1,8 @@
 import React from 'react'
-import renderer from 'react-test-renderer'
-import { PutCredentialsForm } from '..'
-import { configureStore } from 'ts-foursquare'
 import { Provider } from 'react-redux'
+import renderer from 'react-test-renderer'
+import { configureStore } from 'ts-foursquare'
+import { PutCredentialsForm } from '..'
 
 const store = configureStore()
 
