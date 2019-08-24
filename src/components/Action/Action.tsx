@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react'
-import { Result } from '../Result'
 import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
+import { Result } from '../Result'
 
 interface IActionPayload {
   [key: string]: any

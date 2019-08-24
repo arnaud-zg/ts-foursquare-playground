@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import { initialState, getLife } from 'ts-foursquare'
+import { getLife, initialState } from 'ts-foursquare'
 import { GetLifeForm as GetLifeFormComponent } from './GetLifeForm'
 
 interface ContainerProps {}

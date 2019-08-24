@@ -1,12 +1,12 @@
-import React from 'react'
 import {
-  Formik,
-  Form,
   Field,
   FieldProps,
+  Form,
+  Formik,
   FormikActions,
   FormikProps,
 } from 'formik'
+import React from 'react'
 import * as Yup from 'yup'
 import { Props } from './PutCredentialsForm.container'
 
