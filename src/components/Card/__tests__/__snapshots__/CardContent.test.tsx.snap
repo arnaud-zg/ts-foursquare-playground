@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component/CardContent renders correctly 1`] = `
+<div
+  className="pl-8 pr-8 pb-5 text-grey-darkest select-none"
+/>
+`;

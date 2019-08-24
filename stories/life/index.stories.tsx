@@ -15,17 +15,17 @@ Object.keys(ELifeAction).map(actionKey => {
   lifeStories.addDecorator(withRedux).add(`${actionType}`, () => {
     let actionCaller
     let actionPayload
-    let formPayload
+    let renderFormPayload
 
     switch (actionType) {
       case ELifeAction.RESOLVE_GET_LIFE:
         actionCaller = getLife
-        formPayload = <GetLifeForm />
+        renderFormPayload = <GetLifeForm />
         break
       case ELifeAction.RESOLVE_PUT_CREDENTIALS:
         actionCaller = putCredentials
         actionPayload = { clientId: '', clientSecret: '' }
-        formPayload = <PutCredentialsForm />
+        renderFormPayload = <PutCredentialsForm />
         break
       default:
         break
@@ -37,7 +37,7 @@ Object.keys(ELifeAction).map(actionKey => {
           name={actionType}
           actionCaller={actionCaller}
           actionPayload={actionPayload}
-          formPayload={formPayload}
+          renderFormPayload={renderFormPayload}
         />
       </Layout>
     )

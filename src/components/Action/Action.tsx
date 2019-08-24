@@ -11,12 +11,12 @@ interface IProps {
   name: string
   actionCaller: any
   actionPayload?: IActionPayload
-  formPayload?: ReactNode
+  renderFormPayload?: ReactNode
 }
 
 export class Action extends React.Component<IProps> {
   render() {
-    const { name, actionCaller, actionPayload, formPayload } = this.props
+    const { name, actionCaller, actionPayload, renderFormPayload } = this.props
     const action = actionCaller(actionPayload)
 
     return (
@@ -48,11 +48,11 @@ export class Action extends React.Component<IProps> {
             </div>
           </CardContent>
         </Card>
-        {formPayload && (
+        {renderFormPayload && (
           <div className="flex">
             <Card>
               <Header title="Payload" />
-              <CardContent>{formPayload}</CardContent>
+              <CardContent>{renderFormPayload}</CardContent>
             </Card>
             <Result actionType={name} />
           </div>

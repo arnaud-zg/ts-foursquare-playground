@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component/GetLifeForm renders correctly 1`] = `
+<div>
+  <button
+    className="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Send
+    </span>
+    <svg
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+        fill="currentcolor"
+      />
+    </svg>
+  </button>
+</div>
+`;

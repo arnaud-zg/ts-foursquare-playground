@@ -9,9 +9,3 @@ exports[`Component/Card renders correctly 1`] = `
   />
 </article>
 `;
-
-exports[`Component/CardContent renders correctly 1`] = `
-<div
-  className="pl-8 pr-8 pb-5 text-grey-darkest select-none"
-/>
-`;

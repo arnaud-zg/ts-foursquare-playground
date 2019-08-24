@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component/Action renders correctly 1`] = `
+<section
+  className="shadow"
+>
+  <article
+    className="flex-1 border-b"
+  >
+    <div
+      className="h-full border-l-2 bg-grey-lightest border-indigo"
+    >
+      <header
+        className="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none"
+      >
+        <span
+          className="text-indigo font-thin text-xl"
+        >
+          RESOLVE_PUT_CREDENTIALS | type: object
+        </span>
+      </header>
+      <div
+        className="pl-8 pr-8 pb-5 text-grey-darkest select-none"
+      >
+        <div
+          className="flex mt-2"
+        >
+          <div
+            className="flex-1 self-center"
+          >
+            <div
+              className="flex"
+            >
+              <h2>
+                Action
+              </h2>
+              <pre
+                className="ml-2"
+              >
+                <code>
+                  {"type":"RESOLVE_PUT_CREDENTIALS","payload":{"clientId":"","clientSecret":""}}
+                </code>
+              </pre>
+            </div>
+            <div
+              className="flex"
+            >
+              <h2>
+                Payload
+              </h2>
+              <p
+                className="ml-2"
+              >
+                <pre
+                  className="ml-2"
+                >
+                  <code>
+                    {"clientId":"","clientSecret":""}
+                  </code>
+                </pre>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <div
+    className="flex"
+  >
+    <article
+      className="flex-1 border-b"
+    >
+      <div
+        className="h-full border-l-2 bg-grey-lightest border-indigo"
+      >
+        <header
+          className="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none"
+        >
+          <span
+            className="text-indigo font-thin text-xl"
+          >
+            Payload
+          </span>
+        </header>
+        <div
+          className="pl-8 pr-8 pb-5 text-grey-darkest select-none"
+        />
+      </div>
+    </article>
+    <article
+      className="flex-1 border-b"
+    >
+      <div
+        className="h-full border-l-2 bg-grey-lightest border-indigo"
+      >
+        <header
+          className="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none"
+        >
+          <span
+            className="text-indigo font-thin text-xl"
+          >
+            Result
+          </span>
+        </header>
+        <div
+          className="pl-8 pr-8 pb-5 text-grey-darkest select-none"
+        >
+          <div>
+            <div>
+              <h3>
+                Life
+              </h3>
+              <code>
+                <pre>
+                  {"life":false,"credentials":{"clientId":"","clientSecret":""}}
+                </pre>
+              </code>
+            </div>
+            <div
+              className="mt-4"
+            >
+              <h3>
+                Credentials
+              </h3>
+              <code>
+                <pre>
+                  {"clientId":"","clientSecret":""}
+                </pre>
+              </code>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+`;
