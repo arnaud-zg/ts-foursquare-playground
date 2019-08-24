@@ -11,7 +11,7 @@ interface IProps {
   name: string
   actionCaller: any
   actionPayload?: IActionPayload
-  renderFormPayload?: ReactNode
+  renderFormPayload?: () => ReactNode
 }
 
 export class Action extends React.Component<IProps> {
@@ -52,7 +52,7 @@ export class Action extends React.Component<IProps> {
           <div className="flex">
             <Card>
               <Header title="Payload" />
-              <CardContent>{renderFormPayload}</CardContent>
+              <CardContent>{renderFormPayload()}</CardContent>
             </Card>
             <Result actionType={name} />
           </div>

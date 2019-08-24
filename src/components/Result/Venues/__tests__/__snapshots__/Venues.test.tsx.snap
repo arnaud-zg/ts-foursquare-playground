@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component/Venues renders correctly 1`] = `
+<div>
+  <div>
+    <h3>
+      Venues
+    </h3>
+    <code>
+      <pre>
+        {}
+      </pre>
+    </code>
+  </div>
+</div>
+`;

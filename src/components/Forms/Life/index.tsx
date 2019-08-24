@@ -1,2 +1,2 @@
-export { GetLifeForm } from './GetLifeForm.container'
-export { PutCredentialsForm } from './PutCredentialsForm.container'
+export { GetLifeForm } from './GetLifeForm'
+export { PutCredentialsForm } from './PutCredentialsForm'

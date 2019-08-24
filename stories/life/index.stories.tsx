@@ -22,12 +22,12 @@ Object.keys(ELifeAction).map(actionKey => {
     switch (actionType) {
       case ELifeAction.RESOLVE_GET_LIFE:
         actionCaller = getLife
-        renderFormPayload = <GetLifeForm />
+        renderFormPayload = () => <GetLifeForm />
         break
       case ELifeAction.RESOLVE_PUT_CREDENTIALS:
         actionCaller = putCredentials
         actionPayload = { clientId: '', clientSecret: '' }
-        renderFormPayload = <PutCredentialsForm />
+        renderFormPayload = () => <PutCredentialsForm />
         break
       default:
         break
