@@ -1,5 +1,4 @@
 import React, { ReactNode } from 'react'
-import { PutCredentialsForm } from '../Forms/Life/PutCredentialsForm'
 import { Result } from '../Result'
 import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
@@ -53,15 +52,9 @@ export class Action extends React.Component<IProps> {
           <div className="flex">
             <Card>
               <Header title="Payload" />
-              <CardContent>
-                <PutCredentialsForm
-                  onSubmit={values => {
-                    alert(JSON.stringify(values, null, 2))
-                  }}
-                />
-              </CardContent>
+              <CardContent>{formPayload}</CardContent>
             </Card>
-            <Result />
+            <Result actionType={name} />
           </div>
         )}
       </section>

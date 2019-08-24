@@ -3,14 +3,16 @@ import React from 'react'
 import { ELifeAction, getLife, putCredentials } from 'ts-foursquare'
 import { Action } from '../../src/Action'
 import { Layout } from '../../src/Layout'
-import { PutCredentialsForm } from '../../src/Forms/Life/PutCredentialsForm'
+import { PutCredentialsForm } from '../../src/Forms/Life'
+import { withRedux } from '../../src/hoc/withRedux'
+import { GetLifeForm } from '../../src/Forms/Life'
 
 const lifeStories = storiesOf('2-Module/Life/Action', module)
 
 Object.keys(ELifeAction).map(actionKey => {
   const actionType = ELifeAction[actionKey as ELifeAction]
 
-  lifeStories.add(`${actionType}`, () => {
+  lifeStories.addDecorator(withRedux).add(`${actionType}`, () => {
     let actionCaller
     let actionPayload
     let formPayload
@@ -18,17 +20,12 @@ Object.keys(ELifeAction).map(actionKey => {
     switch (actionType) {
       case ELifeAction.RESOLVE_GET_LIFE:
         actionCaller = getLife
+        formPayload = <GetLifeForm />
         break
       case ELifeAction.RESOLVE_PUT_CREDENTIALS:
         actionCaller = putCredentials
         actionPayload = { clientId: '', clientSecret: '' }
-        formPayload = (
-          <PutCredentialsForm
-            onSubmit={values => {
-              console.log(values)
-            }}
-          />
-        )
+        formPayload = <PutCredentialsForm />
         break
       default:
         break

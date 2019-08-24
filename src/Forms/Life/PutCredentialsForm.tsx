@@ -8,6 +8,7 @@ import {
   FormikProps,
 } from 'formik'
 import * as Yup from 'yup'
+import { Props } from './PutCredentialsForm.container'
 
 const initialValues = {
   clientId: '',
@@ -24,18 +25,9 @@ interface IFormValues {
   clientSecret: string
 }
 
-interface IPayload {
-  clientId: string
-  clientSecret: string
-}
-
-interface IProps {
-  onSubmit: (values: IPayload) => void
-}
-
-export class PutCredentialsForm extends React.Component<IProps> {
+export class PutCredentialsForm extends React.Component<Props> {
   render() {
-    const { onSubmit } = this.props
+    const { onSubmit, putCredentials } = this.props
     return (
       <Formik
         initialValues={initialValues}
@@ -44,7 +36,10 @@ export class PutCredentialsForm extends React.Component<IProps> {
           values: IFormValues,
           actions: FormikActions<IFormValues>
         ) => {
-          onSubmit(values)
+          if (onSubmit) {
+            onSubmit(values)
+          }
+          putCredentials(values)
           actions.setSubmitting(false)
         }}
         render={(formikBag: FormikProps<IFormValues>) => (

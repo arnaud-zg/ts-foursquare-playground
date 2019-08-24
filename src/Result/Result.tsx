@@ -1,13 +1,22 @@
 import React from 'react'
 import { Header } from '../Header'
 import { Card, CardContent } from '../Card'
+import { Life } from './Life'
+import { ELifeAction } from 'ts-foursquare'
 
-export class Result extends React.Component {
+interface Props {
+  actionType: string
+}
+
+export class Result extends React.Component<Props> {
   render() {
+    const { actionType } = this.props
     return (
       <Card>
         <Header title="Result" />
-        <CardContent>Cool Content</CardContent>
+        <CardContent>
+          {Object.values(ELifeAction).indexOf(actionType) !== -1 && <Life />}
+        </CardContent>
       </Card>
     )
   }
