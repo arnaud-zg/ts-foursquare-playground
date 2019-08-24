@@ -1,10 +1,22 @@
 import React from 'react'
 import renderer from 'react-test-renderer'
+import { ELifeAction, configureStore } from 'ts-foursquare'
 import { Result } from '../'
+import { Provider } from 'react-redux'
+
+const store = configureStore()
 
 describe('Component/Result', () => {
-  it('renders correctly', () => {
-    const tree = renderer.create(<Result />).toJSON()
-    expect(tree).toMatchSnapshot()
+  Object.values(ELifeAction).map((action: ELifeAction) => {
+    it(`renders correctly for action: ${action}`, () => {
+      const tree = renderer
+        .create(
+          <Provider store={store}>
+            <Result actionType={action} />
+          </Provider>
+        )
+        .toJSON()
+      expect(tree).toMatchSnapshot()
+    })
   })
 })
