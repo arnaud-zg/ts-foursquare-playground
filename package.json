@@ -11,7 +11,7 @@
     "react-dom": "^16.9.0",
     "react-redux": "^7.1.0",
     "react-test-renderer": "^16.9.0",
-    "ts-foursquare": "0.1.7",
+    "ts-foursquare": "0.1.8",
     "yup": "^0.27.0"
   },
   "devDependencies": {
