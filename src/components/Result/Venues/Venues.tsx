@@ -1,4 +1,5 @@
 import React from 'react'
+import ReactJsonView from 'react-json-view'
 import { Props } from './index'
 
 export class Venues extends React.Component<Props> {
@@ -8,9 +9,7 @@ export class Venues extends React.Component<Props> {
       <div>
         <div>
           <h3>Venues</h3>
-          <code>
-            <pre>{JSON.stringify(venues)}</pre>
-          </code>
+          <ReactJsonView src={venues} />
         </div>
       </div>
     )
