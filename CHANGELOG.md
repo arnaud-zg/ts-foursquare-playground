@@ -2,6 +2,53 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.1](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.0...v0.0.1) (2019-08-25)
+
+
+### ⚠️ Tests
+
+* **coverage:** add test on component with snapshot ([#29](https://github.com/arnaud-zg/ts-foursquare-playground/issues/29)) ([94fef03](https://github.com/arnaud-zg/ts-foursquare-playground/commit/94fef03))
+
+
+### 🐛 Bug Fixes
+
+* **credentials:** update input placeholder ([#20](https://github.com/arnaud-zg/ts-foursquare-playground/issues/20)) ([917eb08](https://github.com/arnaud-zg/ts-foursquare-playground/commit/917eb08))
+* **deps:** update dependency react to v16.9.0 ([#12](https://github.com/arnaud-zg/ts-foursquare-playground/issues/12)) ([7f70fa1](https://github.com/arnaud-zg/ts-foursquare-playground/commit/7f70fa1))
+* **deps:** update dependency ts-foursquare to v0.1.8 ([#32](https://github.com/arnaud-zg/ts-foursquare-playground/issues/32)) ([c057cb7](https://github.com/arnaud-zg/ts-foursquare-playground/commit/c057cb7))
+* **import:** do not export component by default ([#21](https://github.com/arnaud-zg/ts-foursquare-playground/issues/21)) ([5b4ab46](https://github.com/arnaud-zg/ts-foursquare-playground/commit/5b4ab46))
+* **lint:** add lint check ([#22](https://github.com/arnaud-zg/ts-foursquare-playground/issues/22)) ([87262c8](https://github.com/arnaud-zg/ts-foursquare-playground/commit/87262c8))
+* **script:** rename script snapshot into build:storybook:report ([#24](https://github.com/arnaud-zg/ts-foursquare-playground/issues/24)) ([a8aec8c](https://github.com/arnaud-zg/ts-foursquare-playground/commit/a8aec8c))
+* **test:** add unit test ([#23](https://github.com/arnaud-zg/ts-foursquare-playground/issues/23)) ([b3be059](https://github.com/arnaud-zg/ts-foursquare-playground/commit/b3be059))
+* **ui:** add component for ui ([#19](https://github.com/arnaud-zg/ts-foursquare-playground/issues/19)) ([7530a36](https://github.com/arnaud-zg/ts-foursquare-playground/commit/7530a36))
+
+
+### 🔧 Chore
+
+* **build:** disable declaration option on tsconfig.json ([#17](https://github.com/arnaud-zg/ts-foursquare-playground/issues/17)) ([cee9d8a](https://github.com/arnaud-zg/ts-foursquare-playground/commit/cee9d8a))
+* **ci:** update snapshot width (nHD, FHD) ([#5](https://github.com/arnaud-zg/ts-foursquare-playground/issues/5)) ([#18](https://github.com/arnaud-zg/ts-foursquare-playground/issues/18)) ([f42770c](https://github.com/arnaud-zg/ts-foursquare-playground/commit/f42770c))
+* **deps:** add dependency react-dom ([#16](https://github.com/arnaud-zg/ts-foursquare-playground/issues/16)) ([a373370](https://github.com/arnaud-zg/ts-foursquare-playground/commit/a373370))
+* **deps:** pin dependencies ([#25](https://github.com/arnaud-zg/ts-foursquare-playground/issues/25)) ([90b3a84](https://github.com/arnaud-zg/ts-foursquare-playground/commit/90b3a84))
+* **deps:** pin dependencies ([#6](https://github.com/arnaud-zg/ts-foursquare-playground/issues/6)) ([363e47e](https://github.com/arnaud-zg/ts-foursquare-playground/commit/363e47e))
+* **deps:** pin dependency @types/react-redux to 7.1.2 ([#27](https://github.com/arnaud-zg/ts-foursquare-playground/issues/27)) ([37d49ca](https://github.com/arnaud-zg/ts-foursquare-playground/commit/37d49ca))
+* **deps:** update dependency @types/jest to v24.0.18 ([#7](https://github.com/arnaud-zg/ts-foursquare-playground/issues/7)) ([f20bb06](https://github.com/arnaud-zg/ts-foursquare-playground/commit/f20bb06))
+* **deps:** update dependency jest to v24.9.0 ([#8](https://github.com/arnaud-zg/ts-foursquare-playground/issues/8)) ([8aacf5f](https://github.com/arnaud-zg/ts-foursquare-playground/commit/8aacf5f))
+* **deps:** update dependency react-docgen-typescript-loader to v3.1.1 ([#9](https://github.com/arnaud-zg/ts-foursquare-playground/issues/9)) ([02c1416](https://github.com/arnaud-zg/ts-foursquare-playground/commit/02c1416))
+* **deps:** update dependency sass-loader to v7.3.1 ([#14](https://github.com/arnaud-zg/ts-foursquare-playground/issues/14)) ([0772551](https://github.com/arnaud-zg/ts-foursquare-playground/commit/0772551))
+* **deps:** update dependency tailwindcss to v1.1.2 ([#15](https://github.com/arnaud-zg/ts-foursquare-playground/issues/15)) ([0033cff](https://github.com/arnaud-zg/ts-foursquare-playground/commit/0033cff))
+* **deps:** update node.js to v10.16.3 ([#10](https://github.com/arnaud-zg/ts-foursquare-playground/issues/10)) ([947b959](https://github.com/arnaud-zg/ts-foursquare-playground/commit/947b959))
+* **deps:** update storybook monorepo to v5.1.11 ([#11](https://github.com/arnaud-zg/ts-foursquare-playground/issues/11)) ([673c690](https://github.com/arnaud-zg/ts-foursquare-playground/commit/673c690))
+* **import:** update import order ([#30](https://github.com/arnaud-zg/ts-foursquare-playground/issues/30)) ([116b350](https://github.com/arnaud-zg/ts-foursquare-playground/commit/116b350))
+* **pretty:** display pretty result with react-json-view ([#34](https://github.com/arnaud-zg/ts-foursquare-playground/issues/34)) ([492f74c](https://github.com/arnaud-zg/ts-foursquare-playground/commit/492f74c))
+* **project:** add components folder ([#28](https://github.com/arnaud-zg/ts-foursquare-playground/issues/28)) ([f1b6170](https://github.com/arnaud-zg/ts-foursquare-playground/commit/f1b6170))
+
+
+### 🖋 Features
+
+* **docs:** add docs folder ([#35](https://github.com/arnaud-zg/ts-foursquare-playground/issues/35)) ([3fa239c](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3fa239c))
+* **playground:** add life and credentials in demo mode ([#26](https://github.com/arnaud-zg/ts-foursquare-playground/issues/26)) ([a0df008](https://github.com/arnaud-zg/ts-foursquare-playground/commit/a0df008))
+* **playground:** add search venues search in demo mode ([#33](https://github.com/arnaud-zg/ts-foursquare-playground/issues/33)) ([11652e3](https://github.com/arnaud-zg/ts-foursquare-playground/commit/11652e3))
+* **venues:** add get venues form ([#31](https://github.com/arnaud-zg/ts-foursquare-playground/issues/31)) ([b6e44b2](https://github.com/arnaud-zg/ts-foursquare-playground/commit/b6e44b2))
+
 ## 0.0.0 (2019-08-20)
 
 
