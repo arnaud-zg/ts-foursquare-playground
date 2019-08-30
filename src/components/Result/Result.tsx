@@ -16,10 +16,10 @@ export class Result extends React.Component<Props> {
       <Card>
         <Header title="Result" />
         <CardContent>
-          {Object.values(ELifeAction).indexOf(actionType) !== -1 && <Life />}
-          {Object.values(EVenuesAction).indexOf(actionType) !== -1 && (
-            <Venues />
-          )}
+          {Object.values(ELifeAction).indexOf(actionType as ELifeAction) !==
+            -1 && <Life />}
+          {Object.values(EVenuesAction).indexOf(actionType as EVenuesAction) !==
+            -1 && <Venues />}
         </CardContent>
       </Card>
     )
