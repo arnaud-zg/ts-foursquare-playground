@@ -16,7 +16,7 @@ exports[`Component/Action renders correctly 1`] = `
         <span
           className="text-indigo font-thin text-xl"
         >
-          RESOLVE_PUT_CREDENTIALS | type: object
+          PUT_CREDENTIALS | type: object
         </span>
       </header>
       <div
@@ -38,7 +38,7 @@ exports[`Component/Action renders correctly 1`] = `
                 className="ml-2"
               >
                 <code>
-                  {"type":"RESOLVE_PUT_CREDENTIALS","payload":{"clientId":"","clientSecret":""}}
+                  {"type":"PUT_CREDENTIALS","payload":{"clientId":"","clientSecret":""}}
                 </code>
               </pre>
             </div>
@@ -442,7 +442,7 @@ exports[`Component/Action renders correctly 1`] = `
                                     }
                                   }
                                 >
-                                  life
+                                  status
                                 </span>
                                 <span
                                   style={

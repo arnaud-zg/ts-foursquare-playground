@@ -10,7 +10,7 @@ const store = configureStore()
 describe('Component/Action', () => {
   it('renders correctly', () => {
     const props = {
-      name: ELifeAction.RESOLVE_PUT_CREDENTIALS,
+      name: ELifeAction.PUT_CREDENTIALS,
       actionCaller: putCredentials,
       actionPayload: { clientId: '', clientSecret: '' },
       renderFormPayload: () => <PutCredentialsForm />,
