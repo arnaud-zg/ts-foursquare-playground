@@ -21,11 +21,7 @@ ask_confirm_and_release () {
               git checkout release
               git pull origin release
               git merge develop
-              yarn run build:storybook
-              git add --all
-              git commit -am "chore(docs): update docs folder"
-              npm run release
-              git add --all
+              yarn run release --dry-run
               git checkout master
               git pull origin master
               git merge release
