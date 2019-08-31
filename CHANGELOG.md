@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.2...v0.0.3) (2019-08-31)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency ts-foursquare to v0.2.4 ([#44](https://github.com/arnaud-zg/ts-foursquare-playground/issues/44)) ([081fb64](https://github.com/arnaud-zg/ts-foursquare-playground/commit/081fb64))
+
+
+### 🔧 Chore
+
+* **markdown:** add demo link in readme ([#43](https://github.com/arnaud-zg/ts-foursquare-playground/issues/43)) ([0696f49](https://github.com/arnaud-zg/ts-foursquare-playground/commit/0696f49))
+* **release:** remove dry run mode ([1c37016](https://github.com/arnaud-zg/ts-foursquare-playground/commit/1c37016))
+* **release:** run prerelease hooks on release ([#45](https://github.com/arnaud-zg/ts-foursquare-playground/issues/45)) ([b52b8bf](https://github.com/arnaud-zg/ts-foursquare-playground/commit/b52b8bf))
+
 ### [0.0.2](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.1...v0.0.2) (2019-08-30)
 
 
