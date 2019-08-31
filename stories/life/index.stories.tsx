@@ -1,11 +1,8 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { ELifeAction, getLife, putCredentials } from 'ts-foursquare'
+import { ELifeAction, putCredentials } from 'ts-foursquare'
 import { Action } from '../../src/components/Action'
-import {
-  GetLifeForm,
-  PutCredentialsForm,
-} from '../../src/components/Forms/Life'
+import { PutCredentialsForm } from '../../src/components/Forms/Life'
 import { withRedux } from '../../src/hoc/withRedux'
 import { Layout } from '../../src/Layout'
 
@@ -20,11 +17,7 @@ Object.keys(ELifeAction).map(actionKey => {
     let renderFormPayload
 
     switch (actionType) {
-      case ELifeAction.RESOLVE_GET_LIFE:
-        actionCaller = getLife
-        renderFormPayload = () => <GetLifeForm />
-        break
-      case ELifeAction.RESOLVE_PUT_CREDENTIALS:
+      case ELifeAction.PUT_CREDENTIALS:
         actionCaller = putCredentials
         actionPayload = { clientId: '', clientSecret: '' }
         renderFormPayload = () => <PutCredentialsForm />
