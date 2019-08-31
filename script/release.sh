@@ -21,7 +21,7 @@ ask_confirm_and_release () {
               git checkout release
               git pull origin release
               git merge develop
-              yarn run release --dry-run
+              yarn run release
               git checkout master
               git pull origin master
               git merge release
