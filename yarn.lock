@@ -4984,9 +4984,9 @@ http-errors@~1.7.2:
   version "0.4.10"
   resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.4.10.tgz#92c9c1374c35085f75db359ec56cc257cbb93fa4"
 
-http-response-status@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/http-response-status/-/http-response-status-0.0.3.tgz#c1f89de71c13eb886b4886ab1a04a79cce370b1a"
+http-response-status@0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/http-response-status/-/http-response-status-0.0.4.tgz#5394b4e22195cbc027a7d50361a964a8880aca2a"
 
 http-signature@~1.2.0:
   version "1.2.0"
@@ -9220,11 +9220,11 @@ trim-right@^1.0.1:
   dependencies:
     glob "^7.1.2"
 
-ts-foursquare@0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.2.4.tgz#0d3da898ee51f0690ef694e00fa41ee3197c3506"
+ts-foursquare@0.2.5:
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.2.5.tgz#360527df4b9d6e1d1e7c997b45a34d8220229f66"
   dependencies:
-    http-response-status "0.0.3"
+    http-response-status "0.0.4"
     isomorphic-fetch "2.2.1"
     redux "4.0.4"
     redux-devtools-extension "2.13.8"
