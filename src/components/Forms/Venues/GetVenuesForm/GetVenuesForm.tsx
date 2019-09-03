@@ -24,7 +24,7 @@ interface IFormValues {
 
 export class GetVenuesForm extends React.Component<Props> {
   render() {
-    const { onSubmit, requestGetVenuesSearch } = this.props
+    const { onSubmit, getVenuesSearchAsyncRequest } = this.props
     return (
       <Formik
         initialValues={initialValues}
@@ -36,7 +36,7 @@ export class GetVenuesForm extends React.Component<Props> {
           if (onSubmit) {
             onSubmit(values)
           }
-          requestGetVenuesSearch(values)
+          getVenuesSearchAsyncRequest(values)
           actions.setSubmitting(false)
         }}
         render={(formikBag: FormikProps<IFormValues>) => (
