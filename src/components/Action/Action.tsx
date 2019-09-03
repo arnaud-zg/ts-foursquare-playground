@@ -17,7 +17,7 @@ interface IProps {
 export class Action extends React.Component<IProps> {
   render() {
     const { name, actionCaller, actionPayload, renderFormPayload } = this.props
-    const action = actionCaller(actionPayload)
+    const action = actionCaller ? actionCaller(actionPayload) : null
 
     return (
       <section className="shadow">
