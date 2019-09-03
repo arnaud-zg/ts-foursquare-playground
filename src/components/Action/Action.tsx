@@ -10,7 +10,7 @@ interface IActionPayload {
 interface IProps {
   name: string
   actionCaller: any
-  actionPayload?: IActionPayload
+  actionPayload?: IActionPayload | Error | string
   renderFormPayload?: () => ReactNode
 }
 

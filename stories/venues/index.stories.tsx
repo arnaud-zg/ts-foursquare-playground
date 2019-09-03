@@ -26,6 +26,14 @@ Object.keys(EVenuesAction).map(actionKey => {
         actionCaller = getVenuesSearchAsync.success
         actionPayload = {}
         break
+      case EVenuesAction.GET_VENUES_SEARCH_FAILURE:
+        actionCaller = getVenuesSearchAsync.failure
+        actionPayload = new Error('Error 404')
+        break
+      case EVenuesAction.GET_VENUES_SEARCH_CANCEL:
+        actionCaller = getVenuesSearchAsync.cancel
+        actionPayload = 'Action cancelled'
+        break
       default:
         break
     }
