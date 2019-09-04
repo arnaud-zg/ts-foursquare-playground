@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.3...v0.0.4) (2019-09-04)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency ts-foursquare to v0.2.6 ([#47](https://github.com/arnaud-zg/ts-foursquare-playground/issues/47)) ([d70c48c](https://github.com/arnaud-zg/ts-foursquare-playground/commit/d70c48c))
+* **stories:** display action name instead of action type ([#51](https://github.com/arnaud-zg/ts-foursquare-playground/issues/51)) ([a2631af](https://github.com/arnaud-zg/ts-foursquare-playground/commit/a2631af))
+* **style:** update style on put credentials form ([#50](https://github.com/arnaud-zg/ts-foursquare-playground/issues/50)) ([87a2895](https://github.com/arnaud-zg/ts-foursquare-playground/commit/87a2895))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency react-docgen-typescript-loader to v3.2.0 ([#46](https://github.com/arnaud-zg/ts-foursquare-playground/issues/46)) ([9425fe4](https://github.com/arnaud-zg/ts-foursquare-playground/commit/9425fe4))
+
+
+### 🖋 Features
+
+* **async-action:** handle async action and display basic data ([#49](https://github.com/arnaud-zg/ts-foursquare-playground/issues/49)) ([3a4eebc](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3a4eebc))
+* **result:** replace result component by generic one ([#48](https://github.com/arnaud-zg/ts-foursquare-playground/issues/48)) ([3b52570](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3b52570))
+
 ### [0.0.3](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.2...v0.0.3) (2019-08-31)
 
 
