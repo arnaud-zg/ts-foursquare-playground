@@ -26,10 +26,8 @@ Object.keys(venuesActionsAsync).map(actionAsyncName =>
             />
           </Layout>
         )
-        break
       default:
         return () => null
-        break
     }
   })
 )

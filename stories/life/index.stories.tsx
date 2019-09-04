@@ -8,35 +8,27 @@ import { Layout } from '../../src/Layout'
 
 const lifeStories = storiesOf('2-Module/Life/Action', module)
 
-Object.keys(ELifeAction).map(actionKey => {
-  const actionType = ELifeAction[actionKey as ELifeAction]
+const lifeActions = {
+  putCredentials,
+}
 
-  lifeStories.addDecorator(withRedux).add(`${actionType}`, () => {
-    let actionCaller
-    let actionPayload
-    let renderFormPayload
+Object.keys(lifeActions).map(actionName => {
+  lifeStories.addDecorator(withRedux).add(actionName, () => {
+    switch (actionName) {
+      case 'putCredentials':
+        return (
+          <Layout>
+            <Action
+              name={ELifeAction.PUT_CREDENTIALS}
+              actionCaller={putCredentials}
+              actionPayload={{ clientId: '', clientSecret: '' }}
+              renderFormPayload={() => <PutCredentialsForm />}
+            />
+          </Layout>
+        )
 
-    switch (actionType) {
-      case ELifeAction.PUT_CREDENTIALS:
-        actionCaller = putCredentials
-        actionPayload = { clientId: '', clientSecret: '' }
-        renderFormPayload = () => <PutCredentialsForm />
-        break
       default:
-        break
+        return () => null
     }
-
-    return (
-      <Layout>
-        <Action
-          name={actionType}
-          actionCaller={actionCaller}
-          actionPayload={actionPayload}
-          renderFormPayload={renderFormPayload}
-        />
-      </Layout>
-    )
   })
-
-  return actionKey
 })
