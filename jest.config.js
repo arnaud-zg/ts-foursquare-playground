@@ -4,14 +4,18 @@ module.exports = {
   collectCoverageFrom: [
     '**/*.{ts,tsx}',
     '!**/node_modules/**',
+    '!**/stories/**',
     '!**/vendor/**',
   ],
   coverageThreshold: {
     global: {
-      branches: 38,
-      functions: 72,
-      lines: 61,
-      statements: 67,
+      branches: 50,
+      functions: 93,
+      lines: 91,
+      statements: 93,
     },
+  },
+  moduleNameMapper: {
+    "\\.(scss)$": "<rootDir>/__mocks__/styleMock.js"
   },
 }
