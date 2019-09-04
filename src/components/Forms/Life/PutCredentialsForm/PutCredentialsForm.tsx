@@ -49,7 +49,7 @@ export class PutCredentialsForm extends React.Component<Props> {
             <Field
               name="clientId"
               render={({ field, form }: FieldProps<IFormValues>) => (
-                <div>
+                <div className="mt-4 ml-4">
                   <label
                     className="block text-sm text-gray-600"
                     htmlFor="clientId"
@@ -58,7 +58,7 @@ export class PutCredentialsForm extends React.Component<Props> {
                   </label>
                   <input
                     {...field}
-                    className={`w-full px-5 py-2 text-gray-700 bg-gray-200 rounded${
+                    className={`mt-2 w-full px-5 py-2 text-gray-700 bg-gray-200 rounded${
                       form.errors.clientId ? ' border border-red-600' : ''
                     }`}
                     type="text"
@@ -71,7 +71,7 @@ export class PutCredentialsForm extends React.Component<Props> {
             <Field
               name="clientSecret"
               render={({ field, form }: FieldProps<IFormValues>) => (
-                <div className="mt-4">
+                <div className="mt-4 ml-4">
                   <label
                     className="block text-sm text-gray-600"
                     htmlFor="clientSecret"
@@ -80,7 +80,7 @@ export class PutCredentialsForm extends React.Component<Props> {
                   </label>
                   <input
                     {...field}
-                    className={`w-full px-5 py-2 text-gray-700 bg-gray-200 rounded${
+                    className={`mt-2 w-full px-5 py-2 text-gray-700 bg-gray-200 rounded${
                       form.errors.clientId ? ' border border-red-600' : ''
                     }`}
                     type="text"

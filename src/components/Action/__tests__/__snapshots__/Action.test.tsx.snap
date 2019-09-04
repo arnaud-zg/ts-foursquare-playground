@@ -11,7 +11,7 @@ exports[`Component/Action renders correctly 1`] = `
       className="h-full border-l-2 bg-grey-lightest border-indigo"
     >
       <header
-        className="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none"
+        className="flex justify-between items-center p-2 pl-4 pr-4 cursor-pointer select-none"
       >
         <span
           className="text-indigo font-thin text-xl"
@@ -75,7 +75,7 @@ exports[`Component/Action renders correctly 1`] = `
         className="h-full border-l-2 bg-grey-lightest border-indigo"
       >
         <header
-          className="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none"
+          className="flex justify-between items-center p-2 pl-4 pr-4 cursor-pointer select-none"
         >
           <span
             className="text-indigo font-thin text-xl"
@@ -96,7 +96,9 @@ exports[`Component/Action renders correctly 1`] = `
             >
               Credentials
             </p>
-            <div>
+            <div
+              className="mt-4 ml-4"
+            >
               <label
                 className="block text-sm text-gray-600"
                 htmlFor="clientId"
@@ -104,7 +106,7 @@ exports[`Component/Action renders correctly 1`] = `
                 clientId
               </label>
               <input
-                className="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded"
+                className="mt-2 w-full px-5 py-2 text-gray-700 bg-gray-200 rounded"
                 name="clientId"
                 onBlur={[Function]}
                 onChange={[Function]}
@@ -114,7 +116,7 @@ exports[`Component/Action renders correctly 1`] = `
               />
             </div>
             <div
-              className="mt-4"
+              className="mt-4 ml-4"
             >
               <label
                 className="block text-sm text-gray-600"
@@ -123,7 +125,7 @@ exports[`Component/Action renders correctly 1`] = `
                 clientSecret
               </label>
               <input
-                className="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded"
+                className="mt-2 w-full px-5 py-2 text-gray-700 bg-gray-200 rounded"
                 name="clientSecret"
                 onBlur={[Function]}
                 onChange={[Function]}
@@ -175,7 +177,7 @@ exports[`Component/Action renders correctly 1`] = `
           PUT_CREDENTIALS
         </div>
         <header
-          className="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none"
+          className="flex justify-between items-center p-2 pl-4 pr-4 cursor-pointer select-none"
         >
           <span
             className="text-indigo font-thin text-xl"

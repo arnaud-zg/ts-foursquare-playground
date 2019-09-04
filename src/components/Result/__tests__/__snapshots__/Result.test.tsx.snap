@@ -11,7 +11,7 @@ exports[`Component/Result renders correctly for action: PUT_CREDENTIALS 1`] = `
       PUT_CREDENTIALS
     </div>
     <header
-      className="flex justify-between items-center p-5 pl-8 pr-8 cursor-pointer select-none"
+      className="flex justify-between items-center p-2 pl-4 pr-4 cursor-pointer select-none"
     >
       <span
         className="text-indigo font-thin text-xl"
