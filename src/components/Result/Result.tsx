@@ -5,6 +5,7 @@ import {
   EVenuesAction,
   lifeSelector,
   venuesSelector,
+  statusSelector,
 } from 'ts-foursquare'
 import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
@@ -19,6 +20,7 @@ export class Result extends React.Component<Props> {
     const { actionType } = this.props
     return (
       <Card>
+        <div>{actionType}</div>
         <Header title="Result" />
         <CardContent>
           {Object.values(ELifeAction).indexOf(actionType as ELifeAction) !==
@@ -27,6 +29,7 @@ export class Result extends React.Component<Props> {
           )}
           {Object.values(EVenuesAction).indexOf(actionType as EVenuesAction) !==
             -1 && <ResultState selectors={{ venuesSelector }} />}
+          <ResultState selectors={{ statusSelector }} />
         </CardContent>
       </Card>
     )
