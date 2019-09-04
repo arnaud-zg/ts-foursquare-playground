@@ -1,9 +1,14 @@
 import React from 'react'
-import { ELifeAction, EVenuesAction } from 'ts-foursquare'
+import {
+  credentialsSelector,
+  ELifeAction,
+  EVenuesAction,
+  lifeSelector,
+  venuesSelector,
+} from 'ts-foursquare'
 import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
-import { Life } from './Life'
-import { Venues } from './Venues'
+import { ResultState } from './ResultState'
 
 interface Props {
   actionType: string
@@ -17,9 +22,11 @@ export class Result extends React.Component<Props> {
         <Header title="Result" />
         <CardContent>
           {Object.values(ELifeAction).indexOf(actionType as ELifeAction) !==
-            -1 && <Life />}
+            -1 && (
+            <ResultState selectors={{ lifeSelector, credentialsSelector }} />
+          )}
           {Object.values(EVenuesAction).indexOf(actionType as EVenuesAction) !==
-            -1 && <Venues />}
+            -1 && <ResultState selectors={{ venuesSelector }} />}
         </CardContent>
       </Card>
     )
