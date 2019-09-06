@@ -28,7 +28,7 @@ describe('Component/Action', () => {
     expect(tree).toMatchSnapshot()
   })
 
-  it('should make a snapshot after action: EVenuesAction.GET_VENUES_SEARCH_REQUES', () => {
+  it('should make a snapshot after action: EVenuesAction.GET_VENUES_SEARCH_REQUEST', () => {
     const props = {
       actionCreator: getVenuesSearchAsync.request,
       actionPayload: { query: '' },

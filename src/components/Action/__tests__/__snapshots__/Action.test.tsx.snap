@@ -2329,7 +2329,7 @@ exports[`Component/Action should make a snapshot after action: ELifeAction.PUT_C
 </section>
 `;
 
-exports[`Component/Action should make a snapshot after action: EVenuesAction.GET_VENUES_SEARCH_REQUES 1`] = `
+exports[`Component/Action should make a snapshot after action: EVenuesAction.GET_VENUES_SEARCH_REQUEST 1`] = `
 <section
   className="shadow"
 >
