@@ -173,16 +173,13 @@ exports[`Component/Action renders correctly 1`] = `
       <div
         className="h-full border-l-2 bg-grey-lightest border-indigo"
       >
-        <div>
-          PUT_CREDENTIALS
-        </div>
         <header
           className="flex justify-between items-center p-2 pl-4 pr-4 cursor-pointer select-none"
         >
           <span
             className="text-indigo font-thin text-xl"
           >
-            Result
+            Result for PUT_CREDENTIALS
           </span>
         </header>
         <div
