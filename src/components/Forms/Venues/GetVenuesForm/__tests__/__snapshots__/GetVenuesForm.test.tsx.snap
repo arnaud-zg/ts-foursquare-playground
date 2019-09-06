@@ -32,10 +32,10 @@ exports[`Component/GetVenuesForm renders correctly 1`] = `
     className="mt-4"
   >
     <div
-      className="flex justify-end"
+      className="flex flex-wrap justify-end"
     >
       <button
-        className=" bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+        className="mt-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
         disabled={true}
       >
         <span
@@ -45,13 +45,13 @@ exports[`Component/GetVenuesForm renders correctly 1`] = `
         </span>
       </button>
       <button
-        className="ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+        className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
         type="submit"
       >
         <span
           className="mr-2"
         >
-          Send
+          Request
         </span>
         <svg
           height="24"
@@ -64,6 +64,36 @@ exports[`Component/GetVenuesForm renders correctly 1`] = `
             fill="currentcolor"
           />
         </svg>
+      </button>
+      <button
+        className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+        disabled={true}
+      >
+        <span
+          className="mr-2"
+        >
+          Success
+        </span>
+      </button>
+      <button
+        className="mt-2 ml-2 w-2/5 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+        disabled={true}
+      >
+        <span
+          className="mr-2"
+        >
+          Cancel
+        </span>
+      </button>
+      <button
+        className="mt-2 ml-2 w-2/5 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+        disabled={true}
+      >
+        <span
+          className="mr-2"
+        >
+          Failure
+        </span>
       </button>
     </div>
   </div>

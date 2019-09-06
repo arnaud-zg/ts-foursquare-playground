@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
-import { EVenuesAction, getVenuesSearchAsync } from 'ts-foursquare'
+import { getVenuesSearchAsync } from 'ts-foursquare'
 import { Action } from '../../src/components/Action'
 import { GetVenuesForm } from '../../src/components/Forms'
 import { withRedux } from '../../src/hoc/withRedux'
@@ -19,9 +19,8 @@ Object.keys(venuesActionsAsync).map(actionAsyncName =>
         return (
           <Layout>
             <Action
-              action={venuesActionsAsync[actionAsyncName].request}
+              actionCreator={venuesActionsAsync[actionAsyncName].request}
               actionPayload={{ query: '' }}
-              actionType={EVenuesAction.GET_VENUES_SEARCH_REQUEST}
               renderFormPayload={() => <GetVenuesForm />}
             />
           </Layout>
