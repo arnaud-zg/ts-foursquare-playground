@@ -61,7 +61,7 @@ export class ActionAsync extends React.Component<IProps> {
               <Header title="Payload" />
               <CardContent>{renderFormPayload()}</CardContent>
             </Card>
-            <Result actionType={name} />
+            <Result actionType={actionType} />
           </div>
         )}
       </section>

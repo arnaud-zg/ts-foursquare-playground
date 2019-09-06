@@ -9,6 +9,7 @@ import {
 import React from 'react'
 import * as Yup from 'yup'
 import { Props } from './PutCredentialsForm.container'
+import { Button, EIconType } from '../../../Button'
 
 const initialValues = {
   clientId: '',
@@ -92,27 +93,12 @@ export class PutCredentialsForm extends React.Component<Props> {
 
             <div className="mt-4">
               <div className="flex justify-end">
-                <button
-                  className={`bg-white text-gray-800 font-bold rounded border-b-2${
-                    !!Object.keys(formikBag.errors).length
-                      ? ' bg-red-500 hover:border-red-600 '
-                      : ' border-green-500 hover:border-green-600 hover:bg-green-500 '
-                  }hover:text-white shadow-md py-2 px-6 inline-flex items-center`}
+                <Button
+                  hasError={!!Object.keys(formikBag.errors).length}
+                  iconType={EIconType.ARROW_RIGHT}
+                  label="Send"
                   type="submit"
-                >
-                  <span className="mr-2">Send</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentcolor"
-                      d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
-                    />
-                  </svg>
-                </button>
+                />
               </div>
             </div>
           </Form>
