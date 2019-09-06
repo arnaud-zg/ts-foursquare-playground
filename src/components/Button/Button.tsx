@@ -16,16 +16,51 @@ export class Button extends React.Component<IProps> {
   }
 
   render() {
-    const { hasError, iconType, label, ...restProps } = this.props
+    const {
+      className,
+      disabled,
+      hasError,
+      iconType,
+      label,
+      ...restProps
+    } = this.props
+    let classNames = (className || '')
+      .split(' ')
+      .concat([
+        'bg-white',
+        'text-gray-800',
+        'font-bold',
+        'rounded',
+        'border-b-2',
+        'shadow-md',
+        'py-2',
+        'px-6',
+        'inline-flex',
+        'items-center',
+      ])
+
+    if (disabled) {
+      classNames = classNames.concat(['bg-gray-500', 'cursor-default'])
+    } else if (hasError) {
+      classNames = classNames.concat([
+        'bg-red-500',
+        'hover:border-red-600',
+        'hover:text-white',
+      ])
+    } else {
+      classNames = classNames.concat([
+        'border-green-500',
+        'hover:border-green-600',
+        'hover:bg-green-500',
+        'hover:text-white',
+      ])
+    }
 
     return (
       <button
         {...restProps}
-        className={`bg-white text-gray-800 font-bold rounded border-b-2${
-          hasError
-            ? ' bg-red-500 hover:border-red-600 '
-            : ' border-green-500 hover:border-green-600 hover:bg-green-500 '
-        }hover:text-white shadow-md py-2 px-6 inline-flex items-center`}
+        className={classNames.join(' ')}
+        disabled={disabled}
       >
         <span className="mr-2">{label}</span>
 
