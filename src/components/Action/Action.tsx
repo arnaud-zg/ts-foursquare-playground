@@ -17,12 +17,7 @@ interface IProps {
 
 export class Action extends React.Component<IProps> {
   render() {
-    const {
-      actionCreator,
-      actionPayload,
-      // actionType,
-      renderFormPayload,
-    } = this.props
+    const { actionCreator, actionPayload, renderFormPayload } = this.props
     const action = actionCreator(actionPayload)
 
     return (
