@@ -20,8 +20,7 @@ export class Result extends React.Component<Props> {
     const { actionType } = this.props
     return (
       <Card>
-        <div>{actionType}</div>
-        <Header title="Result" />
+        <Header title={`Result for ${actionType}`} />
         <CardContent>
           {Object.values(ELifeAction).indexOf(actionType as ELifeAction) !==
             -1 && (
