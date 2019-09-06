@@ -68,14 +68,25 @@ export class GetVenuesForm extends React.Component<Props> {
             />
 
             <div className="mt-4">
-              <div className="flex justify-end">
-                <Button disabled={true} label="Reset" />
+              <div className="flex flex-wrap justify-end">
+                <Button className="mt-2" disabled={true} label="Reset" />
                 <Button
-                  className="ml-2"
+                  className="mt-2 ml-2"
                   hasError={!!Object.keys(formikBag.errors).length}
                   iconType={EIconType.ARROW_RIGHT}
-                  label={i18n.SEND}
+                  label={i18n.REQUEST}
                   type="submit"
+                />
+                <Button className="mt-2 ml-2" disabled={true} label="Success" />
+                <Button
+                  className="mt-2 ml-2 w-2/5"
+                  disabled={true}
+                  label="Cancel"
+                />
+                <Button
+                  className="mt-2 ml-2 w-2/5"
+                  disabled={true}
+                  label="Failure"
                 />
               </div>
             </div>

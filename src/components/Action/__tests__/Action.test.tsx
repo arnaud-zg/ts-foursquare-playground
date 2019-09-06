@@ -3,9 +3,7 @@ import { Provider } from 'react-redux'
 import renderer from 'react-test-renderer'
 import {
   configureStore,
-  EVenuesAction,
   getVenuesSearchAsync,
-  ELifeAction,
   putCredentials,
 } from 'ts-foursquare'
 import { Action } from '..'
@@ -16,9 +14,8 @@ const store = configureStore()
 describe('Component/Action', () => {
   it('should make a snapshot after action: ELifeAction.PUT_CREDENTIALS', () => {
     const props = {
-      action: putCredentials,
+      actionCreator: putCredentials,
       actionPayload: { clientId: '', clientSecret: '' },
-      actionType: ELifeAction.PUT_CREDENTIALS,
       renderFormPayload: () => <PutCredentialsForm />,
     }
     const tree = renderer
@@ -33,9 +30,8 @@ describe('Component/Action', () => {
 
   it('should make a snapshot after action: EVenuesAction.GET_VENUES_SEARCH_REQUES', () => {
     const props = {
-      action: getVenuesSearchAsync.request,
+      actionCreator: getVenuesSearchAsync.request,
       actionPayload: { query: '' },
-      actionType: EVenuesAction.GET_VENUES_SEARCH_REQUEST,
       renderFormPayload: () => <PutCredentialsForm />,
     }
     const tree = renderer

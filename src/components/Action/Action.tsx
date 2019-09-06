@@ -2,7 +2,6 @@ import React, { ReactNode } from 'react'
 import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
 import { Result } from '../Result'
-import { TRootActionType } from 'ts-foursquare'
 import { i18n } from '../../constants/i18n'
 import { createAction } from 'typesafe-actions'
 
@@ -11,20 +10,25 @@ interface IActionPayload {
 }
 
 interface IProps {
-  action: ReturnType<typeof createAction>
+  actionCreator: ReturnType<typeof createAction>
   actionPayload?: IActionPayload | Error | string
-  actionType: TRootActionType
   renderFormPayload?: () => ReactNode
 }
 
 export class Action extends React.Component<IProps> {
   render() {
-    const { action, actionPayload, actionType, renderFormPayload } = this.props
+    const {
+      actionCreator,
+      actionPayload,
+      // actionType,
+      renderFormPayload,
+    } = this.props
+    const action = actionCreator(actionPayload)
 
     return (
       <section className="shadow">
         <Card>
-          <Header title={actionType} />
+          <Header title={action.type} />
           <CardContent>
             <div className="flex mt-2">
               <div className="flex-1 self-center">
@@ -32,7 +36,7 @@ export class Action extends React.Component<IProps> {
                 <div className="flex">
                   <h3>{i18n.ACTION}</h3>
                   <pre className="ml-2">
-                    <code>{JSON.stringify(action(actionPayload))}</code>
+                    <code>{JSON.stringify(action)}</code>
                   </pre>
                 </div>
                 <div className="flex">
@@ -57,7 +61,7 @@ export class Action extends React.Component<IProps> {
               <Header title={i18n.PAYLOAD} />
               <CardContent>{renderFormPayload()}</CardContent>
             </Card>
-            <Result actionType={actionType} />
+            <Result actionType={action.type} />
           </div>
         )}
       </section>
