@@ -64,7 +64,7 @@ export class PutCredentialsForm extends React.Component<Props> {
                       form.errors.clientId ? ' border border-red-600' : ''
                     }`}
                     type="text"
-                    placeholder="Ex: 1234"
+                    placeholder={`${i18n.ACTION_EXAMPLE} ${i18n.CREDENTIALS_PLACEHOLDER}`}
                   />
                 </div>
               )}
@@ -86,7 +86,7 @@ export class PutCredentialsForm extends React.Component<Props> {
                       form.errors.clientId ? ' border border-red-600' : ''
                     }`}
                     type="text"
-                    placeholder="Ex: 1234"
+                    placeholder={`${i18n.ACTION_EXAMPLE} ${i18n.CREDENTIALS_PLACEHOLDER}`}
                   />
                 </div>
               )}

@@ -2,39 +2,41 @@ import React, { ReactNode } from 'react'
 import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
 import { Result } from '../Result'
+import { TRootActionType } from 'ts-foursquare'
 import { i18n } from '../../constants/i18n'
+import { createAction } from 'typesafe-actions'
 
 interface IActionPayload {
   [key: string]: any
 }
 
 interface IProps {
-  name: string
-  actionCaller: any
+  action: ReturnType<typeof createAction>
   actionPayload?: IActionPayload | Error | string
+  actionType: TRootActionType
   renderFormPayload?: () => ReactNode
 }
 
 export class Action extends React.Component<IProps> {
   render() {
-    const { name, actionCaller, actionPayload, renderFormPayload } = this.props
-    const action = actionCaller ? actionCaller(actionPayload) : null
+    const { action, actionPayload, actionType, renderFormPayload } = this.props
 
     return (
       <section className="shadow">
         <Card>
-          <Header title={`${name} | type: ${typeof action}`} />
+          <Header title={actionType} />
           <CardContent>
             <div className="flex mt-2">
               <div className="flex-1 self-center">
+                <h2>{i18n.ACTION_EXAMPLE}</h2>
                 <div className="flex">
-                  <h2>{i18n.ACTION}</h2>
+                  <h3>{i18n.ACTION}</h3>
                   <pre className="ml-2">
-                    <code>{JSON.stringify(action)}</code>
+                    <code>{JSON.stringify(action(actionPayload))}</code>
                   </pre>
                 </div>
                 <div className="flex">
-                  <h2>{i18n.PAYLOAD}</h2>
+                  <h3>{i18n.PAYLOAD}</h3>
                   <p className="ml-2">
                     {actionPayload ? (
                       <pre className="ml-2">
@@ -52,10 +54,10 @@ export class Action extends React.Component<IProps> {
         {renderFormPayload && (
           <div className="flex">
             <Card>
-              <Header title="Payload" />
+              <Header title={i18n.PAYLOAD} />
               <CardContent>{renderFormPayload()}</CardContent>
             </Card>
-            <Result actionType={name} />
+            <Result actionType={actionType} />
           </div>
         )}
       </section>

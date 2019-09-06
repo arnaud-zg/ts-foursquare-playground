@@ -19,9 +19,9 @@ Object.keys(lifeActions).map(actionName => {
         return (
           <Layout>
             <Action
-              name={ELifeAction.PUT_CREDENTIALS}
-              actionCaller={putCredentials}
+              action={putCredentials}
               actionPayload={{ clientId: '', clientSecret: '' }}
+              actionType={ELifeAction.PUT_CREDENTIALS}
               renderFormPayload={() => <PutCredentialsForm />}
             />
           </Layout>
