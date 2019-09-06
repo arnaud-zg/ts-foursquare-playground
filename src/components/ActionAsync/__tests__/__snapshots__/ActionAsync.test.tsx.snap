@@ -139,7 +139,17 @@ exports[`Component/ActionAsync renders correctly 1`] = `
                 className="flex justify-end"
               >
                 <button
-                  className="bg-white text-gray-800 font-bold rounded border-b-2 border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white shadow-md py-2 px-6 inline-flex items-center"
+                  className=" bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+                  disabled={true}
+                >
+                  <span
+                    className="mr-2"
+                  >
+                    Reset
+                  </span>
+                </button>
+                <button
+                  className="ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
                   type="submit"
                 >
                   <span
