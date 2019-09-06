@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.4...v0.0.5) (2019-09-06)
+
+
+### 🐛 Bug Fixes
+
+* **button:** add reset button on each form ([#55](https://github.com/arnaud-zg/ts-foursquare-playground/issues/55)) ([3ab582c](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3ab582c))
+* **deps:** update dependency ts-foursquare to v0.2.7 ([#52](https://github.com/arnaud-zg/ts-foursquare-playground/issues/52)) ([47ac451](https://github.com/arnaud-zg/ts-foursquare-playground/commit/47ac451))
+* **result:** display one title on result component ([#54](https://github.com/arnaud-zg/ts-foursquare-playground/issues/54)) ([283ac8b](https://github.com/arnaud-zg/ts-foursquare-playground/commit/283ac8b))
+* **wording:** put every wording into a i18n file ([#56](https://github.com/arnaud-zg/ts-foursquare-playground/issues/56)) ([f5404eb](https://github.com/arnaud-zg/ts-foursquare-playground/commit/f5404eb))
+
+
+### 🖋 Features
+
+* **button:** add button component ([#53](https://github.com/arnaud-zg/ts-foursquare-playground/issues/53)) ([3942779](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3942779))
+
 ### [0.0.4](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.3...v0.0.4) (2019-09-04)
 
 
