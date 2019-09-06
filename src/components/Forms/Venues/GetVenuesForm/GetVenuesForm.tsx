@@ -10,6 +10,7 @@ import React from 'react'
 import * as Yup from 'yup'
 import { Props } from './GetVenuesForm.container'
 import { Button, EIconType } from '../../../Button'
+import { i18n } from '../../../../constants/i18n'
 
 const initialValues = {
   query: '',
@@ -42,7 +43,7 @@ export class GetVenuesForm extends React.Component<Props> {
         }}
         render={(formikBag: FormikProps<IFormValues>) => (
           <Form className="max-w-xl m-2">
-            <p className="mt-4 text-gray-800 font-medium">Get venues</p>
+            <p className="mt-4 text-gray-800 font-medium">Get Venues</p>
 
             <Field
               name="query"
@@ -73,7 +74,7 @@ export class GetVenuesForm extends React.Component<Props> {
                   className="ml-2"
                   hasError={!!Object.keys(formikBag.errors).length}
                   iconType={EIconType.ARROW_RIGHT}
-                  label="Send"
+                  label={i18n.SEND}
                   type="submit"
                 />
               </div>
