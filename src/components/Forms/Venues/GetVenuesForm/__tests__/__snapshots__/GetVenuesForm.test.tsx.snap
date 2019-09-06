@@ -9,7 +9,7 @@ exports[`Component/GetVenuesForm renders correctly 1`] = `
   <p
     className="mt-4 text-gray-800 font-medium"
   >
-    Get venues
+    Get Venues
   </p>
   <div>
     <label

@@ -3,6 +3,7 @@ import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
 import { Result } from '../Result'
 import { TRootActionType } from 'ts-foursquare'
+import { i18n } from '../../constants/i18n'
 
 interface IActionPayload {
   [key: string]: any
@@ -34,20 +35,20 @@ export class ActionAsync extends React.Component<IProps> {
             <div className="flex mt-2">
               <div className="flex-1 self-center">
                 <div className="flex">
-                  <h2>Action</h2>
+                  <h2>{i18n.ACTION}</h2>
                   <pre className="ml-2">
                     <code>{JSON.stringify(actionAsync.request)}</code>
                   </pre>
                 </div>
                 <div className="flex">
-                  <h2>Payload</h2>
+                  <h2>{i18n.PAYLOAD}</h2>
                   <p className="ml-2">
                     {actionPayload ? (
                       <pre className="ml-2">
                         <code>{JSON.stringify(actionPayload)}</code>
                       </pre>
                     ) : (
-                      "Current action doesn't need any payload"
+                      i18n.ACTION_NO_NEED_PAYLAOD
                     )}
                   </p>
                 </div>
