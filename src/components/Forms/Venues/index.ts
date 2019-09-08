@@ -1,1 +1,1 @@
-export * from './GetVenuesForm'
+export * from './GetVenuesByQueryForm'

@@ -1,10 +1,11 @@
 import { connect } from 'react-redux'
 import { getVenuesSearchAsync } from 'ts-foursquare'
-import { GetVenuesForm as GetVenuesFormComponent } from './GetVenuesForm'
+import { GetVenuesByQueryForm as GetVenuesByQueryFormComponent } from './GetVenuesByQueryForm'
 import { NRequest } from 'ts-foursquare/types/request'
 
 interface ContainerProps {
-  onSubmit?: (values: NRequest.TVenuesSearchPayload) => void
+  initialValues: NRequest.IVenuesSearchPayloadByQuery
+  onSubmit?: (values: NRequest.IVenuesSearchPayloadByQuery) => void
 }
 
 export type Props = ContainerProps &
@@ -17,7 +18,7 @@ const mapDispatchToProps = {
   getVenuesSearchAsyncRequest: getVenuesSearchAsync.request,
 }
 
-export const GetVenuesForm = connect(
+export const GetVenuesByQueryForm = connect(
   mapStateToProps,
   mapDispatchToProps
-)(GetVenuesFormComponent)
+)(GetVenuesByQueryFormComponent)
