@@ -2,7 +2,7 @@ import { storiesOf } from '@storybook/react'
 import React from 'react'
 import { getVenuesSearchAsync } from 'ts-foursquare'
 import { Action } from '../../src/components/Action'
-import { GetVenuesForm } from '../../src/components/Forms'
+import { GetVenuesByQueryForm } from '../../src/components/Forms'
 import { withRedux } from '../../src/hoc/withRedux'
 import { Layout } from '../../src/Layout'
 
@@ -10,23 +10,30 @@ const venuesActionsAsync = {
   getVenuesSearchAsync,
 }
 
-const venuesStories = storiesOf('2-Module/Venues/Action', module)
+Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
+  const venuesStories = storiesOf(
+    `2-Module/Venues/Action/${actionAsyncName}`,
+    module
+  )
 
-Object.keys(venuesActionsAsync).map(actionAsyncName =>
-  venuesStories.addDecorator(withRedux).add(actionAsyncName, () => {
-    switch (actionAsyncName) {
-      case 'getVenuesSearchAsync':
-        return (
-          <Layout>
-            <Action
-              actionCreator={venuesActionsAsync[actionAsyncName].request}
-              actionPayload={{ query: '' }}
-              renderFormPayload={() => <GetVenuesForm />}
-            />
-          </Layout>
-        )
-      default:
-        return () => null
-    }
-  })
-)
+  switch (actionAsyncName) {
+    case 'getVenuesSearchAsync':
+      venuesStories
+        .addDecorator(withRedux)
+        .add('Get venues search by query', () => {
+          const initialValues = { query: '' }
+
+          return (
+            <Layout>
+              <Action
+                actionCreator={venuesActionsAsync[actionAsyncName].request}
+                actionPayload={initialValues}
+                renderFormPayload={() => (
+                  <GetVenuesByQueryForm initialValues={initialValues} />
+                )}
+              />
+            </Layout>
+          )
+        })
+  }
+})
