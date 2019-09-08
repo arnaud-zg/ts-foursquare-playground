@@ -2,7 +2,7 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import renderer from 'react-test-renderer'
 import { configureStore } from 'ts-foursquare'
-import { GetVenuesForm } from '..'
+import { GetVenuesByQueryForm } from '..'
 
 const store = configureStore()
 
@@ -11,7 +11,7 @@ describe('Component/GetVenuesForm', () => {
     const tree = renderer
       .create(
         <Provider store={store}>
-          <GetVenuesForm />
+          <GetVenuesByQueryForm initialValues={{ query: '' }} />
         </Provider>
       )
       .toJSON()

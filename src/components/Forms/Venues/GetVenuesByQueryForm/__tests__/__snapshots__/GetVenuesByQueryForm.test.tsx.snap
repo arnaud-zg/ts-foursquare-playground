@@ -9,9 +9,11 @@ exports[`Component/GetVenuesForm renders correctly 1`] = `
   <p
     className="mt-4 text-gray-800 font-medium"
   >
-    Get Venues
+    Get venues search by query
   </p>
-  <div>
+  <div
+    className="mt-2"
+  >
     <label
       className="block text-sm text-gray-600"
       htmlFor="query"

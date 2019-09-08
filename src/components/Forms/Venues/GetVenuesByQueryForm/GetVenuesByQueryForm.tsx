@@ -1,54 +1,42 @@
-import {
-  Field,
-  FieldProps,
-  Form,
-  Formik,
-  FormikActions,
-  FormikProps,
-} from 'formik'
+import { Field, FieldProps, Form, Formik } from 'formik'
 import React from 'react'
 import * as Yup from 'yup'
-import { Props } from './GetVenuesForm.container'
+import { Props } from './GetVenuesByQueryForm.container'
 import { Button, EIconType } from '../../../Button'
 import { i18n } from '../../../../constants/i18n'
-
-const initialValues = {
-  query: '',
-}
+import { NRequest } from 'ts-foursquare/types/request'
 
 const validationSchema = Yup.object().shape({
   query: Yup.string().required(),
 })
 
-interface IFormValues {
-  query: string
-}
-
-export class GetVenuesForm extends React.Component<Props> {
+export class GetVenuesByQueryForm extends React.Component<Props> {
   render() {
-    const { onSubmit, getVenuesSearchAsyncRequest } = this.props
+    const { initialValues, onSubmit, getVenuesSearchAsyncRequest } = this.props
     return (
       <Formik
         initialValues={initialValues}
         validationSchema={validationSchema}
-        onSubmit={(
-          values: IFormValues,
-          actions: FormikActions<IFormValues>
-        ) => {
+        onSubmit={(values, actions) => {
           if (onSubmit) {
             onSubmit(values)
           }
           getVenuesSearchAsyncRequest(values)
           actions.setSubmitting(false)
         }}
-        render={(formikBag: FormikProps<IFormValues>) => (
+        render={formikBag => (
           <Form className="max-w-xl m-2">
-            <p className="mt-4 text-gray-800 font-medium">Get Venues</p>
+            <p className="mt-4 text-gray-800 font-medium">
+              Get venues search by query
+            </p>
 
             <Field
               name="query"
-              render={({ field, form }: FieldProps<IFormValues>) => (
-                <div>
+              render={({
+                field,
+                form,
+              }: FieldProps<NRequest.IVenuesSearchPayloadByQuery>) => (
+                <div className="mt-2">
                   <label
                     className="block text-sm text-gray-600"
                     htmlFor="query"

@@ -2426,42 +2426,23 @@ exports[`Component/Action should make a snapshot after action: EVenuesAction.GET
             <p
               className="mt-4 text-gray-800 font-medium"
             >
-              Credentials
+              Get venues search by query
             </p>
             <div
-              className="mt-4 ml-4"
+              className="mt-2"
             >
               <label
                 className="block text-sm text-gray-600"
-                htmlFor="clientId"
+                htmlFor="query"
               >
-                clientId
+                query
               </label>
               <input
-                className="mt-2 w-full px-5 py-2 text-gray-700 bg-gray-200 rounded"
-                name="clientId"
+                className="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded"
+                name="query"
                 onBlur={[Function]}
                 onChange={[Function]}
-                placeholder="Ex: 0123456789"
-                type="text"
-                value=""
-              />
-            </div>
-            <div
-              className="mt-4 ml-4"
-            >
-              <label
-                className="block text-sm text-gray-600"
-                htmlFor="clientSecret"
-              >
-                clientSecret
-              </label>
-              <input
-                className="mt-2 w-full px-5 py-2 text-gray-700 bg-gray-200 rounded"
-                name="clientSecret"
-                onBlur={[Function]}
-                onChange={[Function]}
-                placeholder="Ex: 0123456789"
+                placeholder="Ex: Steak House"
                 type="text"
                 value=""
               />
@@ -2470,10 +2451,10 @@ exports[`Component/Action should make a snapshot after action: EVenuesAction.GET
               className="mt-4"
             >
               <div
-                className="flex justify-end"
+                className="flex flex-wrap justify-end"
               >
                 <button
-                  className=" bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+                  className="mt-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
                   disabled={true}
                 >
                   <span
@@ -2483,13 +2464,13 @@ exports[`Component/Action should make a snapshot after action: EVenuesAction.GET
                   </span>
                 </button>
                 <button
-                  className="ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+                  className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
                   type="submit"
                 >
                   <span
                     className="mr-2"
                   >
-                    Send
+                    Request
                   </span>
                   <svg
                     height="24"
@@ -2502,6 +2483,36 @@ exports[`Component/Action should make a snapshot after action: EVenuesAction.GET
                       fill="currentcolor"
                     />
                   </svg>
+                </button>
+                <button
+                  className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+                  disabled={true}
+                >
+                  <span
+                    className="mr-2"
+                  >
+                    Success
+                  </span>
+                </button>
+                <button
+                  className="mt-2 ml-2 w-2/5 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+                  disabled={true}
+                >
+                  <span
+                    className="mr-2"
+                  >
+                    Cancel
+                  </span>
+                </button>
+                <button
+                  className="mt-2 ml-2 w-2/5 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+                  disabled={true}
+                >
+                  <span
+                    className="mr-2"
+                  >
+                    Failure
+                  </span>
                 </button>
               </div>
             </div>
