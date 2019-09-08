@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.4...v0.0.6) (2019-09-08)
+
+
+### 🐛 Bug Fixes
+
+* **action:** refact action and actionAsync component ([#57](https://github.com/arnaud-zg/ts-foursquare-playground/issues/57)) ([95781bc](https://github.com/arnaud-zg/ts-foursquare-playground/commit/95781bc))
+* **action:** refact logic of Action component ([#58](https://github.com/arnaud-zg/ts-foursquare-playground/issues/58)) ([535726f](https://github.com/arnaud-zg/ts-foursquare-playground/commit/535726f))
+* **button:** add reset button on each form ([#55](https://github.com/arnaud-zg/ts-foursquare-playground/issues/55)) ([3ab582c](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3ab582c))
+* **deps:** update dependency ts-foursquare to v0.2.7 ([#52](https://github.com/arnaud-zg/ts-foursquare-playground/issues/52)) ([47ac451](https://github.com/arnaud-zg/ts-foursquare-playground/commit/47ac451))
+* **deps:** update dependency ts-foursquare to v0.2.8 ([#61](https://github.com/arnaud-zg/ts-foursquare-playground/issues/61)) ([57ae2b6](https://github.com/arnaud-zg/ts-foursquare-playground/commit/57ae2b6))
+* **result:** display one title on result component ([#54](https://github.com/arnaud-zg/ts-foursquare-playground/issues/54)) ([283ac8b](https://github.com/arnaud-zg/ts-foursquare-playground/commit/283ac8b))
+* **wording:** put every wording into a i18n file ([#56](https://github.com/arnaud-zg/ts-foursquare-playground/issues/56)) ([f5404eb](https://github.com/arnaud-zg/ts-foursquare-playground/commit/f5404eb))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @babel/core to v7.6.0 ([#59](https://github.com/arnaud-zg/ts-foursquare-playground/issues/59)) ([0b9f066](https://github.com/arnaud-zg/ts-foursquare-playground/commit/0b9f066))
+* **refact:** refact of stories and project architecture ([#60](https://github.com/arnaud-zg/ts-foursquare-playground/issues/60)) ([d565541](https://github.com/arnaud-zg/ts-foursquare-playground/commit/d565541))
+* **release:** 0.0.5 ([03570e6](https://github.com/arnaud-zg/ts-foursquare-playground/commit/03570e6))
+
+
+### 🖋 Features
+
+* **button:** add button component ([#53](https://github.com/arnaud-zg/ts-foursquare-playground/issues/53)) ([3942779](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3942779))
+
 ### [0.0.5](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.4...v0.0.5) (2019-09-06)
 
 
