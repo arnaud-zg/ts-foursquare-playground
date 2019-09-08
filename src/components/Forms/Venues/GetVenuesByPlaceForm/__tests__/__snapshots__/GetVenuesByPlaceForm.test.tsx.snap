@@ -9,24 +9,25 @@ exports[`Component/GetVenuesForm renders correctly 1`] = `
   <p
     className="mt-4 text-gray-800 font-medium"
   >
-    Get venues search by query
+    Get venues search by place
   </p>
   <div
     className="mt-2"
   >
     <label
       className="block text-sm text-gray-600"
-      htmlFor="query"
+      htmlFor="near"
     >
-      query
+      near
     </label>
     <input
       className="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded"
-      name="query"
+      name="near"
       onBlur={[Function]}
       onChange={[Function]}
-      placeholder="Ex: Steak House"
+      placeholder="Ex: New York"
       type="text"
+      value=""
     />
   </div>
   <div

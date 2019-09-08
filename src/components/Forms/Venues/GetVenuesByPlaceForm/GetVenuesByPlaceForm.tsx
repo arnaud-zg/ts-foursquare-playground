@@ -7,7 +7,7 @@ import { i18n } from '../../../../constants/i18n'
 import { NRequest } from 'ts-foursquare/types/request'
 
 const validationSchema = Yup.object().shape({
-  query: Yup.string().required(),
+  near: Yup.string().required(),
 })
 
 export class GetVenuesByPlaceForm extends React.Component<Props> {
@@ -27,21 +27,18 @@ export class GetVenuesByPlaceForm extends React.Component<Props> {
         render={formikBag => (
           <Form className="max-w-xl m-2">
             <p className="mt-4 text-gray-800 font-medium">
-              Get venues search by query
+              Get venues search by place
             </p>
 
             <Field
-              name="query"
+              name="near"
               render={({
                 field,
                 form,
               }: FieldProps<NRequest.IVenuesSearchPayloadByPlace>) => (
                 <div className="mt-2">
-                  <label
-                    className="block text-sm text-gray-600"
-                    htmlFor="query"
-                  >
-                    query
+                  <label className="block text-sm text-gray-600" htmlFor="near">
+                    near
                   </label>
                   <input
                     {...field}
@@ -49,7 +46,7 @@ export class GetVenuesByPlaceForm extends React.Component<Props> {
                       form.errors.near ? ' border border-red-600' : ''
                     }`}
                     type="text"
-                    placeholder="Ex: Steak House"
+                    placeholder="Ex: New York"
                   />
                 </div>
               )}
