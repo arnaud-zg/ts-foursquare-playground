@@ -11,3 +11,28 @@ exports[`Component/Button renders correctly 1`] = `
   </span>
 </button>
 `;
+
+exports[`Component/Button renders correctly with disabled 1`] = `
+<button
+  className=" bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+  disabled={true}
+>
+  <span
+    className="mr-2"
+  >
+    Ok
+  </span>
+</button>
+`;
+
+exports[`Component/Button renders correctly with error 1`] = `
+<button
+  className=" bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-red-500 hover:border-red-600 hover:text-white"
+>
+  <span
+    className="mr-2"
+  >
+    Ok
+  </span>
+</button>
+`;

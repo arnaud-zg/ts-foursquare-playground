@@ -10,12 +10,12 @@ module.exports = {
   coverageThreshold: {
     global: {
       branches: 50,
-      functions: 93,
+      functions: 92.5,
       lines: 91,
       statements: 93,
     },
   },
   moduleNameMapper: {
-    "\\.(scss)$": "<rootDir>/__mocks__/styleMock.js"
+    '\\.(scss)$': '<rootDir>/__mocks__/styleMock.js',
   },
 }

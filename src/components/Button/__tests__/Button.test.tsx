@@ -7,4 +7,14 @@ describe('Component/Button', () => {
     const tree = renderer.create(<Button label="Ok" />).toJSON()
     expect(tree).toMatchSnapshot()
   })
+
+  it('renders correctly with error', () => {
+    const tree = renderer.create(<Button label="Ok" hasError={true} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+
+  it('renders correctly with disabled', () => {
+    const tree = renderer.create(<Button label="Ok" disabled={true} />).toJSON()
+    expect(tree).toMatchSnapshot()
+  })
 })
