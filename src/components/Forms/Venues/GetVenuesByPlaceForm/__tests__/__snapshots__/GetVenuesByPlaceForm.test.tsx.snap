@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component/GetVenuesForm renders correctly 1`] = `
+<form
+  className="max-w-xl m-2"
+  onReset={[Function]}
+  onSubmit={[Function]}
+>
+  <p
+    className="mt-4 text-gray-800 font-medium"
+  >
+    Get venues search by place
+  </p>
+  <div
+    className="mt-2"
+  >
+    <label
+      className="block text-sm text-gray-600"
+      htmlFor="near"
+    >
+      near
+    </label>
+    <input
+      className="w-full px-5 py-2 text-gray-700 bg-gray-200 rounded"
+      name="near"
+      onBlur={[Function]}
+      onChange={[Function]}
+      placeholder="Ex: New York"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="mt-4"
+  >
+    <div
+      className="flex flex-wrap justify-end"
+    >
+      <button
+        className="mt-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+        disabled={true}
+      >
+        <span
+          className="mr-2"
+        >
+          Reset
+        </span>
+      </button>
+      <button
+        className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+        type="submit"
+      >
+        <span
+          className="mr-2"
+        >
+          Request
+        </span>
+        <svg
+          height="24"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+            fill="currentcolor"
+          />
+        </svg>
+      </button>
+      <button
+        className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+        disabled={true}
+      >
+        <span
+          className="mr-2"
+        >
+          Success
+        </span>
+      </button>
+      <button
+        className="mt-2 ml-2 w-2/5 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+        disabled={true}
+      >
+        <span
+          className="mr-2"
+        >
+          Cancel
+        </span>
+      </button>
+      <button
+        className="mt-2 ml-2 w-2/5 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+        disabled={true}
+      >
+        <span
+          className="mr-2"
+        >
+          Failure
+        </span>
+      </button>
+    </div>
+  </div>
+</form>
+`;
