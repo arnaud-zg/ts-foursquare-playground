@@ -5,7 +5,7 @@ export const i18n = {
   CANCEL: 'Cancel',
   CREDENTIALS_PLACEHOLDER: '0123456789',
   CREDENTIALS: 'Credentials',
-  EXAMPLE: 'Ex:',
+  EXAMPLE: 'Example',
   FAILURE: 'Failure',
   HEADER_TITLE: '"ts-foursquare" is just a simple library',
   PAYLOAD: 'Payload',
