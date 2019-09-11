@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.6...v0.0.7) (2019-09-11)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency ts-foursquare to v0.2.11 ([#67](https://github.com/arnaud-zg/ts-foursquare-playground/issues/67)) ([cfaa7c6](https://github.com/arnaud-zg/ts-foursquare-playground/commit/cfaa7c6))
+* **deps:** update dependency ts-foursquare to v0.2.9 ([#63](https://github.com/arnaud-zg/ts-foursquare-playground/issues/63)) ([bd941df](https://github.com/arnaud-zg/ts-foursquare-playground/commit/bd941df))
+* **i18n:** update wording for example ([#65](https://github.com/arnaud-zg/ts-foursquare-playground/issues/65)) ([445fbfd](https://github.com/arnaud-zg/ts-foursquare-playground/commit/445fbfd))
+* **story:** add a story for get venues by place action ([#62](https://github.com/arnaud-zg/ts-foursquare-playground/issues/62)) ([9d936cb](https://github.com/arnaud-zg/ts-foursquare-playground/commit/9d936cb))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency tslint to v5.20.0 ([#64](https://github.com/arnaud-zg/ts-foursquare-playground/issues/64)) ([9174cd4](https://github.com/arnaud-zg/ts-foursquare-playground/commit/9174cd4))
+* **deps:** update dependency typescript to v3.6.3 ([#66](https://github.com/arnaud-zg/ts-foursquare-playground/issues/66)) ([4be2fd7](https://github.com/arnaud-zg/ts-foursquare-playground/commit/4be2fd7))
+* **release:** update release script ([b109b39](https://github.com/arnaud-zg/ts-foursquare-playground/commit/b109b39))
+
 ### [0.0.6](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.4...v0.0.6) (2019-09-08)
 
 
