@@ -53,5 +53,7 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
             </Layout>
           )
         })
+      return
+    default:
   }
 })

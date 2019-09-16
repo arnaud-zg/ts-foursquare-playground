@@ -1,5 +1,6 @@
 export const i18n = {
   ACTION_EXAMPLE: 'Ex:',
+  ACTION_IS_CANCELLED_BY_USER: 'Action is cancelled by user',
   ACTION_NO_NEED_PAYLAOD: "Current action doesn't need any payload",
   ACTION: 'Action',
   CANCEL: 'Cancel',
@@ -10,6 +11,7 @@ export const i18n = {
   HEADER_TITLE: '"ts-foursquare" is just a simple library',
   PAYLOAD: 'Payload',
   REQUEST: 'Request',
+  RESET: 'Reset',
   SEND: 'Send',
   SUCCESS: 'Success',
 }
