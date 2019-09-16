@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component/FormAsyncActions renders correctly with {"hasError": false, "onCancel": [Function onCancel], "onFailure": [Function onFailure], "onRequest": [Function onRequest], "onReset": [Function onReset]} 1`] = `
+Array [
+  <button
+    className="mt-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Reset
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+    type="submit"
+  >
+    <span
+      className="mr-2"
+    >
+      Request
+    </span>
+    <svg
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+        fill="currentcolor"
+      />
+    </svg>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+    disabled={true}
+  >
+    <span
+      className="mr-2"
+    >
+      Success
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Cancel
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Failure
+    </span>
+  </button>,
+]
+`;
+
+exports[`Component/FormAsyncActions renders correctly with {"hasError": false, "onCancel": [Function onCancel], "onFailure": [Function onFailure], "onRequest": [Function onRequest]} 1`] = `
+Array [
+  <button
+    className="mt-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+    disabled={true}
+  >
+    <span
+      className="mr-2"
+    >
+      Reset
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+    type="submit"
+  >
+    <span
+      className="mr-2"
+    >
+      Request
+    </span>
+    <svg
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+        fill="currentcolor"
+      />
+    </svg>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+    disabled={true}
+  >
+    <span
+      className="mr-2"
+    >
+      Success
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Cancel
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Failure
+    </span>
+  </button>,
+]
+`;
+
+exports[`Component/FormAsyncActions renders correctly with {"hasError": false, "onCancel": [Function onCancel], "onFailure": [Function onFailure]} 1`] = `
+Array [
+  <button
+    className="mt-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+    disabled={true}
+  >
+    <span
+      className="mr-2"
+    >
+      Reset
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    type="submit"
+  >
+    <span
+      className="mr-2"
+    >
+      Request
+    </span>
+    <svg
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+        fill="currentcolor"
+      />
+    </svg>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+    disabled={true}
+  >
+    <span
+      className="mr-2"
+    >
+      Success
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Cancel
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Failure
+    </span>
+  </button>,
+]
+`;
+
+exports[`Component/FormAsyncActions renders correctly with {"hasError": false, "onCancel": [Function onCancel]} 1`] = `
+Array [
+  <button
+    className="mt-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+    disabled={true}
+  >
+    <span
+      className="mr-2"
+    >
+      Reset
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    type="submit"
+  >
+    <span
+      className="mr-2"
+    >
+      Request
+    </span>
+    <svg
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+        fill="currentcolor"
+      />
+    </svg>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+    disabled={true}
+  >
+    <span
+      className="mr-2"
+    >
+      Success
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Cancel
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-gray-500 cursor-default"
+    disabled={true}
+  >
+    <span
+      className="mr-2"
+    >
+      Failure
+    </span>
+  </button>,
+]
+`;
+
+exports[`Component/FormAsyncActions renders correctly with {"hasError": true, "onCancel": [Function onCancel], "onFailure": [Function onFailure], "onRequest": [Function onRequest], "onReset": [Function onReset], "onSuccess": [Function onSuccess]} 1`] = `
+Array [
+  <button
+    className="mt-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Reset
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center bg-red-500 hover:border-red-600 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+    type="submit"
+  >
+    <span
+      className="mr-2"
+    >
+      Request
+    </span>
+    <svg
+      height="24"
+      viewBox="0 0 24 24"
+      width="24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"
+        fill="currentcolor"
+      />
+    </svg>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Success
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Cancel
+    </span>
+  </button>,
+  <button
+    className="mt-2 ml-2 bg-white text-gray-800 font-bold rounded border-b-2 shadow-md py-2 px-6 inline-flex items-center border-green-500 hover:border-green-600 hover:bg-green-500 hover:text-white"
+    disabled={false}
+    onClick={[Function]}
+  >
+    <span
+      className="mr-2"
+    >
+      Failure
+    </span>
+  </button>,
+]
+`;

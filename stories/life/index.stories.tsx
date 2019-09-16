@@ -13,9 +13,9 @@ const lifeActions = {
 }
 
 Object.keys(lifeActions).map(actionName => {
-  lifeStories.addDecorator(withRedux).add(actionName, () => {
-    switch (actionName) {
-      case 'putCredentials':
+  switch (actionName) {
+    case 'putCredentials':
+      lifeStories.addDecorator(withRedux).add(actionName, () => {
         return (
           <Layout>
             <Action
@@ -25,9 +25,8 @@ Object.keys(lifeActions).map(actionName => {
             />
           </Layout>
         )
-
-      default:
-        return () => null
-    }
-  })
+      })
+      return
+    default:
+  }
 })

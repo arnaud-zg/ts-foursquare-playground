@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`i18n should make a snapshot 1`] = `
+Object {
+  "ACTION": "Action",
+  "ACTION_EXAMPLE": "Ex:",
+  "ACTION_IS_CANCELLED_BY_USER": "Action is cancelled by user",
+  "ACTION_NO_NEED_PAYLAOD": "Current action doesn't need any payload",
+  "CANCEL": "Cancel",
+  "CREDENTIALS": "Credentials",
+  "CREDENTIALS_PLACEHOLDER": "0123456789",
+  "EXAMPLE": "Example",
+  "FAILURE": "Failure",
+  "HEADER_TITLE": "\\"ts-foursquare\\" is just a simple library",
+  "PAYLOAD": "Payload",
+  "REQUEST": "Request",
+  "RESET": "Reset",
+  "SEND": "Send",
+  "SUCCESS": "Success",
+}
+`;
