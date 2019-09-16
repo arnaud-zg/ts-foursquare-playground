@@ -1754,9 +1754,9 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@types/yup@0.26.23":
-  version "0.26.23"
-  resolved "https://registry.yarnpkg.com/@types/yup/-/yup-0.26.23.tgz#00721a3b675e7609e5bcccb94234e86b754bcd04"
+"@types/yup@0.26.24":
+  version "0.26.24"
+  resolved "https://registry.yarnpkg.com/@types/yup/-/yup-0.26.24.tgz#c24170b3a5c867b4fabd49fcc42fe45f780cb153"
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
