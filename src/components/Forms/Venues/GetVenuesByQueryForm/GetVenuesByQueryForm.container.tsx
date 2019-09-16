@@ -15,8 +15,7 @@ export type Props = ContainerProps &
 const mapStateToProps = () => ({})
 
 const mapDispatchToProps = {
-  getVenuesSearchAsyncCancel: getVenuesSearchAsync.cancel,
-  getVenuesSearchAsyncRequest: getVenuesSearchAsync.request,
+  getVenuesSearchAsync,
 }
 
 export const GetVenuesByQueryForm = connect(
