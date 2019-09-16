@@ -1,10 +1,10 @@
 import { Field, FieldProps, Form, Formik } from 'formik'
 import React from 'react'
-import * as Yup from 'yup'
-import { Props } from './GetVenuesByPlaceForm.container'
-import { Button, EIconType } from '../../../Button'
-import { i18n } from '../../../../constants/i18n'
 import { NRequest } from 'ts-foursquare/types/request'
+import * as Yup from 'yup'
+import { i18n } from '../../../../constants/i18n'
+import { FormAsyncActions } from '../../FormAsyncActions'
+import { Props } from './GetVenuesByPlaceForm.container'
 
 const validationSchema = Yup.object().shape({
   near: Yup.string().required(),
@@ -12,7 +12,12 @@ const validationSchema = Yup.object().shape({
 
 export class GetVenuesByPlaceForm extends React.Component<Props> {
   render() {
-    const { initialValues, onSubmit, getVenuesSearchAsyncRequest } = this.props
+    const {
+      getVenuesSearchAsyncCancel,
+      getVenuesSearchAsyncRequest,
+      initialValues,
+      onSubmit,
+    } = this.props
     return (
       <Formik
         initialValues={initialValues}
@@ -54,24 +59,11 @@ export class GetVenuesByPlaceForm extends React.Component<Props> {
 
             <div className="mt-4">
               <div className="flex flex-wrap justify-end">
-                <Button className="mt-2" disabled={true} label="Reset" />
-                <Button
-                  className="mt-2 ml-2"
+                <FormAsyncActions
                   hasError={!!Object.keys(formikBag.errors).length}
-                  iconType={EIconType.ARROW_RIGHT}
-                  label={i18n.REQUEST}
-                  type="submit"
-                />
-                <Button className="mt-2 ml-2" disabled={true} label="Success" />
-                <Button
-                  className="mt-2 ml-2 w-2/5"
-                  disabled={true}
-                  label="Cancel"
-                />
-                <Button
-                  className="mt-2 ml-2 w-2/5"
-                  disabled={true}
-                  label="Failure"
+                  onCancel={() => {
+                    getVenuesSearchAsyncCancel(i18n.ACTION_IS_CANCELLED_BY_USER)
+                  }}
                 />
               </div>
             </div>
