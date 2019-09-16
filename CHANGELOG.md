@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.7...v0.0.8) (2019-09-16)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency ts-foursquare to v0.2.12 ([#69](https://github.com/arnaud-zg/ts-foursquare-playground/issues/69)) ([2a93198](https://github.com/arnaud-zg/ts-foursquare-playground/commit/2a93198))
+* **deps:** update dependency ts-foursquare to v0.2.13 ([#70](https://github.com/arnaud-zg/ts-foursquare-playground/issues/70)) ([1c80261](https://github.com/arnaud-zg/ts-foursquare-playground/commit/1c80261))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/yup to v0.26.24 ([#72](https://github.com/arnaud-zg/ts-foursquare-playground/issues/72)) ([8c0c1a8](https://github.com/arnaud-zg/ts-foursquare-playground/commit/8c0c1a8))
+* **deps:** update dependency ts-jest to v24.1.0 ([#68](https://github.com/arnaud-zg/ts-foursquare-playground/issues/68)) ([16e097a](https://github.com/arnaud-zg/ts-foursquare-playground/commit/16e097a))
+
+
+### 🖋 Features
+
+* **playground:** support asynchronous actions cancel ([#73](https://github.com/arnaud-zg/ts-foursquare-playground/issues/73)) ([d037699](https://github.com/arnaud-zg/ts-foursquare-playground/commit/d037699))
+
 ### [0.0.7](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.6...v0.0.7) (2019-09-11)
 
 
