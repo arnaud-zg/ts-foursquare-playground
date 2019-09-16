@@ -12,12 +12,7 @@ const validationSchema = Yup.object().shape({
 
 export class GetVenuesByQueryForm extends React.Component<Props> {
   render() {
-    const {
-      getVenuesSearchAsyncCancel,
-      getVenuesSearchAsyncRequest,
-      initialValues,
-      onSubmit,
-    } = this.props
+    const { getVenuesSearchAsync, initialValues, onSubmit } = this.props
     return (
       <Formik
         initialValues={initialValues}
@@ -26,7 +21,7 @@ export class GetVenuesByQueryForm extends React.Component<Props> {
           if (onSubmit) {
             onSubmit(values)
           }
-          getVenuesSearchAsyncRequest(values)
+          getVenuesSearchAsync.request(values)
           actions.setSubmitting(false)
         }}
         render={formikBag => (
@@ -64,8 +59,13 @@ export class GetVenuesByQueryForm extends React.Component<Props> {
               <div className="flex flex-wrap justify-end">
                 <FormAsyncActions
                   hasError={!!Object.keys(formikBag.errors).length}
+                  onFailure={() => {
+                    getVenuesSearchAsync.failure(new Error('Unknown error'))
+                  }}
                   onCancel={() => {
-                    getVenuesSearchAsyncCancel(i18n.ACTION_IS_CANCELLED_BY_USER)
+                    getVenuesSearchAsync.cancel(
+                      i18n.ACTION_IS_CANCELLED_BY_USER
+                    )
                   }}
                 />
               </div>
