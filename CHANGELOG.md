@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.9](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.8...v0.0.9) (2019-09-17)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency ts-foursquare to v0.2.14 ([#76](https://github.com/arnaud-zg/ts-foursquare-playground/issues/76)) ([2ef6013](https://github.com/arnaud-zg/ts-foursquare-playground/commit/2ef6013))
+
+
+### 🔧 Chore
+
+* **deps:** pin dependency @types/node to 12.7.5 ([#74](https://github.com/arnaud-zg/ts-foursquare-playground/issues/74)) ([cab2291](https://github.com/arnaud-zg/ts-foursquare-playground/commit/cab2291))
+* **deps:** update dependency tslint-react to v4.1.0 ([#78](https://github.com/arnaud-zg/ts-foursquare-playground/issues/78)) ([167ea04](https://github.com/arnaud-zg/ts-foursquare-playground/commit/167ea04))
+* **deps:** update storybook monorepo to v5.2.0 ([#71](https://github.com/arnaud-zg/ts-foursquare-playground/issues/71)) ([453f947](https://github.com/arnaud-zg/ts-foursquare-playground/commit/453f947))
+* **deps:** update storybook monorepo to v5.2.1 ([#77](https://github.com/arnaud-zg/ts-foursquare-playground/issues/77)) ([3b2fe39](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3b2fe39))
+
+
+### 🖋 Features
+
+* **playground:** support asynchronous actions failure ([#75](https://github.com/arnaud-zg/ts-foursquare-playground/issues/75)) ([c0e5af7](https://github.com/arnaud-zg/ts-foursquare-playground/commit/c0e5af7))
+* **playground:** support asynchronous actions success ([#79](https://github.com/arnaud-zg/ts-foursquare-playground/issues/79)) ([27c5645](https://github.com/arnaud-zg/ts-foursquare-playground/commit/27c5645))
+
 ### [0.0.8](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.7...v0.0.8) (2019-09-16)
 
 
