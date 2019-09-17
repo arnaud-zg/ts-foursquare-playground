@@ -3260,7 +3260,7 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-codecov@3.5.0, codecov@^3.5.0:
+codecov@3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/codecov/-/codecov-3.5.0.tgz#3d0748932f9cb41e1ad7f21fa346ef1b2b1bed47"
   dependencies:
@@ -9641,11 +9641,10 @@ trim-right@^1.0.1:
   dependencies:
     glob "^7.1.2"
 
-ts-foursquare@0.2.13:
-  version "0.2.13"
-  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.2.13.tgz#3c6ff40d8e41968ed6bf0f55f3f6b8e0c8056889"
+ts-foursquare@0.2.14:
+  version "0.2.14"
+  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.2.14.tgz#f0eb877d776396640569a15b54ca342b8c6a0808"
   dependencies:
-    codecov "^3.5.0"
     http-response-status "0.0.4"
     isomorphic-fetch "2.2.1"
     redux "4.0.4"
