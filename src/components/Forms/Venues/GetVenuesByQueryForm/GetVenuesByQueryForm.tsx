@@ -2,6 +2,7 @@ import { Field, FieldProps, Form, Formik } from 'formik'
 import React from 'react'
 import { NRequest } from 'ts-foursquare/types/request'
 import * as Yup from 'yup'
+import { venues } from '../../../../../__mocks__/venues'
 import { i18n } from '../../../../constants/i18n'
 import { FormAsyncActions } from '../../FormAsyncActions'
 import { Props } from './GetVenuesByQueryForm.container'
@@ -12,7 +13,14 @@ const validationSchema = Yup.object().shape({
 
 export class GetVenuesByQueryForm extends React.Component<Props> {
   render() {
-    const { getVenuesSearchAsync, initialValues, onSubmit } = this.props
+    const {
+      getVenuesSearchAsyncCancel,
+      getVenuesSearchAsyncFailure,
+      getVenuesSearchAsyncRequest,
+      getVenuesSearchAsyncSuccess,
+      initialValues,
+      onSubmit,
+    } = this.props
     return (
       <Formik
         initialValues={initialValues}
@@ -21,7 +29,7 @@ export class GetVenuesByQueryForm extends React.Component<Props> {
           if (onSubmit) {
             onSubmit(values)
           }
-          getVenuesSearchAsync.request(values)
+          getVenuesSearchAsyncRequest(values)
           actions.setSubmitting(false)
         }}
         render={formikBag => (
@@ -60,12 +68,13 @@ export class GetVenuesByQueryForm extends React.Component<Props> {
                 <FormAsyncActions
                   hasError={!!Object.keys(formikBag.errors).length}
                   onFailure={() => {
-                    getVenuesSearchAsync.failure(new Error('Unknown error'))
+                    getVenuesSearchAsyncFailure(new Error('Unknown error'))
                   }}
                   onCancel={() => {
-                    getVenuesSearchAsync.cancel(
-                      i18n.ACTION_IS_CANCELLED_BY_USER
-                    )
+                    getVenuesSearchAsyncCancel(i18n.ACTION_IS_CANCELLED_BY_USER)
+                  }}
+                  onSuccess={() => {
+                    getVenuesSearchAsyncSuccess(venues)
                   }}
                 />
               </div>
