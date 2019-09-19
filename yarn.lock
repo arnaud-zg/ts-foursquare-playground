@@ -8405,9 +8405,9 @@ redux-devtools-extension@2.13.8:
   version "2.13.8"
   resolved "https://registry.yarnpkg.com/redux-devtools-extension/-/redux-devtools-extension-2.13.8.tgz#37b982688626e5e4993ff87220c9bbb7cd2d96e1"
 
-redux-observable@1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/redux-observable/-/redux-observable-1.1.0.tgz#323a8fe53e89fdb519be2807b55f08e21c13e6f1"
+redux-observable@1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/redux-observable/-/redux-observable-1.2.0.tgz#ff51b6c6be2598e9b5e89fc36639186bb0e669c7"
 
 redux@4.0.4, redux@^4.0.0:
   version "4.0.4"
@@ -9641,15 +9641,15 @@ trim-right@^1.0.1:
   dependencies:
     glob "^7.1.2"
 
-ts-foursquare@0.2.14:
-  version "0.2.14"
-  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.2.14.tgz#f0eb877d776396640569a15b54ca342b8c6a0808"
+ts-foursquare@0.2.15:
+  version "0.2.15"
+  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.2.15.tgz#00b0342c37451937dcbef6af09e9d9c20555bd89"
   dependencies:
     http-response-status "0.0.4"
     isomorphic-fetch "2.2.1"
     redux "4.0.4"
     redux-devtools-extension "2.13.8"
-    redux-observable "1.1.0"
+    redux-observable "1.2.0"
     rxjs "6.5.3"
     typesafe-actions "4.4.2"
 
