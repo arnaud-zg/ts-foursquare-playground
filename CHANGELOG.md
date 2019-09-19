@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.10](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.9...v0.0.10) (2019-09-19)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency ts-foursquare to v0.2.15 ([#81](https://github.com/arnaud-zg/ts-foursquare-playground/issues/81)) ([63963d6](https://github.com/arnaud-zg/ts-foursquare-playground/commit/63963d6))
+
+
+### 🔧 Chore
+
+* **deps:** pin dependencies ([#85](https://github.com/arnaud-zg/ts-foursquare-playground/issues/85)) ([3dbb6b9](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3dbb6b9))
+* **deps:** update dependency react-docgen-typescript-loader to v3.2.1 ([#80](https://github.com/arnaud-zg/ts-foursquare-playground/issues/80)) ([eee0189](https://github.com/arnaud-zg/ts-foursquare-playground/commit/eee0189))
+* **knobs:** add knobs addon ([#82](https://github.com/arnaud-zg/ts-foursquare-playground/issues/82)) ([2fe8019](https://github.com/arnaud-zg/ts-foursquare-playground/commit/2fe8019))
+* **viewports:** add viewports addon ([#83](https://github.com/arnaud-zg/ts-foursquare-playground/issues/83)) ([44ed641](https://github.com/arnaud-zg/ts-foursquare-playground/commit/44ed641))
+
+
+### 🖋 Features
+
+* **stories:** add empty stories for get venues explore and trending ([#84](https://github.com/arnaud-zg/ts-foursquare-playground/issues/84)) ([01dd92d](https://github.com/arnaud-zg/ts-foursquare-playground/commit/01dd92d))
+
 ### [0.0.9](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.8...v0.0.9) (2019-09-17)
 
 
