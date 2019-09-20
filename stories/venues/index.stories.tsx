@@ -9,6 +9,7 @@ import { Action } from '../../src/components/Action'
 import {
   GetVenuesByPlaceGeocode,
   GetVenuesByQueryForm,
+  GetVenuesByLocationForm,
 } from '../../src/components/Forms'
 import { withRedux } from '../../src/hoc/withRedux'
 import { Layout } from '../../src/Layout'
@@ -57,6 +58,21 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
     case 'getVenuesSearchAsync':
       venuesStories
         .addDecorator(withRedux)
+        .add('Get venues search by location', () => {
+          const initialValues = { ll: '' }
+
+          return (
+            <Layout>
+              <Action
+                actionCreator={venuesActionsAsync[actionAsyncName].request}
+                actionPayload={initialValues}
+                renderFormPayload={() => (
+                  <GetVenuesByLocationForm initialValues={initialValues} />
+                )}
+              />
+            </Layout>
+          )
+        })
         .add('Get venues search by query', () => {
           const initialValues = { query: '' }
 
