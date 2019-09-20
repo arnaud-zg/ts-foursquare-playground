@@ -2426,7 +2426,7 @@ exports[`Component/Action should make a snapshot after action: EVenuesAction.GET
             <p
               className="mt-4 text-gray-800 font-medium"
             >
-              Get venues search by query
+              Get venues search
             </p>
             <div
               className="mt-2"
@@ -2442,7 +2442,7 @@ exports[`Component/Action should make a snapshot after action: EVenuesAction.GET
                 name="query"
                 onBlur={[Function]}
                 onChange={[Function]}
-                placeholder="Ex: Steak House"
+                placeholder="Ex:New York"
                 type="text"
                 value=""
               />

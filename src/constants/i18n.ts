@@ -9,6 +9,7 @@ export const i18n = {
   EXAMPLE: 'Example',
   FAILURE: 'Failure',
   HEADER_TITLE: '"ts-foursquare" is just a simple library',
+  INVALID_INTENT: 'Invalid intent',
   PAYLOAD: 'Payload',
   REQUEST: 'Request',
   RESET: 'Reset',
