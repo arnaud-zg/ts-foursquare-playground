@@ -7,14 +7,6 @@ module.exports = {
     '!**/stories/**',
     '!**/vendor/**',
   ],
-  coverageThreshold: {
-    global: {
-      branches: 50,
-      functions: 80,
-      lines: 91,
-      statements: 93,
-    },
-  },
   moduleNameMapper: {
     '\\.(scss)$': '<rootDir>/__mocks__/styleMock.js',
   },
