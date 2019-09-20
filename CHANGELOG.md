@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.10...v0.0.11) (2019-09-20)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency codecov to v3.6.0 ([#86](https://github.com/arnaud-zg/ts-foursquare-playground/issues/86)) ([3fb810c](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3fb810c))
+* **deps:** update dependency codecov to v3.6.1 ([#87](https://github.com/arnaud-zg/ts-foursquare-playground/issues/87)) ([e84dbaf](https://github.com/arnaud-zg/ts-foursquare-playground/commit/e84dbaf))
+* **story:** add story for get venues search by location ([#89](https://github.com/arnaud-zg/ts-foursquare-playground/issues/89)) ([fe7a589](https://github.com/arnaud-zg/ts-foursquare-playground/commit/fe7a589))
+
+
+### 🔧 Chore
+
+* **coverage:** remove jest coverage threshold configuration ([#88](https://github.com/arnaud-zg/ts-foursquare-playground/issues/88)) ([58a8acb](https://github.com/arnaud-zg/ts-foursquare-playground/commit/58a8acb))
+
+
+### 🚧 Refactor
+
+* **venues-form:** refactor form for get venues search action ([#90](https://github.com/arnaud-zg/ts-foursquare-playground/issues/90)) ([3a26f17](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3a26f17))
+
 ### [0.0.10](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.9...v0.0.10) (2019-09-19)
 
 
