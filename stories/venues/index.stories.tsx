@@ -60,7 +60,6 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
             // NRequest.IVenuesSearchPayload
             alt: 0,
             altAcc: 0,
-            categoryId: '',
             limit: 0,
             linkedId: 0,
             llAcc: 0,
@@ -89,7 +88,6 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
             // NRequest.IVenuesSearchPayload
             alt: 0,
             altAcc: 0,
-            categoryId: '',
             limit: 0,
             linkedId: 0,
             llAcc: 0,
@@ -118,7 +116,6 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
             // NRequest.IVenuesSearchPayload
             alt: 0,
             altAcc: 0,
-            categoryId: '',
             limit: 0,
             linkedId: 0,
             llAcc: 0,
