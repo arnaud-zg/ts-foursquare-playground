@@ -8,7 +8,7 @@ import {
 } from 'ts-foursquare'
 import { Action } from '..'
 import { PutCredentialsForm } from '../../Forms/Life'
-import { GetVenuesByQueryForm } from '../../Forms'
+import { GetVenuesSearchForm } from '../../Forms'
 
 const store = configureStore()
 
@@ -35,7 +35,7 @@ describe('Component/Action', () => {
       actionCreator: getVenuesSearchAsync.request,
       actionPayload: initialValues,
       renderFormPayload: () => (
-        <GetVenuesByQueryForm initialValues={initialValues} />
+        <GetVenuesSearchForm initialValues={initialValues} />
       ),
     }
     const tree = renderer

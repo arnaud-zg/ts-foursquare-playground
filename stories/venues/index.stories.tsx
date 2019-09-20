@@ -6,11 +6,7 @@ import {
   getVenuesTrendingAsync,
 } from 'ts-foursquare'
 import { Action } from '../../src/components/Action'
-import {
-  GetVenuesByPlaceGeocode,
-  GetVenuesByQueryForm,
-  GetVenuesByLocationForm,
-} from '../../src/components/Forms'
+import { GetVenuesSearchForm } from '../../src/components/Forms'
 import { withRedux } from '../../src/hoc/withRedux'
 import { Layout } from '../../src/Layout'
 
@@ -59,7 +55,21 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
       venuesStories
         .addDecorator(withRedux)
         .add('Get venues search by location', () => {
-          const initialValues = { ll: '' }
+          const initialValues = {
+            ll: '',
+            // NRequest.IVenuesSearchPayload
+            alt: 0,
+            altAcc: 0,
+            categoryId: '',
+            limit: 0,
+            linkedId: 0,
+            llAcc: 0,
+            ne: '',
+            providerId: '',
+            radius: 0,
+            sw: '',
+            url: '',
+          }
 
           return (
             <Layout>
@@ -67,14 +77,28 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
                 actionCreator={venuesActionsAsync[actionAsyncName].request}
                 actionPayload={initialValues}
                 renderFormPayload={() => (
-                  <GetVenuesByLocationForm initialValues={initialValues} />
+                  <GetVenuesSearchForm initialValues={initialValues} />
                 )}
               />
             </Layout>
           )
         })
         .add('Get venues search by query', () => {
-          const initialValues = { query: '' }
+          const initialValues = {
+            query: '',
+            // NRequest.IVenuesSearchPayload
+            alt: 0,
+            altAcc: 0,
+            categoryId: '',
+            limit: 0,
+            linkedId: 0,
+            llAcc: 0,
+            ne: '',
+            providerId: '',
+            radius: 0,
+            sw: '',
+            url: '',
+          }
 
           return (
             <Layout>
@@ -82,14 +106,28 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
                 actionCreator={venuesActionsAsync[actionAsyncName].request}
                 actionPayload={initialValues}
                 renderFormPayload={() => (
-                  <GetVenuesByQueryForm initialValues={initialValues} />
+                  <GetVenuesSearchForm initialValues={initialValues} />
                 )}
               />
             </Layout>
           )
         })
         .add('Get venues search by place', () => {
-          const initialValues = { near: '' }
+          const initialValues = {
+            near: '',
+            // NRequest.IVenuesSearchPayload
+            alt: 0,
+            altAcc: 0,
+            categoryId: '',
+            limit: 0,
+            linkedId: 0,
+            llAcc: 0,
+            ne: '',
+            providerId: '',
+            radius: 0,
+            sw: '',
+            url: '',
+          }
 
           return (
             <Layout>
@@ -97,7 +135,7 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
                 actionCreator={venuesActionsAsync[actionAsyncName].request}
                 actionPayload={initialValues}
                 renderFormPayload={() => (
-                  <GetVenuesByPlaceGeocode initialValues={initialValues} />
+                  <GetVenuesSearchForm initialValues={initialValues} />
                 )}
               />
             </Layout>
