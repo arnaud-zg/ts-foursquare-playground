@@ -5,7 +5,7 @@
   "repository": "git@github.com:arnaud-zg/ts-foursquare-playground.git",
   "license": "MIT",
   "dependencies": {
-    "codecov": "3.5.0",
+    "codecov": "3.6.1",
     "formik": "^1.5.8",
     "react": "16.9.0",
     "react-dom": "^16.9.0",
