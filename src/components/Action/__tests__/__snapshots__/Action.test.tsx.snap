@@ -2442,7 +2442,7 @@ exports[`Component/Action should make a snapshot after action: EVenuesAction.GET
                 name="query"
                 onBlur={[Function]}
                 onChange={[Function]}
-                placeholder="Ex:New York"
+                placeholder="Ex:Text"
                 type="text"
                 value=""
               />

@@ -58,14 +58,8 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
           const initialValues = {
             ll: '',
             // NRequest.IVenuesSearchPayload
-            alt: 0,
-            altAcc: 0,
-            limit: 0,
-            linkedId: 0,
-            llAcc: 0,
             ne: '',
             providerId: '',
-            radius: 0,
             sw: '',
             url: '',
           }
@@ -86,14 +80,8 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
           const initialValues = {
             query: '',
             // NRequest.IVenuesSearchPayload
-            alt: 0,
-            altAcc: 0,
-            limit: 0,
-            linkedId: 0,
-            llAcc: 0,
             ne: '',
             providerId: '',
-            radius: 0,
             sw: '',
             url: '',
           }
@@ -114,14 +102,8 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
           const initialValues = {
             near: '',
             // NRequest.IVenuesSearchPayload
-            alt: 0,
-            altAcc: 0,
-            limit: 0,
-            linkedId: 0,
-            llAcc: 0,
             ne: '',
             providerId: '',
-            radius: 0,
             sw: '',
             url: '',
           }

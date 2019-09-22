@@ -13,20 +13,8 @@ const getValidationSchema = () =>
     ll: Yup.string(),
     near: Yup.string(),
     // NRequest.IVenuesSearchPayload
-    alt: Yup.number(),
-    altAcc: Yup.number(),
-    categoryId: Yup.string(),
-    intent: Yup.string().test(
-      'intent',
-      i18n.INVALID_INTENT,
-      intent => ['checkin', 'global', 'browse', 'match'].indexOf(intent) !== -1
-    ),
-    limit: Yup.number(),
-    linkedId: Yup.number(),
-    llAcc: Yup.number(),
     ne: Yup.string(),
     providerId: Yup.string(),
-    radius: Yup.number(),
     sw: Yup.string(),
     url: Yup.string(),
   })
@@ -78,7 +66,7 @@ export class GetVenuesSearchForm extends React.Component<Props> {
                           : ''
                       }`}
                       type="text"
-                      placeholder={`${i18n.ACTION_EXAMPLE}New York`}
+                      placeholder={`${i18n.ACTION_EXAMPLE}Text`}
                     />
                   </div>
                 )}
