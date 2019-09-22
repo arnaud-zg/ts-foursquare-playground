@@ -21,51 +21,7 @@ exports[`Component/Action should make a snapshot after action: ELifeAction.PUT_C
       </header>
       <div
         className="pl-8 pr-8 pb-5 text-grey-darkest select-none"
-      >
-        <div
-          className="flex mt-2"
-        >
-          <div
-            className="flex-1 self-center"
-          >
-            <h2>
-              Ex:
-            </h2>
-            <div
-              className="flex"
-            >
-              <h3>
-                Action
-              </h3>
-              <pre
-                className="ml-2"
-              >
-                <code>
-                  {"type":"PUT_CREDENTIALS","payload":{"clientId":"","clientSecret":""}}
-                </code>
-              </pre>
-            </div>
-            <div
-              className="flex"
-            >
-              <h3>
-                Payload
-              </h3>
-              <p
-                className="ml-2"
-              >
-                <pre
-                  className="ml-2"
-                >
-                  <code>
-                    {"clientId":"","clientSecret":""}
-                  </code>
-                </pre>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+      />
     </div>
   </article>
   <div
@@ -2357,41 +2313,9 @@ exports[`Component/Action should make a snapshot after action: EVenuesAction.GET
           <div
             className="flex-1 self-center"
           >
-            <h2>
-              Ex:
-            </h2>
-            <div
-              className="flex"
-            >
-              <h3>
-                Action
-              </h3>
-              <pre
-                className="ml-2"
-              >
-                <code>
-                  {"type":"GET_VENUES_SEARCH_REQUEST","payload":{"query":""}}
-                </code>
-              </pre>
-            </div>
-            <div
-              className="flex"
-            >
-              <h3>
-                Payload
-              </h3>
-              <p
-                className="ml-2"
-              >
-                <pre
-                  className="ml-2"
-                >
-                  <code>
-                    {"query":""}
-                  </code>
-                </pre>
-              </p>
-            </div>
+            <p>
+              Returns a list of venues near the current location, optionally matching a search term.
+            </p>
           </div>
         </div>
       </div>
