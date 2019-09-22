@@ -1,9 +1,10 @@
 import React, { ReactNode } from 'react'
+import { createAction } from 'typesafe-actions'
+import { ACTION_DESCRIPTION_MAPPING } from '../../constants/action'
+import { i18n } from '../../constants/i18n'
 import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
 import { Result } from '../Result'
-import { i18n } from '../../constants/i18n'
-import { createAction } from 'typesafe-actions'
 
 interface IActionPayload {
   [key: string]: any
@@ -25,29 +26,13 @@ export class Action extends React.Component<IProps> {
         <Card>
           <Header title={action.type} />
           <CardContent>
-            <div className="flex mt-2">
-              <div className="flex-1 self-center">
-                <h2>{i18n.ACTION_EXAMPLE}</h2>
-                <div className="flex">
-                  <h3>{i18n.ACTION}</h3>
-                  <pre className="ml-2">
-                    <code>{JSON.stringify(action)}</code>
-                  </pre>
-                </div>
-                <div className="flex">
-                  <h3>{i18n.PAYLOAD}</h3>
-                  <p className="ml-2">
-                    {actionPayload ? (
-                      <pre className="ml-2">
-                        <code>{JSON.stringify(actionPayload)}</code>
-                      </pre>
-                    ) : (
-                      i18n.ACTION_NO_NEED_PAYLAOD
-                    )}
-                  </p>
+            {!!ACTION_DESCRIPTION_MAPPING[action.type] && (
+              <div className="flex mt-2">
+                <div className="flex-1 self-center">
+                  <p>{ACTION_DESCRIPTION_MAPPING[action.type]}</p>
                 </div>
               </div>
-            </div>
+            )}
           </CardContent>
         </Card>
         {renderFormPayload && (
