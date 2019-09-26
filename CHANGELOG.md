@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.11...v0.0.12) (2019-09-26)
+
+
+### 🐛 Bug Fixes
+
+* **action:** display description on action component ([#93](https://github.com/arnaud-zg/ts-foursquare-playground/issues/93)) ([09921d0](https://github.com/arnaud-zg/ts-foursquare-playground/commit/09921d0))
+* **deps:** update dependency ts-foursquare to v0.2.16 ([#91](https://github.com/arnaud-zg/ts-foursquare-playground/issues/91)) ([ca0b9a6](https://github.com/arnaud-zg/ts-foursquare-playground/commit/ca0b9a6))
+* **venues:** remove not revelant query params ([#92](https://github.com/arnaud-zg/ts-foursquare-playground/issues/92)) ([d438b4f](https://github.com/arnaud-zg/ts-foursquare-playground/commit/d438b4f))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @babel/core to v7.6.2 ([#95](https://github.com/arnaud-zg/ts-foursquare-playground/issues/95)) ([fd1c769](https://github.com/arnaud-zg/ts-foursquare-playground/commit/fd1c769))
+* **deps:** update dependency @types/node to v12.7.8 ([#96](https://github.com/arnaud-zg/ts-foursquare-playground/issues/96)) ([c09fc92](https://github.com/arnaud-zg/ts-foursquare-playground/commit/c09fc92))
+
 ### [0.0.11](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.10...v0.0.11) (2019-09-20)
 
 
