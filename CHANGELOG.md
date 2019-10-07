@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.14](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.13...v0.0.14) (2019-10-07)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency react to v16.10.2 ([#105](https://github.com/arnaud-zg/ts-foursquare-playground/issues/105)) ([b89bc92](https://github.com/arnaud-zg/ts-foursquare-playground/commit/b89bc92))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/node to v12.7.11 ([#104](https://github.com/arnaud-zg/ts-foursquare-playground/issues/104)) ([ccadba2](https://github.com/arnaud-zg/ts-foursquare-playground/commit/ccadba2))
+* **deps:** update dependency @types/node to v12.7.9 ([#103](https://github.com/arnaud-zg/ts-foursquare-playground/issues/103)) ([7c639be](https://github.com/arnaud-zg/ts-foursquare-playground/commit/7c639be))
+* **deps:** update dependency react-docgen-typescript-loader to v3.3.0 ([#102](https://github.com/arnaud-zg/ts-foursquare-playground/issues/102)) ([6ab7a0a](https://github.com/arnaud-zg/ts-foursquare-playground/commit/6ab7a0a))
+* **deps:** update storybook monorepo to v5.2.3 ([#106](https://github.com/arnaud-zg/ts-foursquare-playground/issues/106)) ([e3fbb35](https://github.com/arnaud-zg/ts-foursquare-playground/commit/e3fbb35))
+
 ### [0.0.13](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.12...v0.0.13) (2019-09-30)
 
 
