@@ -1,11 +1,9 @@
 import React from 'react'
 import {
   credentialsSelector,
-  ELifeAction,
-  EVenuesAction,
   lifeSelector,
-  venuesSelector,
   statusSelector,
+  venuesSelector,
 } from 'ts-foursquare'
 import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
@@ -22,12 +20,18 @@ export class Result extends React.Component<Props> {
       <Card>
         <Header title={`Result for ${actionType}`} />
         <CardContent>
-          {Object.values(ELifeAction).indexOf(actionType as ELifeAction) !==
-            -1 && (
+          {['PUT_CREDENTIALS'].indexOf(actionType) !== -1 && (
             <ResultState selectors={{ lifeSelector, credentialsSelector }} />
           )}
-          {Object.values(EVenuesAction).indexOf(actionType as EVenuesAction) !==
-            -1 && <ResultState selectors={{ venuesSelector }} />}
+          {[
+            'GET_VENUES_EXPLORE_REQUEST',
+            'GET_VENUES_LIKES_REQUEST',
+            'GET_VENUES_SEARCH_REQUEST',
+            'GET_VENUES_SUGGEST_COMPLETION_REQUEST',
+            'GET_VENUES_TRENDING_REQUEST',
+          ].indexOf(actionType) !== -1 && (
+            <ResultState selectors={{ venuesSelector }} />
+          )}
           <ResultState selectors={{ statusSelector }} />
         </CardContent>
       </Card>
