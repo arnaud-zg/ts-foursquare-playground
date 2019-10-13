@@ -2,6 +2,7 @@ import React from 'react'
 import {
   credentialsSelector,
   lifeSelector,
+  lifeStatusSelector,
   statusSelector,
   venuesSelector,
 } from 'ts-foursquare'
@@ -21,7 +22,13 @@ export class Result extends React.Component<Props> {
         <Header title={`Result for ${actionType}`} />
         <CardContent>
           {['PUT_CREDENTIALS'].indexOf(actionType) !== -1 && (
-            <ResultState selectors={{ lifeSelector, credentialsSelector }} />
+            <ResultState
+              selectors={{
+                lifeStatusSelector,
+                lifeSelector,
+                credentialsSelector,
+              }}
+            />
           )}
           {[
             'GET_VENUES_EXPLORE_REQUEST',

@@ -6,13 +6,16 @@ const mapStateToProps = (state: TState, ownProps: ContainerProps) => {
   const { selectors } = ownProps
 
   return {
-    resultsState: Object.keys(selectors).reduce((acc, selectorKey) => {
-      const selector = selectors[selectorKey]
-      return {
-        ...acc,
-        [selectorKey]: selector(state),
-      }
-    }, {}),
+    resultsState: Object.keys(selectors).reduce(
+      (acc, selectorKey) => {
+        const selector = selectors[selectorKey]
+        return {
+          ...acc,
+          [selectorKey]: selector(state),
+        }
+      },
+      {} as { [key: string]: {} }
+    ),
   }
 }
 
