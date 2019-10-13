@@ -7524,6 +7524,10 @@ path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
 
+path-to-regexp@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-3.1.0.tgz#f45a9cc4dc6331ae8f131e0ce4fde8607f802367"
+
 path-type@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-1.1.0.tgz#59c44f7ee491da704da415da5a4070ba4f8fe441"
@@ -9719,12 +9723,13 @@ trim-right@^1.0.1:
   dependencies:
     glob "^7.1.2"
 
-ts-foursquare@0.3.5:
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.3.5.tgz#cd87db1be69c58254b5e34f9bfc64c5a2fb574be"
+ts-foursquare@0.3.6:
+  version "0.3.6"
+  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.3.6.tgz#836aa74ec2ac27473159a5fc845cfb0c764be631"
   dependencies:
     http-response-status "0.0.6"
     isomorphic-fetch "2.2.1"
+    path-to-regexp "^3.1.0"
     redux "4.0.4"
     redux-devtools-extension "2.13.8"
     redux-observable "1.2.0"
