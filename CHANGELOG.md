@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.16](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.15...v0.0.16) (2019-10-13)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency ts-foursquare to v0.3.4 ([#112](https://github.com/arnaud-zg/ts-foursquare-playground/issues/112)) ([173b762](https://github.com/arnaud-zg/ts-foursquare-playground/commit/173b762))
+* **deps:** update dependency ts-foursquare to v0.3.5 ([#114](https://github.com/arnaud-zg/ts-foursquare-playground/issues/114)) ([d296638](https://github.com/arnaud-zg/ts-foursquare-playground/commit/d296638))
+* **deps:** update dependency ts-foursquare to v0.3.6 ([#115](https://github.com/arnaud-zg/ts-foursquare-playground/issues/115)) ([2937fa4](https://github.com/arnaud-zg/ts-foursquare-playground/commit/2937fa4))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @babel/core to v7.6.4 ([#113](https://github.com/arnaud-zg/ts-foursquare-playground/issues/113)) ([0ba1968](https://github.com/arnaud-zg/ts-foursquare-playground/commit/0ba1968))
+* **deps:** update dependency typescript to v3.6.4 ([#111](https://github.com/arnaud-zg/ts-foursquare-playground/issues/111)) ([cba2d10](https://github.com/arnaud-zg/ts-foursquare-playground/commit/cba2d10))
+
 ### [0.0.15](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.14...v0.0.15) (2019-10-08)
 
 
