@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.17](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.16...v0.0.17) (2019-10-14)
+
+
+### 🐛 Bug Fixes
+
+* **result-state:** add lifeStatusSelector on result state ([#116](https://github.com/arnaud-zg/ts-foursquare-playground/issues/116)) ([c9a68a7](https://github.com/arnaud-zg/ts-foursquare-playground/commit/c9a68a7))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v24.0.19 ([#118](https://github.com/arnaud-zg/ts-foursquare-playground/issues/118)) ([0641665](https://github.com/arnaud-zg/ts-foursquare-playground/commit/0641665))
+* **deps:** update dependency @types/react-dom to v16.9.2 ([#119](https://github.com/arnaud-zg/ts-foursquare-playground/issues/119)) ([aae1c97](https://github.com/arnaud-zg/ts-foursquare-playground/commit/aae1c97))
+* **deps:** update dependency @types/react-test-renderer to v16.9.1 ([#120](https://github.com/arnaud-zg/ts-foursquare-playground/issues/120)) ([fa6879a](https://github.com/arnaud-zg/ts-foursquare-playground/commit/fa6879a))
+* **deps:** update storybook monorepo to v5.2.4 ([#117](https://github.com/arnaud-zg/ts-foursquare-playground/issues/117)) ([ee1129e](https://github.com/arnaud-zg/ts-foursquare-playground/commit/ee1129e))
+
 ### [0.0.16](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.15...v0.0.16) (2019-10-13)
 
 
