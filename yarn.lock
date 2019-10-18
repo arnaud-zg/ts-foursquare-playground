@@ -9723,9 +9723,9 @@ trim-right@^1.0.1:
   dependencies:
     glob "^7.1.2"
 
-ts-foursquare@0.3.7:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.3.7.tgz#e1733250b4fcd2bfde1f6d2d3e0758407fb4756d"
+ts-foursquare@0.3.12:
+  version "0.3.12"
+  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.3.12.tgz#4752e63b7ebbdd9f2f12eb905092bb427f0d3fef"
   dependencies:
     http-response-status "0.0.7"
     isomorphic-fetch "2.2.1"
