@@ -4,6 +4,7 @@ import {
   getVenuesNextVenuesAsync,
   getVenuesSearchAsync,
   getVenuesTrendingAsync,
+  getVenuesSimilarAsync,
 } from 'ts-foursquare'
 import { getType } from 'typesafe-actions'
 
@@ -24,6 +25,9 @@ export const ACTION_DESCRIPTION_MAPPING: IActionDescriptionMapping = {
   [getType(
     getVenuesSearchAsync.request
   )]: 'Returns a list of venues near the current location, optionally matching a search term.',
+  [getType(
+    getVenuesSimilarAsync.request
+  )]: 'Returns a list of venues similar to the specified venue. For more robust information about the venues themselves (photos/tips/etc.).',
   [getType(
     getVenuesTrendingAsync.request
   )]: 'Returns a list of venues near the current location with the most people currently checked in. For more robust information about the venues themselves (photos/tips/etc.).',

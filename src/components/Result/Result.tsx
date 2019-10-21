@@ -1,19 +1,20 @@
 import React from 'react'
-import { getType } from 'typesafe-actions'
 import {
   credentialsSelector,
+  getVenuesCategoriesAsync,
+  getVenuesExploreAsync,
+  getVenuesLikesAsync,
+  getVenuesNextVenuesAsync,
+  getVenuesSearchAsync,
+  getVenuesSimilarAsync,
+  getVenuesSuggestCompletionAsync,
+  getVenuesTrendingAsync,
   lifeSelector,
   lifeStatusSelector,
   statusSelector,
   venuesSelector,
-  getVenuesCategoriesAsync,
-  getVenuesExploreAsync,
-  getVenuesNextVenuesAsync,
-  getVenuesLikesAsync,
-  getVenuesSearchAsync,
-  getVenuesSuggestCompletionAsync,
-  getVenuesTrendingAsync,
 } from 'ts-foursquare'
+import { getType } from 'typesafe-actions'
 import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
 import { ResultState } from './ResultState'
@@ -41,9 +42,10 @@ export class Result extends React.Component<Props> {
           {[
             getType<string>(getVenuesCategoriesAsync.request),
             getType<string>(getVenuesExploreAsync.request),
-            getType<string>(getVenuesNextVenuesAsync.request),
             getType<string>(getVenuesLikesAsync.request),
+            getType<string>(getVenuesNextVenuesAsync.request),
             getType<string>(getVenuesSearchAsync.request),
+            getType<string>(getVenuesSimilarAsync.request),
             getType<string>(getVenuesSuggestCompletionAsync.request),
             getType<string>(getVenuesTrendingAsync.request),
           ].indexOf(actionType) !== -1 && (
