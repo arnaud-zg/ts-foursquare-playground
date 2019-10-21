@@ -5,6 +5,7 @@ import {
   getVenuesExploreAsync,
   getVenuesNextVenuesAsync,
   getVenuesSearchAsync,
+  getVenuesSimilarAsync,
   getVenuesTrendingAsync,
 } from 'ts-foursquare'
 import { Action } from '../../src/components/Action'
@@ -21,6 +22,7 @@ const venuesActionsAsync = {
   getVenuesExploreAsync,
   getVenuesNextVenuesAsync,
   getVenuesSearchAsync,
+  getVenuesSimilarAsync,
   getVenuesTrendingAsync,
 }
 
@@ -159,6 +161,23 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
             </Layout>
           )
         })
+      break
+    case 'getVenuesSimilarAsync':
+      venuesStories.addDecorator(withRedux).add('Get similar venues', () => {
+        const initialValues = { venueId: '' }
+
+        return (
+          <Layout>
+            <Action
+              actionCreator={venuesActionsAsync[actionAsyncName].request}
+              actionPayload={initialValues}
+              renderFormPayload={() => (
+                <GetVenuesNextVenuesForm initialValues={initialValues} />
+              )}
+            />
+          </Layout>
+        )
+      })
       break
     case 'getVenuesTrendingAsync':
       venuesStories
