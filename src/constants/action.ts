@@ -1,6 +1,7 @@
 import {
   getVenuesCategoriesAsync,
   getVenuesExploreAsync,
+  getVenuesNextVenuesAsync,
   getVenuesSearchAsync,
   getVenuesTrendingAsync,
 } from 'ts-foursquare'
@@ -17,6 +18,9 @@ export const ACTION_DESCRIPTION_MAPPING: IActionDescriptionMapping = {
   [getType(
     getVenuesExploreAsync.request
   )]: 'Returns a list of recommended venues near the current location. For more robust information about the venues themselves (photos/tips/etc.).',
+  [getType(
+    getVenuesNextVenuesAsync.request
+  )]: 'Returns venues that people often check in to after the current venue. Up to 5 venues are returned in each query, and results are sorted by how many people have visited that venue after the current one. For more robust information about the venues themselves (photos/tips/etc.).',
   [getType(
     getVenuesSearchAsync.request
   )]: 'Returns a list of venues near the current location, optionally matching a search term.',
