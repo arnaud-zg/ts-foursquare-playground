@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.19](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.18...v0.0.19) (2019-10-21)
+
+
+### ⚠️ Tests
+
+* **caterogies:** add test for get venues categories: ([#128](https://github.com/arnaud-zg/ts-foursquare-playground/issues/128)) ([3358fe2](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3358fe2))
+* **next-venues:** add test for get venues next venues ([#129](https://github.com/arnaud-zg/ts-foursquare-playground/issues/129)) ([fc36dcd](https://github.com/arnaud-zg/ts-foursquare-playground/commit/fc36dcd))
+* **venues-similar:** add test for get venues similar ([#130](https://github.com/arnaud-zg/ts-foursquare-playground/issues/130)) ([e0a2aa8](https://github.com/arnaud-zg/ts-foursquare-playground/commit/e0a2aa8))
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency ts-foursquare to v0.3.14 ([#126](https://github.com/arnaud-zg/ts-foursquare-playground/issues/126)) ([244b45b](https://github.com/arnaud-zg/ts-foursquare-playground/commit/244b45b))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/node to v12.11.2 ([#127](https://github.com/arnaud-zg/ts-foursquare-playground/issues/127)) ([7ef4dde](https://github.com/arnaud-zg/ts-foursquare-playground/commit/7ef4dde))
+
 ### [0.0.18](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.17...v0.0.18) (2019-10-20)
 
 
