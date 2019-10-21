@@ -3,13 +3,15 @@ import React from 'react'
 import {
   getVenuesCategoriesAsync,
   getVenuesExploreAsync,
+  getVenuesNextVenuesAsync,
   getVenuesSearchAsync,
   getVenuesTrendingAsync,
 } from 'ts-foursquare'
 import { Action } from '../../src/components/Action'
 import {
-  GetVenuesSearchForm,
   GetVenuesCategoriesForm,
+  GetVenuesNextVenuesForm,
+  GetVenuesSearchForm,
 } from '../../src/components/Forms'
 import { withRedux } from '../../src/hoc/withRedux'
 import { Layout } from '../../src/Layout'
@@ -17,6 +19,7 @@ import { Layout } from '../../src/Layout'
 const venuesActionsAsync = {
   getVenuesCategoriesAsync,
   getVenuesExploreAsync,
+  getVenuesNextVenuesAsync,
   getVenuesSearchAsync,
   getVenuesTrendingAsync,
 }
@@ -63,6 +66,25 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
               <Action
                 actionCreator={venuesActionsAsync[actionAsyncName].request}
                 actionPayload={initialValues}
+              />
+            </Layout>
+          )
+        })
+      break
+    case 'getVenuesNextVenuesAsync':
+      venuesStories
+        .addDecorator(withRedux)
+        .add('Get venues next venues', () => {
+          const initialValues = { venueId: '' }
+
+          return (
+            <Layout>
+              <Action
+                actionCreator={venuesActionsAsync[actionAsyncName].request}
+                actionPayload={initialValues}
+                renderFormPayload={() => (
+                  <GetVenuesNextVenuesForm initialValues={initialValues} />
+                )}
               />
             </Layout>
           )

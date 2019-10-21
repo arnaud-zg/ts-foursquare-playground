@@ -1,10 +1,18 @@
 import React from 'react'
+import { getType } from 'typesafe-actions'
 import {
   credentialsSelector,
   lifeSelector,
   lifeStatusSelector,
   statusSelector,
   venuesSelector,
+  getVenuesCategoriesAsync,
+  getVenuesExploreAsync,
+  getVenuesNextVenuesAsync,
+  getVenuesLikesAsync,
+  getVenuesSearchAsync,
+  getVenuesSuggestCompletionAsync,
+  getVenuesTrendingAsync,
 } from 'ts-foursquare'
 import { Card, CardContent } from '../Card'
 import { Header } from '../Header'
@@ -31,12 +39,13 @@ export class Result extends React.Component<Props> {
             />
           )}
           {[
-            'GET_VENUES_CATEGORIES_REQUEST',
-            'GET_VENUES_EXPLORE_REQUEST',
-            'GET_VENUES_LIKES_REQUEST',
-            'GET_VENUES_SEARCH_REQUEST',
-            'GET_VENUES_SUGGEST_COMPLETION_REQUEST',
-            'GET_VENUES_TRENDING_REQUEST',
+            getType<string>(getVenuesCategoriesAsync.request),
+            getType<string>(getVenuesExploreAsync.request),
+            getType<string>(getVenuesNextVenuesAsync.request),
+            getType<string>(getVenuesLikesAsync.request),
+            getType<string>(getVenuesSearchAsync.request),
+            getType<string>(getVenuesSuggestCompletionAsync.request),
+            getType<string>(getVenuesTrendingAsync.request),
           ].indexOf(actionType) !== -1 && (
             <ResultState selectors={{ venuesSelector }} />
           )}
