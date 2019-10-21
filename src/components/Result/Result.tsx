@@ -31,6 +31,7 @@ export class Result extends React.Component<Props> {
             />
           )}
           {[
+            'GET_VENUES_CATEGORIES_REQUEST',
             'GET_VENUES_EXPLORE_REQUEST',
             'GET_VENUES_LIKES_REQUEST',
             'GET_VENUES_SEARCH_REQUEST',
