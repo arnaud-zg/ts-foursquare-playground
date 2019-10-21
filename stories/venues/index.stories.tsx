@@ -1,16 +1,21 @@
 import { storiesOf } from '@storybook/react'
 import React from 'react'
 import {
+  getVenuesCategoriesAsync,
   getVenuesExploreAsync,
   getVenuesSearchAsync,
   getVenuesTrendingAsync,
 } from 'ts-foursquare'
 import { Action } from '../../src/components/Action'
-import { GetVenuesSearchForm } from '../../src/components/Forms'
+import {
+  GetVenuesSearchForm,
+  GetVenuesCategoriesForm,
+} from '../../src/components/Forms'
 import { withRedux } from '../../src/hoc/withRedux'
 import { Layout } from '../../src/Layout'
 
 const venuesActionsAsync = {
+  getVenuesCategoriesAsync,
   getVenuesExploreAsync,
   getVenuesSearchAsync,
   getVenuesTrendingAsync,
@@ -23,6 +28,18 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
   )
 
   switch (actionAsyncName) {
+    case 'getVenuesCategoriesAsync':
+      venuesStories.addDecorator(withRedux).add('Get venues categories', () => {
+        return (
+          <Layout>
+            <Action
+              actionCreator={venuesActionsAsync[actionAsyncName].request}
+              renderFormPayload={() => <GetVenuesCategoriesForm />}
+            />
+          </Layout>
+        )
+      })
+      break
     case 'getVenuesExploreAsync':
       venuesStories
         .addDecorator(withRedux)
