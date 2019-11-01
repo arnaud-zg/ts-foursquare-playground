@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.22](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.21...v0.0.22) (2019-11-01)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency ts-foursquare to v0.4.0 ([#138](https://github.com/arnaud-zg/ts-foursquare-playground/issues/138)) ([08363d0](https://github.com/arnaud-zg/ts-foursquare-playground/commit/08363d0))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v24.0.20 ([#144](https://github.com/arnaud-zg/ts-foursquare-playground/issues/144)) ([138ad82](https://github.com/arnaud-zg/ts-foursquare-playground/commit/138ad82))
+* **deps:** update dependency @types/jest to v24.0.21 ([#146](https://github.com/arnaud-zg/ts-foursquare-playground/issues/146)) ([643abf8](https://github.com/arnaud-zg/ts-foursquare-playground/commit/643abf8))
+* **deps:** update dependency @types/node to v12.12.3 ([#147](https://github.com/arnaud-zg/ts-foursquare-playground/issues/147)) ([9d2ce72](https://github.com/arnaud-zg/ts-foursquare-playground/commit/9d2ce72))
+* **deps:** update dependency @types/react-dom to v16.9.3 ([#142](https://github.com/arnaud-zg/ts-foursquare-playground/issues/142)) ([22af920](https://github.com/arnaud-zg/ts-foursquare-playground/commit/22af920))
+
 ### [0.0.21](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.20...v0.0.21) (2019-10-24)
 
 
