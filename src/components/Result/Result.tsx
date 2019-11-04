@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  credentialsSelector,
+  lifeCredentialsSelector,
   getVenuesCategoriesAsync,
   getVenuesExploreAsync,
   getVenuesLikesAsync,
@@ -35,7 +35,7 @@ export class Result extends React.Component<Props> {
               selectors={{
                 lifeStatusSelector,
                 lifeSelector,
-                credentialsSelector,
+                lifeCredentialsSelector,
               }}
             />
           )}

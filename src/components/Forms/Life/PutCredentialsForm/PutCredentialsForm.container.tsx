@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import {
-  credentialsSelector,
+  lifeCredentialsSelector,
   initialState,
   putCredentials,
 } from 'ts-foursquare'
@@ -16,7 +16,7 @@ export type Props = ContainerProps &
   typeof mapDispatchToProps
 
 const mapStateToProps = (state: typeof initialState) => ({
-  credentials: credentialsSelector(state),
+  credentials: lifeCredentialsSelector(state),
 })
 
 const mapDispatchToProps = {

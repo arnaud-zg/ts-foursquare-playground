@@ -1962,7 +1962,7 @@ exports[`Component/Action should make a snapshot after action: ELifeAction.PUT_C
                                   "
                                 </span>
                                 <span>
-                                  credentialsSelector
+                                  lifeCredentialsSelector
                                 </span>
                                 <span
                                   style={

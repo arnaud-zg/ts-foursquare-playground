@@ -1827,7 +1827,7 @@ exports[`Component/Result renders correctly for action: PUT_CREDENTIALS 1`] = `
                               "
                             </span>
                             <span>
-                              credentialsSelector
+                              lifeCredentialsSelector
                             </span>
                             <span
                               style={
