@@ -24,7 +24,8 @@ export class GetVenuesCategoriesForm extends React.Component<Props> {
           getVenuesCategoriesAsyncRequest()
           actions.setSubmitting(false)
         }}
-        render={formikBag => (
+      >
+        {formikBag => (
           <Form className="max-w-xl m-2">
             <p className="mt-4 text-gray-800 font-medium">Get venues search</p>
             <div className="mt-4">
@@ -47,7 +48,7 @@ export class GetVenuesCategoriesForm extends React.Component<Props> {
             </div>
           </Form>
         )}
-      />
+      </Formik>
     )
   }
 }

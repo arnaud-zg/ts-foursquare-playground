@@ -3,7 +3,7 @@ import {
   FieldProps,
   Form,
   Formik,
-  FormikActions,
+  FormikHelpers,
   FormikProps,
 } from 'formik'
 import React from 'react'
@@ -36,7 +36,7 @@ export class PutCredentialsForm extends React.Component<Props> {
         validationSchema={validationSchema}
         onSubmit={(
           values: IFormValues,
-          actions: FormikActions<IFormValues>
+          actions: FormikHelpers<IFormValues>
         ) => {
           if (onSubmit) {
             onSubmit(values)
@@ -44,13 +44,13 @@ export class PutCredentialsForm extends React.Component<Props> {
           putCredentials(values)
           actions.setSubmitting(false)
         }}
-        render={(formikBag: FormikProps<IFormValues>) => (
+      >
+        {(formikBag: FormikProps<IFormValues>) => (
           <Form className="max-w-xl m-2">
             <p className="mt-4 text-gray-800 font-medium">{i18n.CREDENTIALS}</p>
 
-            <Field
-              name="clientId"
-              render={({ field, form }: FieldProps<IFormValues>) => (
+            <Field name="clientId" as="string">
+              {({ field, form }: FieldProps<IFormValues>) => (
                 <div className="mt-4 ml-4">
                   <label
                     className="block text-sm text-gray-600"
@@ -68,11 +68,10 @@ export class PutCredentialsForm extends React.Component<Props> {
                   />
                 </div>
               )}
-            />
+            </Field>
 
-            <Field
-              name="clientSecret"
-              render={({ field, form }: FieldProps<IFormValues>) => (
+            <Field name="clientSecret">
+              {({ field, form }: FieldProps<IFormValues>) => (
                 <div className="mt-4 ml-4">
                   <label
                     className="block text-sm text-gray-600"
@@ -90,7 +89,7 @@ export class PutCredentialsForm extends React.Component<Props> {
                   />
                 </div>
               )}
-            />
+            </Field>
 
             <div className="mt-4">
               <div className="flex justify-end">
@@ -106,7 +105,7 @@ export class PutCredentialsForm extends React.Component<Props> {
             </div>
           </Form>
         )}
-      />
+      </Formik>
     )
   }
 }

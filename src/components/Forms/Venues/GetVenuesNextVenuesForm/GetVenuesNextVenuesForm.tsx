@@ -33,14 +33,13 @@ export class GetVenuesNextVenuesForm extends React.Component<Props> {
           getVenuesNextVenuesAsyncRequest(values)
           actions.setSubmitting(false)
         }}
-        render={formikBag => (
+      >
+        {formikBag => (
           <Form className="max-w-xl m-2">
             <p className="mt-4 text-gray-800 font-medium">Get venues search</p>
             {Object.keys(initialValues).map(fieldKey => (
-              <Field
-                key={fieldKey}
-                name={fieldKey}
-                render={({
+              <Field key={fieldKey} name={fieldKey}>
+                {({
                   field,
                   form: { errors },
                 }: FieldProps<NRequest.TVenuesSearchPayload>) => (
@@ -63,7 +62,7 @@ export class GetVenuesNextVenuesForm extends React.Component<Props> {
                     />
                   </div>
                 )}
-              />
+              </Field>
             ))}
 
             <div className="mt-4">
@@ -86,7 +85,7 @@ export class GetVenuesNextVenuesForm extends React.Component<Props> {
             </div>
           </Form>
         )}
-      />
+      </Formik>
     )
   }
 }
