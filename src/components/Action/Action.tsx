@@ -11,7 +11,7 @@ interface IActionPayload {
 }
 
 interface IProps {
-  actionCreator: ReturnType<typeof createAction>
+  actionCreator: ReturnType<ReturnType<typeof createAction>>
   actionPayload?: IActionPayload | Error | string
   renderFormPayload?: () => ReactNode
 }
