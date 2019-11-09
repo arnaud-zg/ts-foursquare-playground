@@ -1,6 +1,5 @@
 import React from 'react'
 import {
-  lifeCredentialsSelector,
   getVenuesCategoriesAsync,
   getVenuesExploreAsync,
   getVenuesLikesAsync,
@@ -9,8 +8,10 @@ import {
   getVenuesSimilarAsync,
   getVenuesSuggestCompletionAsync,
   getVenuesTrendingAsync,
+  lifeCredentialsSelector,
   lifeSelector,
   lifeStatusSelector,
+  requestSelector,
   statusSelector,
   venuesSelector,
 } from 'ts-foursquare'
@@ -49,9 +50,11 @@ export class Result extends React.Component<Props> {
             getType<string>(getVenuesSuggestCompletionAsync.request),
             getType<string>(getVenuesTrendingAsync.request),
           ].indexOf(actionType) !== -1 && (
-            <ResultState selectors={{ venuesSelector }} />
+            <>
+              <ResultState selectors={{ venuesSelector }} />
+              <ResultState selectors={{ statusSelector, requestSelector }} />
+            </>
           )}
-          <ResultState selectors={{ statusSelector }} />
         </CardContent>
       </Card>
     )
