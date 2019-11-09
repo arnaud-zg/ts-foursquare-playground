@@ -3,9 +3,12 @@ import React from 'react'
 import {
   getVenuesCategoriesAsync,
   getVenuesExploreAsync,
+  getVenuesLikesAsync,
+  getVenuesListedAsync,
   getVenuesNextVenuesAsync,
   getVenuesSearchAsync,
   getVenuesSimilarAsync,
+  getVenuesSuggestCompletionAsync,
   getVenuesTrendingAsync,
 } from 'ts-foursquare'
 import { Action } from '../../src/components/Action'
@@ -13,6 +16,7 @@ import {
   GetVenuesCategoriesForm,
   GetVenuesNextVenuesForm,
   GetVenuesSearchForm,
+  GetVenuesTrendingForm,
 } from '../../src/components/Forms'
 import { withRedux } from '../../src/hoc/withRedux'
 import { Layout } from '../../src/Layout'
@@ -20,9 +24,12 @@ import { Layout } from '../../src/Layout'
 const venuesActionsAsync = {
   getVenuesCategoriesAsync,
   getVenuesExploreAsync,
+  getVenuesLikesAsync,
+  getVenuesListedAsync,
   getVenuesNextVenuesAsync,
   getVenuesSearchAsync,
   getVenuesSimilarAsync,
+  getVenuesSuggestCompletionAsync,
   getVenuesTrendingAsync,
 }
 
@@ -72,6 +79,34 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
             </Layout>
           )
         })
+      break
+    case 'getVenuesLikesAsync':
+      venuesStories.addDecorator(withRedux).add('Get venues likes', () => {
+        const initialValues = { venueId: '' }
+
+        return (
+          <Layout>
+            <Action
+              actionCreator={venuesActionsAsync[actionAsyncName].request}
+              actionPayload={initialValues}
+            />
+          </Layout>
+        )
+      })
+      break
+    case 'getVenuesListedAsync':
+      venuesStories.addDecorator(withRedux).add('Get venues listed', () => {
+        const initialValues = { venueId: '' }
+
+        return (
+          <Layout>
+            <Action
+              actionCreator={venuesActionsAsync[actionAsyncName].request}
+              actionPayload={initialValues}
+            />
+          </Layout>
+        )
+      })
       break
     case 'getVenuesNextVenuesAsync':
       venuesStories
@@ -179,6 +214,38 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
         )
       })
       break
+    case 'getVenuesSuggestCompletionAsync':
+      venuesStories
+        .addDecorator(withRedux)
+        .add('Get venues suggest completion by location ', () => {
+          const initialValues = {
+            ll: '',
+          }
+
+          return (
+            <Layout>
+              <Action
+                actionCreator={venuesActionsAsync[actionAsyncName].request}
+                actionPayload={initialValues}
+              />
+            </Layout>
+          )
+        })
+        .add('Get venues suggest completion by place ', () => {
+          const initialValues = {
+            near: '',
+          }
+
+          return (
+            <Layout>
+              <Action
+                actionCreator={venuesActionsAsync[actionAsyncName].request}
+                actionPayload={initialValues}
+              />
+            </Layout>
+          )
+        })
+      break
     case 'getVenuesTrendingAsync':
       venuesStories
         .addDecorator(withRedux)
@@ -190,6 +257,9 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
               <Action
                 actionCreator={venuesActionsAsync[actionAsyncName].request}
                 actionPayload={initialValues}
+                renderFormPayload={() => (
+                  <GetVenuesTrendingForm initialValues={initialValues} />
+                )}
               />
             </Layout>
           )
@@ -202,6 +272,9 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
               <Action
                 actionCreator={venuesActionsAsync[actionAsyncName].request}
                 actionPayload={initialValues}
+                renderFormPayload={() => (
+                  <GetVenuesTrendingForm initialValues={initialValues} />
+                )}
               />
             </Layout>
           )
