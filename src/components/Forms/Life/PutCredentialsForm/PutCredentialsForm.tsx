@@ -49,7 +49,7 @@ export class PutCredentialsForm extends React.Component<Props> {
           <Form className="max-w-xl m-2">
             <p className="mt-4 text-gray-800 font-medium">{i18n.CREDENTIALS}</p>
 
-            <Field name="clientId" as="string">
+            <Field name="clientId">
               {({ field, form }: FieldProps) => (
                 <div className="mt-4 ml-4">
                   <label

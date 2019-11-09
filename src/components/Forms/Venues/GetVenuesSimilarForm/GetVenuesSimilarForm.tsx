@@ -5,7 +5,6 @@ import { i18n } from '../../../../constants/i18n'
 import { FormAsyncActions } from '../../FormAsyncActions'
 import { Props } from './GetVenuesSimilarForm.container'
 import * as Yup from 'yup'
-import { NRequest } from 'ts-foursquare/types'
 
 const getValidationSchema = () =>
   Yup.object().shape({
@@ -39,10 +38,7 @@ export class GetVenuesSimilarForm extends React.Component<Props> {
             <p className="mt-4 text-gray-800 font-medium">Get venues search</p>
             {Object.keys(initialValues).map(fieldKey => (
               <Field key={fieldKey} name={fieldKey}>
-                {({
-                  field,
-                  form: { errors },
-                }: FieldProps<NRequest.TVenuesSearchPayload>) => (
+                {({ field, form: { errors } }: FieldProps) => (
                   <div className="mt-2">
                     <label
                       className="block text-sm text-gray-600"
