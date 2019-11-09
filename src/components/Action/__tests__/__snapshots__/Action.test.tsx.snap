@@ -46,6 +46,7 @@ exports[`Component/Action should make a snapshot after action: ELifeAction.PUT_C
           className="pl-8 pr-8 pb-5 text-grey-darkest select-none"
         >
           <form
+            action="#"
             className="max-w-xl m-2"
             onReset={[Function]}
             onSubmit={[Function]}
@@ -2944,6 +2945,7 @@ exports[`Component/Action should make a snapshot after action: EVenuesAction.GET
           className="pl-8 pr-8 pb-5 text-grey-darkest select-none"
         >
           <form
+            action="#"
             className="max-w-xl m-2"
             onReset={[Function]}
             onSubmit={[Function]}

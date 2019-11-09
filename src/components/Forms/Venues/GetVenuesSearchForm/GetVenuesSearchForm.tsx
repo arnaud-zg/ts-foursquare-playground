@@ -1,6 +1,5 @@
 import { Field, FieldProps, Form, Formik } from 'formik'
 import React from 'react'
-import { NRequest } from 'ts-foursquare/types/request'
 import * as Yup from 'yup'
 import { venues } from '../../../../../__mocks__/venues'
 import { i18n } from '../../../../constants/i18n'
@@ -40,17 +39,13 @@ export class GetVenuesSearchForm extends React.Component<Props> {
           getVenuesSearchAsyncRequest(values)
           actions.setSubmitting(false)
         }}
-        render={formikBag => (
+      >
+        {formikBag => (
           <Form className="max-w-xl m-2">
             <p className="mt-4 text-gray-800 font-medium">Get venues search</p>
             {Object.keys(initialValues).map(fieldKey => (
-              <Field
-                key={fieldKey}
-                name={fieldKey}
-                render={({
-                  field,
-                  form: { errors },
-                }: FieldProps<NRequest.TVenuesSearchPayload>) => (
+              <Field key={fieldKey} name={fieldKey}>
+                {({ field, form: { errors } }: FieldProps) => (
                   <div className="mt-2">
                     <label
                       className="block text-sm text-gray-600"
@@ -70,7 +65,7 @@ export class GetVenuesSearchForm extends React.Component<Props> {
                     />
                   </div>
                 )}
-              />
+              </Field>
             ))}
 
             <div className="mt-4">
@@ -91,7 +86,7 @@ export class GetVenuesSearchForm extends React.Component<Props> {
             </div>
           </Form>
         )}
-      />
+      </Formik>
     )
   }
 }
