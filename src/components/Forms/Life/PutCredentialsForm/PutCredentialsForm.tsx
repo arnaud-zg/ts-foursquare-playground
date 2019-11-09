@@ -50,7 +50,7 @@ export class PutCredentialsForm extends React.Component<Props> {
             <p className="mt-4 text-gray-800 font-medium">{i18n.CREDENTIALS}</p>
 
             <Field name="clientId" as="string">
-              {({ field, form }: FieldProps<IFormValues>) => (
+              {({ field, form }: FieldProps) => (
                 <div className="mt-4 ml-4">
                   <label
                     className="block text-sm text-gray-600"
@@ -71,7 +71,7 @@ export class PutCredentialsForm extends React.Component<Props> {
             </Field>
 
             <Field name="clientSecret">
-              {({ field, form }: FieldProps<IFormValues>) => (
+              {({ field, form }: FieldProps) => (
                 <div className="mt-4 ml-4">
                   <label
                     className="block text-sm text-gray-600"
