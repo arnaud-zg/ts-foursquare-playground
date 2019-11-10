@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.26](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.25...v0.0.26) (2019-11-10)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency formik to v2.0.3 ([#162](https://github.com/arnaud-zg/ts-foursquare-playground/issues/162)) ([b7ead4f](https://github.com/arnaud-zg/ts-foursquare-playground/commit/b7ead4f))
+* **deps:** update dependency react-redux to v7.1.3 ([#163](https://github.com/arnaud-zg/ts-foursquare-playground/issues/163)) ([12fc667](https://github.com/arnaud-zg/ts-foursquare-playground/commit/12fc667))
+* **form:** rename get venues categories form title ([#166](https://github.com/arnaud-zg/ts-foursquare-playground/issues/166)) ([bd38e97](https://github.com/arnaud-zg/ts-foursquare-playground/commit/bd38e97))
+
+
+### 🖋 Features
+
+* **explore:** add get venues explore form ([#165](https://github.com/arnaud-zg/ts-foursquare-playground/issues/165)) ([16c871f](https://github.com/arnaud-zg/ts-foursquare-playground/commit/16c871f))
+* **likes:** add get venues likes form ([#167](https://github.com/arnaud-zg/ts-foursquare-playground/issues/167)) ([71f3c05](https://github.com/arnaud-zg/ts-foursquare-playground/commit/71f3c05))
+
 ### [0.0.25](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.24...v0.0.25) (2019-11-10)
 
 
