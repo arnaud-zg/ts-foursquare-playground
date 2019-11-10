@@ -1,4 +1,5 @@
 export { GetVenuesCategoriesForm } from './GetVenuesCategoriesForm'
+export { GetVenuesExploreForm } from './GetVenuesExploreForm'
 export { GetVenuesNextVenuesForm } from './GetVenuesNextVenuesForm'
 export { GetVenuesSearchForm } from './GetVenuesSearchForm'
 export { GetVenuesSimilarForm } from './GetVenuesSimilarForm'
