@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.25](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.24...v0.0.25) (2019-11-10)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency formik to v2 ([#143](https://github.com/arnaud-zg/ts-foursquare-playground/issues/143)) ([9bf5dd1](https://github.com/arnaud-zg/ts-foursquare-playground/commit/9bf5dd1))
+* **deps:** update react monorepo to v16.11.0 ([#164](https://github.com/arnaud-zg/ts-foursquare-playground/issues/164)) ([01b1eb2](https://github.com/arnaud-zg/ts-foursquare-playground/commit/01b1eb2))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/node to v12.12.7 ([#159](https://github.com/arnaud-zg/ts-foursquare-playground/issues/159)) ([db501f3](https://github.com/arnaud-zg/ts-foursquare-playground/commit/db501f3))
+* **deps:** update storybook monorepo to v5.2.6 ([#160](https://github.com/arnaud-zg/ts-foursquare-playground/issues/160)) ([706a8e5](https://github.com/arnaud-zg/ts-foursquare-playground/commit/706a8e5))
+
+
+### 🖋 Features
+
+* **venues:** add get venues trending form ([#161](https://github.com/arnaud-zg/ts-foursquare-playground/issues/161)) ([52349d1](https://github.com/arnaud-zg/ts-foursquare-playground/commit/52349d1))
+
 ### [0.0.24](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.23...v0.0.24) (2019-11-07)
 
 
