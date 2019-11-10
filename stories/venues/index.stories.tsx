@@ -15,6 +15,7 @@ import { Action } from '../../src/components/Action'
 import {
   GetVenuesCategoriesForm,
   GetVenuesExploreForm,
+  GetVenuesLikesForm,
   GetVenuesNextVenuesForm,
   GetVenuesSearchForm,
   GetVenuesTrendingForm,
@@ -96,6 +97,9 @@ Object.keys(venuesActionsAsync).forEach(actionAsyncName => {
             <Action
               actionCreator={venuesActionsAsync[actionAsyncName].request}
               actionPayload={initialValues}
+              renderFormPayload={() => (
+                <GetVenuesLikesForm initialValues={initialValues} />
+              )}
             />
           </Layout>
         )
