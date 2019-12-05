@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.28](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.27...v0.0.28) (2019-12-05)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @babel/core to v7.7.4 ([#180](https://github.com/arnaud-zg/ts-foursquare-playground/issues/180)) ([08a00e7](https://github.com/arnaud-zg/ts-foursquare-playground/commit/08a00e7))
+* **deps:** update dependency @types/node to v12.12.14 ([#175](https://github.com/arnaud-zg/ts-foursquare-playground/issues/175)) ([ff3bbee](https://github.com/arnaud-zg/ts-foursquare-playground/commit/ff3bbee))
+* **deps:** update dependency @types/yup to v0.26.26 ([#182](https://github.com/arnaud-zg/ts-foursquare-playground/issues/182)) ([79c4d29](https://github.com/arnaud-zg/ts-foursquare-playground/commit/79c4d29))
+* **deps:** update dependency typescript to v3.7.3 ([#184](https://github.com/arnaud-zg/ts-foursquare-playground/issues/184)) ([7d7a17a](https://github.com/arnaud-zg/ts-foursquare-playground/commit/7d7a17a))
+* **deps:** update storybook monorepo to v5.2.8 ([#183](https://github.com/arnaud-zg/ts-foursquare-playground/issues/183)) ([751fd39](https://github.com/arnaud-zg/ts-foursquare-playground/commit/751fd39))
+
 ### [0.0.27](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.26...v0.0.27) (2019-11-16)
 
 
