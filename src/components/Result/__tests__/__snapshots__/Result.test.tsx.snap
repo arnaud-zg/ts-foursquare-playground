@@ -2312,3 +2312,26 @@ exports[`Component/Result renders correctly for action: PUT_CREDENTIALS 1`] = `
   </div>
 </article>
 `;
+
+exports[`Component/Result renders correctly for action: SET_OAUTH2 1`] = `
+<article
+  className="flex-1 border-b"
+>
+  <div
+    className="h-full border-l-2 bg-grey-lightest border-indigo"
+  >
+    <header
+      className="flex justify-between items-center p-2 pl-4 pr-4 cursor-pointer select-none"
+    >
+      <span
+        className="text-indigo font-thin text-xl"
+      >
+        Result for SET_OAUTH2
+      </span>
+    </header>
+    <div
+      className="pl-8 pr-8 pb-5 text-grey-darkest select-none"
+    />
+  </div>
+</article>
+`;
