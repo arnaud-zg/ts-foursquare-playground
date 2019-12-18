@@ -8176,10 +8176,10 @@ popper.js@^1.14.4, popper.js@^1.14.7:
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
 
-popup-sensor@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/popup-sensor/-/popup-sensor-0.0.0.tgz#2694afd76e52727ad04e3ff23b5f1ecd0c4d2e5f"
-  integrity sha512-HGal7l8YJ6fRhoTC4z1mjOyP51hANRqHhALq9t48LiA92gWJ1Mw+6DSLZAFj8tW+gTx3X+l58qYimvE8HF1MnA==
+popup-sensor@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/popup-sensor/-/popup-sensor-0.3.0.tgz#37578148b3059d2a450aacac1c6aca678c9d71d5"
+  integrity sha512-f34SUh/Q0H1+TPewbJT8VWvbCWGRRZDtuUJqcWnrR/PBoobFv2Bu5GnNhp6VvXMgj2qxSHi3YBE5Qn4FWhsMIA==
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -9450,9 +9450,10 @@ send@0.17.1:
     range-parser "~1.2.1"
     statuses "~1.5.0"
 
-serialize-javascript@1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.7.0.tgz#d6e0dfb2a3832a8c94468e6eb1db97e55a192a65"
+serialize-javascript@^1.7.0:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/serialize-javascript/-/serialize-javascript-1.9.1.tgz#cfc200aef77b600c47da9bb8149c943e798c2fdb"
+  integrity sha512-0Vb/54WJ6k5v8sSWN09S0ora+Hnr+cX40r9F170nT+mSkaxltoE/7R3OrIdBSUv1OoiobH1QoWQbCnAO+e8J1A==
 
 serve-favicon@^2.5.0:
   version "2.5.0"
