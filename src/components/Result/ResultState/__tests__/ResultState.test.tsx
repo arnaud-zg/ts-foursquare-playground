@@ -4,7 +4,7 @@ import renderer from 'react-test-renderer'
 import { configureStore } from 'ts-foursquare'
 import { ResultState } from '..'
 
-const store = configureStore()
+const store = configureStore({ middlewares: [] })
 
 describe('Component/ResultState', () => {
   it('renders correctly', () => {

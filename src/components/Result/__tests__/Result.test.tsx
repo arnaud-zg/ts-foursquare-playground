@@ -5,7 +5,7 @@ import { lifeActions, configureStore } from 'ts-foursquare'
 import { Result } from '..'
 import { Provider } from 'react-redux'
 
-const store = configureStore()
+const store = configureStore({ middlewares: [] })
 
 describe('Component/Result', () => {
   Object.values([lifeActions.putCredentials, lifeActions.setOAuth2]).map(

@@ -10,7 +10,7 @@ import { Action } from '..'
 import { PutCredentialsForm } from '../../Forms/Life'
 import { GetVenuesSearchForm } from '../../Forms'
 
-const store = configureStore()
+const store = configureStore({ middlewares: [] })
 
 describe('Component/Action', () => {
   it('should make a snapshot after action: ELifeAction.PUT_CREDENTIALS', () => {
