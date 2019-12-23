@@ -2,6 +2,52 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.29](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.28...v0.0.29) (2019-12-23)
+
+
+### 🖋 Features
+
+* **oauth:** add fake oauth story ([#206](https://github.com/arnaud-zg/ts-foursquare-playground/issues/206)) ([906d844](https://github.com/arnaud-zg/ts-foursquare-playground/commit/906d8446a7ea3965d711952ed5b1b0bdccb93d77))
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency formik to v2.0.7 ([#177](https://github.com/arnaud-zg/ts-foursquare-playground/issues/177)) ([113dd36](https://github.com/arnaud-zg/ts-foursquare-playground/commit/113dd369e69b20abcd8ce92312b194d10e5e7757))
+* **deps:** update dependency popup-sensor to ^0.3.0 ([#194](https://github.com/arnaud-zg/ts-foursquare-playground/issues/194)) ([044ca7f](https://github.com/arnaud-zg/ts-foursquare-playground/commit/044ca7f46cd5effaab69fae4628c2c22ff725cd3))
+* **deps:** update dependency popup-sensor to ^0.4.0 ([#203](https://github.com/arnaud-zg/ts-foursquare-playground/issues/203)) ([9dd0b9a](https://github.com/arnaud-zg/ts-foursquare-playground/commit/9dd0b9a2a0966abb079dcb3c817db7445ed041a1))
+* **deps:** update dependency popup-sensor to ^0.5.0 ([#204](https://github.com/arnaud-zg/ts-foursquare-playground/issues/204)) ([c5060c2](https://github.com/arnaud-zg/ts-foursquare-playground/commit/c5060c21decb62e5d8cb0321e6ae20d77c839430))
+* **deps:** update dependency popup-sensor to ^0.6.0 ([#205](https://github.com/arnaud-zg/ts-foursquare-playground/issues/205)) ([08622f9](https://github.com/arnaud-zg/ts-foursquare-playground/commit/08622f94fc3ffc776417d95c5c77272509287b39))
+* **deps:** update dependency ts-foursquare to v0.5.2 ([#179](https://github.com/arnaud-zg/ts-foursquare-playground/issues/179)) ([a0a7f44](https://github.com/arnaud-zg/ts-foursquare-playground/commit/a0a7f44431359ccc4b812c551127c6a589f505fd))
+* **deps:** update dependency ts-foursquare to v0.6.0 ([#199](https://github.com/arnaud-zg/ts-foursquare-playground/issues/199)) ([3c53153](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3c53153900797369230e9f1f5642a38ca1e992a2))
+* **deps:** update dependency yup to v0.28.0 ([#191](https://github.com/arnaud-zg/ts-foursquare-playground/issues/191)) ([7a3b9ba](https://github.com/arnaud-zg/ts-foursquare-playground/commit/7a3b9ba80beb1d32babb56393854d505d50338b6))
+* **deps:** update react monorepo to v16.12.0 ([#171](https://github.com/arnaud-zg/ts-foursquare-playground/issues/171)) ([714ff69](https://github.com/arnaud-zg/ts-foursquare-playground/commit/714ff6976fb19538ab06e83a561da0fc8148fa99))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @babel/core to v7.7.5 ([#186](https://github.com/arnaud-zg/ts-foursquare-playground/issues/186)) ([e322be2](https://github.com/arnaud-zg/ts-foursquare-playground/commit/e322be272c8c48a8551e8712e15fd3c9beb70786))
+* **deps:** update dependency @babel/core to v7.7.7 ([#198](https://github.com/arnaud-zg/ts-foursquare-playground/issues/198)) ([1770026](https://github.com/arnaud-zg/ts-foursquare-playground/commit/1770026e3407e062390aa8356025d41c80ead317))
+* **deps:** update dependency @types/jest to v24.0.24 ([#196](https://github.com/arnaud-zg/ts-foursquare-playground/issues/196)) ([696f9d1](https://github.com/arnaud-zg/ts-foursquare-playground/commit/696f9d14bcc250c07a2c04ca95c6a01b9b5bedc3))
+* **deps:** update dependency @types/node to v12.12.16 ([#187](https://github.com/arnaud-zg/ts-foursquare-playground/issues/187)) ([0e2e403](https://github.com/arnaud-zg/ts-foursquare-playground/commit/0e2e4031a29a2f2372ba3423688b595636710765))
+* **deps:** update dependency @types/node to v12.12.17 ([#188](https://github.com/arnaud-zg/ts-foursquare-playground/issues/188)) ([fb9c6b8](https://github.com/arnaud-zg/ts-foursquare-playground/commit/fb9c6b806719e9b65decbb22d68465a95b294686))
+* **deps:** update dependency @types/node to v12.12.18 ([#190](https://github.com/arnaud-zg/ts-foursquare-playground/issues/190)) ([c8411df](https://github.com/arnaud-zg/ts-foursquare-playground/commit/c8411df1ce5a8c93bb88e7f1ef95e4bec6b74a03))
+* **deps:** update dependency @types/node to v12.12.20 ([#193](https://github.com/arnaud-zg/ts-foursquare-playground/issues/193)) ([05e4272](https://github.com/arnaud-zg/ts-foursquare-playground/commit/05e4272553ff6cdc368451b7bf10ea2625c79724))
+* **deps:** update dependency @types/node to v12.12.21 ([#197](https://github.com/arnaud-zg/ts-foursquare-playground/issues/197)) ([0592b68](https://github.com/arnaud-zg/ts-foursquare-playground/commit/0592b687dd261e4647e6ca1befcaf865f6a3ba93))
+* **deps:** update dependency @types/node to v12.12.22 ([#202](https://github.com/arnaud-zg/ts-foursquare-playground/issues/202)) ([f527874](https://github.com/arnaud-zg/ts-foursquare-playground/commit/f5278743c63e92b1fe3e295c955cdf7550bb6fd9))
+* **deps:** update dependency @types/yup to v0.26.27 ([#200](https://github.com/arnaud-zg/ts-foursquare-playground/issues/200)) ([e087056](https://github.com/arnaud-zg/ts-foursquare-playground/commit/e08705624cb60c27abfc049793c43a41d2195032))
+* **deps:** update dependency react-docgen-typescript-loader to v3.6.0 ([#176](https://github.com/arnaud-zg/ts-foursquare-playground/issues/176)) ([dc7ebb6](https://github.com/arnaud-zg/ts-foursquare-playground/commit/dc7ebb63c19ca61f73295a2caf2391a40019a418))
+* **deps:** update dependency standard-version to v7.0.1 ([#174](https://github.com/arnaud-zg/ts-foursquare-playground/issues/174)) ([8561b70](https://github.com/arnaud-zg/ts-foursquare-playground/commit/8561b70b86765d1e904408b443e21f7146ee9db5))
+* **deps:** update dependency tailwindcss to v1.1.4 ([#181](https://github.com/arnaud-zg/ts-foursquare-playground/issues/181)) ([fad3341](https://github.com/arnaud-zg/ts-foursquare-playground/commit/fad3341fac705eb6df9558b32f8bc00d9d1710f8))
+* **deps:** update dependency ts-jest to v24.2.0 ([#178](https://github.com/arnaud-zg/ts-foursquare-playground/issues/178)) ([f6fa711](https://github.com/arnaud-zg/ts-foursquare-playground/commit/f6fa7112d012cb9e069a19158820fe106a763528))
+* **deps:** update dependency typescript to v3.7.4 ([#201](https://github.com/arnaud-zg/ts-foursquare-playground/issues/201)) ([aa8000d](https://github.com/arnaud-zg/ts-foursquare-playground/commit/aa8000dba35217b6de0d257ac4ce8c6224d1b4fc))
+* **deps:** update node.js to v10.18.0 ([#195](https://github.com/arnaud-zg/ts-foursquare-playground/issues/195)) ([9bfd901](https://github.com/arnaud-zg/ts-foursquare-playground/commit/9bfd9017ee624853447ecf20055bf87fb501636b))
+
+
+### 📦 Build System
+
+* use fixed version of serialize-javascript ([#185](https://github.com/arnaud-zg/ts-foursquare-playground/issues/185)) ([630964b](https://github.com/arnaud-zg/ts-foursquare-playground/commit/630964bed002fa998eb8db7843c2fbf2359a7585))
+* **deps:** add popup-sensor ([#192](https://github.com/arnaud-zg/ts-foursquare-playground/issues/192)) ([eabdd70](https://github.com/arnaud-zg/ts-foursquare-playground/commit/eabdd706abcb040fec4a69f5ec55fe7319680b36))
+
 ### [0.0.28](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.27...v0.0.28) (2019-12-05)
 
 
