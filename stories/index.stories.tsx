@@ -2,8 +2,8 @@ import { storiesOf } from '@storybook/react'
 import React from 'react'
 import { Layout } from '../src/Layout'
 
-storiesOf('1-Presentation/1-Project', module).add(
-  '1-Welcome to the playground',
+storiesOf('1-Presentation/Project', module).add(
+  'Welcome to the playground',
   () => {
     return (
       <Layout>
