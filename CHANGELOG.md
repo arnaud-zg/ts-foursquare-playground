@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.30](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.29...v0.0.30) (2019-12-26)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency popup-sensor to v0.6.5 ([#208](https://github.com/arnaud-zg/ts-foursquare-playground/issues/208)) ([697e27d](https://github.com/arnaud-zg/ts-foursquare-playground/commit/697e27d84ce909f94ffd2d7cc2fe773f94994c5a))
+* **deps:** update dependency ts-foursquare to v0.6.1 ([#207](https://github.com/arnaud-zg/ts-foursquare-playground/issues/207)) ([eb00da9](https://github.com/arnaud-zg/ts-foursquare-playground/commit/eb00da9beb7a922a72314ac6eab6ad852e1035b9))
+
 ### [0.0.29](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.28...v0.0.29) (2019-12-23)
 
 
