@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.31](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.30...v0.0.31) (2019-12-30)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency ts-foursquare to v0.6.2 ([#210](https://github.com/arnaud-zg/ts-foursquare-playground/issues/210)) ([f27fee0](https://github.com/arnaud-zg/ts-foursquare-playground/commit/f27fee0accdd629aef108332d95dc957e0171d14))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v24.0.25 ([#209](https://github.com/arnaud-zg/ts-foursquare-playground/issues/209)) ([0194ba0](https://github.com/arnaud-zg/ts-foursquare-playground/commit/0194ba0aaed83f375ba08ee1ea01db657e707805))
+
 ### [0.0.30](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.29...v0.0.30) (2019-12-26)
 
 
