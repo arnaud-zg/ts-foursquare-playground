@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.32](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.31...v0.0.32) (2020-01-05)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/node to v12.12.24 ([#212](https://github.com/arnaud-zg/ts-foursquare-playground/issues/212)) ([c965aa1](https://github.com/arnaud-zg/ts-foursquare-playground/commit/c965aa111857da5115809e22e3193174edcbc3d8))
+
+
+### 🖋 Features
+
+* **oauth:** get code from redirected back URI ([#211](https://github.com/arnaud-zg/ts-foursquare-playground/issues/211)) ([ece6009](https://github.com/arnaud-zg/ts-foursquare-playground/commit/ece60097c0a5e6674b560bde236f6af7b2f26458))
+
 ### [0.0.31](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.30...v0.0.31) (2019-12-30)
 
 
