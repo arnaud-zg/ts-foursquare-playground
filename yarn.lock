@@ -5880,10 +5880,10 @@ http-errors@~1.7.2:
   version "0.4.10"
   resolved "https://registry.yarnpkg.com/http-parser-js/-/http-parser-js-0.4.10.tgz#92c9c1374c35085f75db359ec56cc257cbb93fa4"
 
-http-response-status@0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/http-response-status/-/http-response-status-0.1.3.tgz#ef78889438d9cff0bd66ce240292b919df5e132c"
-  integrity sha512-FZKrK1YbgrK1qW0959a1REwcKhEwEJ6mFLBy2ajFhVIUJXVswH+Xn6ty8k3/YBvSVyPc9KfmroGUT+z6NjFdyw==
+http-response-status@0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/http-response-status/-/http-response-status-0.1.4.tgz#eb55a1ce0685b7f3f594dcf9cfb8ad478fe87afd"
+  integrity sha512-LasDu7HzcdLHlVFoceB+u1qYNhWBICkM942Vn5dRi03o7jB7QqRCM/2Cy7E087AgjHFe/1aa7/v/5HqQQItGiA==
 
 http-signature@~1.2.0:
   version "1.2.0"
@@ -10339,12 +10339,12 @@ trim-right@^1.0.1:
   dependencies:
     glob "^7.1.2"
 
-ts-foursquare@0.6.4:
-  version "0.6.4"
-  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.6.4.tgz#45ca2bfd91f7aeb878f72e4b7c79357131286f3b"
-  integrity sha512-icNu86CjQyhn85hcA7vA+8SN8pNaDNE3l0nv1UN9Q6i3Lye/byq0ndmj1NZWTq1QDkm/M/oywWtwwzuzqvqZqg==
+ts-foursquare@0.6.5:
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.6.5.tgz#67c60c01032c63d255895f9e44a038afb933f66e"
+  integrity sha512-EfzgECeJYysrobthAnDRPS5bulJzsVEDQAb+upIbLTPr36N3C+Ls6EpqmFQUC7LCyqx8yCM9hDvf2RMEDmmb7Q==
   dependencies:
-    http-response-status "0.1.3"
+    http-response-status "0.1.4"
     isomorphic-fetch "2.2.1"
     path-to-regexp "^6.0.0"
     redux "4.0.4"
