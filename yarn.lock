@@ -8271,10 +8271,10 @@ popper.js@^1.14.4, popper.js@^1.14.7:
   version "1.15.0"
   resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
 
-popup-sensor@0.6.5:
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/popup-sensor/-/popup-sensor-0.6.5.tgz#2853b1afc034ea748fd28b6c776ebab8f03a7dc8"
-  integrity sha512-qjC1OJXRWHaSOebHVsN1MBjbSOl5Q8DZfbk73oPeSMWk5q/TgsFRh5koZg9Jvuq+wThXe9FudGaYbbsiLguwqw==
+popup-sensor@0.6.6:
+  version "0.6.6"
+  resolved "https://registry.yarnpkg.com/popup-sensor/-/popup-sensor-0.6.6.tgz#ab3a6bec6d55d57a35f87b451a6e792ad0dfe825"
+  integrity sha512-adpC8M5NNPtXvsiAXQT3WghrJPvahBThxgrt8gicvdiUsgxiBvgvR5zHUl6VKV7nl/cR8xhKVhTejg8bwXgt7w==
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
