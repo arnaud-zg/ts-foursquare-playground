@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.33](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.32...v0.0.33) (2020-01-12)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency popup-sensor to v0.6.6 ([#216](https://github.com/arnaud-zg/ts-foursquare-playground/issues/216)) ([8d961e1](https://github.com/arnaud-zg/ts-foursquare-playground/commit/8d961e170a9e781fe45b7fc40355c098cc6498d7))
+* **deps:** update dependency ts-foursquare to v0.6.3 ([#213](https://github.com/arnaud-zg/ts-foursquare-playground/issues/213)) ([342e574](https://github.com/arnaud-zg/ts-foursquare-playground/commit/342e574841ae6fc9cd041be6ce61ad7220098bb2))
+* **deps:** update dependency ts-foursquare to v0.6.4 ([#215](https://github.com/arnaud-zg/ts-foursquare-playground/issues/215)) ([3ec7d93](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3ec7d93100280be2ed14ff81cf65197af403f3d2))
+* **deps:** update dependency ts-foursquare to v0.6.5 ([#217](https://github.com/arnaud-zg/ts-foursquare-playground/issues/217)) ([02f3ccf](https://github.com/arnaud-zg/ts-foursquare-playground/commit/02f3ccf7715a37bccb56835f996ea28455382903))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @babel/core to v7.8.0 ([#221](https://github.com/arnaud-zg/ts-foursquare-playground/issues/221)) ([e45d8d0](https://github.com/arnaud-zg/ts-foursquare-playground/commit/e45d8d003743091c2dd15cf51d39acc7f76c31f7))
+* **deps:** update dependency sass-loader to v8.0.1 ([#219](https://github.com/arnaud-zg/ts-foursquare-playground/issues/219)) ([1ddc200](https://github.com/arnaud-zg/ts-foursquare-playground/commit/1ddc2007a27171c76a9e2b6f9176961de090fc7a))
+* **deps:** update dependency ts-jest to v24.3.0 ([#214](https://github.com/arnaud-zg/ts-foursquare-playground/issues/214)) ([c2f3fce](https://github.com/arnaud-zg/ts-foursquare-playground/commit/c2f3fce87f568ab5133b758f61ebcce24bfc8f7e))
+* **deps:** update node.js to v10.18.1 ([#218](https://github.com/arnaud-zg/ts-foursquare-playground/issues/218)) ([affb4c4](https://github.com/arnaud-zg/ts-foursquare-playground/commit/affb4c4d058b69625ec92fe9e7ccc216628a500c))
+
 ### [0.0.32](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.31...v0.0.32) (2020-01-05)
 
 
