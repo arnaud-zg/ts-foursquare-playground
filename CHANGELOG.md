@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.34](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.33...v0.0.34) (2020-01-13)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency sass-loader to v8.0.2 ([#224](https://github.com/arnaud-zg/ts-foursquare-playground/issues/224)) ([5b1c610](https://github.com/arnaud-zg/ts-foursquare-playground/commit/5b1c610abfb5a0dc7c9314875e28015609037d8d))
+* **deps:** update storybook monorepo to v5.3.2 ([#220](https://github.com/arnaud-zg/ts-foursquare-playground/issues/220)) ([1f5484d](https://github.com/arnaud-zg/ts-foursquare-playground/commit/1f5484d06dcec0275fa6713b85eb2475463ef359))
+* **docs:** add presentation text ([#225](https://github.com/arnaud-zg/ts-foursquare-playground/issues/225)) ([092a9d4](https://github.com/arnaud-zg/ts-foursquare-playground/commit/092a9d4b101ef51bae7c7db3f7f941af966ab702))
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency popup-sensor to v0.6.7 ([#222](https://github.com/arnaud-zg/ts-foursquare-playground/issues/222)) ([3b2f922](https://github.com/arnaud-zg/ts-foursquare-playground/commit/3b2f9221e57243ca330748466c24bc7cc09fe173))
+* **deps:** update dependency ts-foursquare to v0.6.6 ([#223](https://github.com/arnaud-zg/ts-foursquare-playground/issues/223)) ([f3c2dac](https://github.com/arnaud-zg/ts-foursquare-playground/commit/f3c2dacc32a47af91d4280f9d93e225d4de1bfe7))
+
 ### [0.0.33](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.32...v0.0.33) (2020-01-12)
 
 
