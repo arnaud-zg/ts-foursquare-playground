@@ -142,7 +142,7 @@
     "@babel/helper-replace-supers" "^7.7.4"
     "@babel/helper-split-export-declaration" "^7.7.4"
 
-"@babel/helper-create-regexp-features-plugin@^7.8.0":
+"@babel/helper-create-regexp-features-plugin@7.8.0":
   version "7.8.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.8.0.tgz#ae551572b840189a7b94e39eddc1a68d355974eb"
   integrity sha512-vJj2hPbxxLUWJEV86iZiac5curAnC3ZVc+rFmFeWZigUOcuCPpbF+KxoEmxrkmuCGylHFF9t4lkpcDUcxnhQ5g==
