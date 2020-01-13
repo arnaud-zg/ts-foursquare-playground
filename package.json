@@ -41,7 +41,7 @@
     "jest": "24.9.0",
     "node-sass": "4.13.0",
     "react-docgen-typescript-loader": "3.6.0",
-    "sass-loader": "8.0.1",
+    "sass-loader": "8.0.2",
     "standard-version": "7.0.1",
     "tailwindcss": "1.1.4",
     "ts-jest": "24.3.0",
