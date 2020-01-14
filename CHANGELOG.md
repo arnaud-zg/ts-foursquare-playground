@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.35](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.34...v0.0.35) (2020-01-14)
+
+
+### 🔧 Chore
+
+* **deps:** pin dependency @babel/helper-create-regexp-features-plugin to 7.8.0 ([#227](https://github.com/arnaud-zg/ts-foursquare-playground/issues/227)) ([ae01963](https://github.com/arnaud-zg/ts-foursquare-playground/commit/ae01963872823733557ebd70804adc1ccdf4d4f2))
+* **deps:** update babel monorepo to v7.8.3 ([#228](https://github.com/arnaud-zg/ts-foursquare-playground/issues/228)) ([e2ef8ab](https://github.com/arnaud-zg/ts-foursquare-playground/commit/e2ef8ab97cec1f00d90442e5e9913bbbae62faf3))
+* **deps:** update storybook monorepo to v5.3.3 ([#231](https://github.com/arnaud-zg/ts-foursquare-playground/issues/231)) ([7982541](https://github.com/arnaud-zg/ts-foursquare-playground/commit/798254124b41b10bcf96091240c76e285489f6d1))
+
+
+### 🐛 Bug Fixes
+
+* remove useless story and add some description ([#226](https://github.com/arnaud-zg/ts-foursquare-playground/issues/226)) ([8e152c6](https://github.com/arnaud-zg/ts-foursquare-playground/commit/8e152c618c6273c3b1d6d4a79229eb58e665036e))
+* **deps:** update dependency popup-sensor to v0.6.8 ([#229](https://github.com/arnaud-zg/ts-foursquare-playground/issues/229)) ([a7b5df9](https://github.com/arnaud-zg/ts-foursquare-playground/commit/a7b5df975802a89424a2628c6bd426559e25dbc7))
+* **deps:** update dependency ts-foursquare to v0.7.0 ([#230](https://github.com/arnaud-zg/ts-foursquare-playground/issues/230)) ([02d3df1](https://github.com/arnaud-zg/ts-foursquare-playground/commit/02d3df14a0fe3659616c6cfb40df2e8ff3ba3ccc))
+
 ### [0.0.34](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.33...v0.0.34) (2020-01-13)
 
 
