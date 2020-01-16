@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.36](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.35...v0.0.36) (2020-01-16)
+
+
+### 🔧 Chore
+
+* **deps:** update dependency @types/jest to v24.9.0 ([#232](https://github.com/arnaud-zg/ts-foursquare-playground/issues/232)) ([4fa2f4d](https://github.com/arnaud-zg/ts-foursquare-playground/commit/4fa2f4db1be8f0c9fc514250d2cb203e206ed85c))
+* **deps:** update dependency @types/react-redux to v7.1.6 ([#233](https://github.com/arnaud-zg/ts-foursquare-playground/issues/233)) ([a146c3a](https://github.com/arnaud-zg/ts-foursquare-playground/commit/a146c3a623a1ae0bf74d51fda28b143b1b1d9730))
+* **deps:** update dependency node-sass to v4.13.1 ([#235](https://github.com/arnaud-zg/ts-foursquare-playground/issues/235)) ([77fe360](https://github.com/arnaud-zg/ts-foursquare-playground/commit/77fe360acf69ff576d626874beb4cd89c21179b3))
+* **deps:** update storybook monorepo to v5.3.5 ([#234](https://github.com/arnaud-zg/ts-foursquare-playground/issues/234)) ([61cf086](https://github.com/arnaud-zg/ts-foursquare-playground/commit/61cf086d6627a292517a65082e264210e501d499))
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update dependency query-string to v6.10.0 ([#236](https://github.com/arnaud-zg/ts-foursquare-playground/issues/236)) ([301c1fd](https://github.com/arnaud-zg/ts-foursquare-playground/commit/301c1fd8afdd9affbc73ce69555735f49fa546f6))
+
 ### [0.0.35](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.34...v0.0.35) (2020-01-14)
 
 
