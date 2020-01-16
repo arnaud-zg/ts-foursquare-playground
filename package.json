@@ -40,7 +40,7 @@
     "awesome-typescript-loader": "5.2.1",
     "babel-loader": "8.0.6",
     "jest": "24.9.0",
-    "node-sass": "4.13.0",
+    "node-sass": "4.13.1",
     "react-docgen-typescript-loader": "3.6.0",
     "sass-loader": "8.0.2",
     "standard-version": "7.0.1",
