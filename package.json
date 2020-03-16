@@ -7,7 +7,7 @@
   "dependencies": {
     "codecov": "3.6.5",
     "formik": "2.0.7",
-    "popup-sensor": "0.6.13",
+    "popup-sensor": "0.6.14",
     "query-string": "6.11.1",
     "react": "16.13.0",
     "react-dom": "16.13.0",
