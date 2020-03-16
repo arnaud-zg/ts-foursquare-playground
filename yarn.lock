@@ -6041,10 +6041,10 @@ http-proxy-agent@^4.0.0:
     agent-base "6"
     debug "4"
 
-http-response-status@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/http-response-status/-/http-response-status-1.0.1.tgz#7695deeee2efe3fa80464d01a301314cbaceaf9d"
-  integrity sha512-eomk/HrIF68kKKi/PyY60Pkp/MMkFQDQEZlfUkN2ym6BcutWPu6JBaXOFIozDdltzOBZQfG6Ic87W5lAfyH2sw==
+http-response-status@1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/http-response-status/-/http-response-status-1.0.6.tgz#55ddd546ec6d4b0176ed75be06414d7637fa6174"
+  integrity sha512-gPIqlAXhOPmxW3bFXqzQi2E5/HApNljlpucXdaUTviDsEi6fZsTd79YM4oyAzJt130hf6+AYWLohy0MuJu6ZFQ==
 
 http-signature@~1.2.0:
   version "1.2.0"
@@ -9557,25 +9557,9 @@ reduce-css-calc@^2.1.6:
     css-unit-converter "^1.1.1"
     postcss-value-parser "^3.3.0"
 
-redux-devtools-extension@2.13.8:
-  version "2.13.8"
-  resolved "https://registry.yarnpkg.com/redux-devtools-extension/-/redux-devtools-extension-2.13.8.tgz#37b982688626e5e4993ff87220c9bbb7cd2d96e1"
-
-redux-observable@1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/redux-observable/-/redux-observable-1.2.0.tgz#ff51b6c6be2598e9b5e89fc36639186bb0e669c7"
-
-redux@4.0.4, redux@^4.0.0:
+redux@^4.0.0:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.4.tgz#4ee1aeb164b63d6a1bcc57ae4aa0b6e6fa7a3796"
-  dependencies:
-    loose-envify "^1.4.0"
-    symbol-observable "^1.2.0"
-
-redux@4.0.5:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
-  integrity sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w==
   dependencies:
     loose-envify "^1.4.0"
     symbol-observable "^1.2.0"
@@ -10447,14 +10431,6 @@ stack-utils@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/stack-utils/-/stack-utils-1.0.2.tgz#33eba3897788558bebfc2db059dc158ec36cebb8"
 
-standalone-store@1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/standalone-store/-/standalone-store-1.1.5.tgz#d31c95ef7141eaacb6500b0f2ff4030d7d79f6b5"
-  integrity sha512-GcQaSclNXmD213YU1ZGb3pOWr9VBrSHgPw00bXFjBD4YF3xiGYXbtXmfmun8l2c9gdwXntfFAhnoM0Um6Mlt5A==
-  dependencies:
-    redux "4.0.5"
-    typesafe-actions "5.1.0"
-
 standard-version@7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/standard-version/-/standard-version-7.1.0.tgz#021dd79eac749548677c876d5a94791df50f1f36"
@@ -11182,20 +11158,15 @@ ts-dedent@^1.1.0:
   resolved "https://registry.yarnpkg.com/ts-dedent/-/ts-dedent-1.1.0.tgz#67983940793183dc7c7f820acb66ba02cdc33c6e"
   integrity sha512-CVCvDwMBWZKjDxpN3mU/Dx1v3k+sJgE8nrhXcC9vRopRfoa7vVzilNvHEAUi5jQnmFHpnxDx5jZdI1TpG8ny2g==
 
-ts-foursquare@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-0.7.1.tgz#6e8984bfb6a1bff6097caa14859be7d1361ad9f0"
-  integrity sha512-frAXAs9JRbgLoBGJjqRctss8wWpJ47mmcZBJhDlHIrNgUaQ8LHYHiv/Qtiw+/H/rk88rUWqVNmA8+eEGTYgjuQ==
+ts-foursquare@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-1.0.0.tgz#660ff835a3df3706ffe57857e1caddfb45c970b2"
+  integrity sha512-C1y0sw+NwYeTar/oD9e5h02tssH91Gwuk0R8DsRqE4wJUgkCkhefN7XdNRLhkhUK1+9L6xCvO/kjAlTnsBiy0Q==
   dependencies:
-    http-response-status "1.0.1"
+    http-response-status "1.0.6"
     isomorphic-fetch "2.2.1"
     path-to-regexp "^6.0.0"
-    redux "4.0.4"
-    redux-devtools-extension "2.13.8"
-    redux-observable "1.2.0"
     rxjs "6.5.4"
-    standalone-store "1.1.5"
-    typesafe-actions "5.1.0"
 
 ts-jest@25.2.1:
   version "25.2.1"
