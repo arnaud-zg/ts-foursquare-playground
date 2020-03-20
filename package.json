@@ -6,7 +6,7 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.8.7",
+    "@babel/core": "7.9.0",
     "@babel/helper-create-regexp-features-plugin": "7.8.8",
     "@percy/storybook": "3.3.0",
     "@storybook/addon-actions": "5.3.17",
@@ -26,7 +26,7 @@
     "@types/storybook__react": "4.0.2",
     "@types/yup": "0.26.32",
     "autoprefixer": "9.7.4",
-    "babel-loader": "8.0.6",
+    "babel-loader": "8.1.0",
     "codecov": "3.6.5",
     "css-loader": "3.4.2",
     "formik": "2.0.7",
