@@ -6230,10 +6230,10 @@ http-proxy-agent@^4.0.0:
     agent-base "6"
     debug "4"
 
-http-response-status@1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/http-response-status/-/http-response-status-1.0.6.tgz#55ddd546ec6d4b0176ed75be06414d7637fa6174"
-  integrity sha512-gPIqlAXhOPmxW3bFXqzQi2E5/HApNljlpucXdaUTviDsEi6fZsTd79YM4oyAzJt130hf6+AYWLohy0MuJu6ZFQ==
+http-response-status@1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/http-response-status/-/http-response-status-1.0.8.tgz#c47071d05844c9967006c7ac7e45d2956e5711e2"
+  integrity sha512-dcmA7OOYgrKj01KNrZpSSd9xrFFMdlaI9N7Q/2OMV7YwZPFlj2tRiNdpk+FOY2Pd+IqFc8d8286Bv7ZgKeP1FA==
 
 http-signature@~1.2.0:
   version "1.2.0"
@@ -11411,12 +11411,12 @@ ts-dedent@^1.1.0:
   resolved "https://registry.yarnpkg.com/ts-dedent/-/ts-dedent-1.1.0.tgz#67983940793183dc7c7f820acb66ba02cdc33c6e"
   integrity sha512-CVCvDwMBWZKjDxpN3mU/Dx1v3k+sJgE8nrhXcC9vRopRfoa7vVzilNvHEAUi5jQnmFHpnxDx5jZdI1TpG8ny2g==
 
-ts-foursquare@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-1.0.0.tgz#660ff835a3df3706ffe57857e1caddfb45c970b2"
-  integrity sha512-C1y0sw+NwYeTar/oD9e5h02tssH91Gwuk0R8DsRqE4wJUgkCkhefN7XdNRLhkhUK1+9L6xCvO/kjAlTnsBiy0Q==
+ts-foursquare@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/ts-foursquare/-/ts-foursquare-1.0.1.tgz#6136960ca240f875d85804c49b6500e6aacb88a7"
+  integrity sha512-O5jLVQGEUyG1RgxHAqGvej1/LfQdzfpyp+VHv/n0i9TRgk341ArwMyVYdbFHaD6QTHjAiHWjDaddfztVfxp/RQ==
   dependencies:
-    http-response-status "1.0.6"
+    http-response-status "1.0.8"
     isomorphic-fetch "2.2.1"
     path-to-regexp "^6.0.0"
     rxjs "6.5.4"
