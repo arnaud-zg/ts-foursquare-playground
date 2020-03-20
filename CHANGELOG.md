@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v1.0.0...v1.0.1) (2020-03-20)
+
+
+### 🔧 Chore
+
+* **deps:** update babel monorepo ([#282](https://github.com/arnaud-zg/ts-foursquare-playground/issues/282)) ([eb2c9f5](https://github.com/arnaud-zg/ts-foursquare-playground/commit/eb2c9f53d8de6003fbcbabb25612787cf15616e9))
+* **deps:** update dependency @types/yup to v0.26.33 ([#280](https://github.com/arnaud-zg/ts-foursquare-playground/issues/280)) ([f297db7](https://github.com/arnaud-zg/ts-foursquare-playground/commit/f297db71b6b57af904250d3ae9e024affecb8ad2))
+
 ## [1.0.0](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v0.0.36...v1.0.0) (2020-03-20)
 
 
