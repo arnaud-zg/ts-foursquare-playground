@@ -12,4 +12,4 @@ install:
 script:
   - yarn run test:lint
   - yarn run test:coverage:report
-  - yarn run build:storybook:report
+  - yarn run build:storybook:report || exit 0
