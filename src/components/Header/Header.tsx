@@ -1,16 +1,9 @@
 import React from 'react'
+import { i18n } from '../../constants/i18n'
+import { Title } from '../Title'
 
-interface IProps {
-  title: string
-}
-
-export class Header extends React.Component<IProps> {
-  render() {
-    const { title } = this.props
-    return (
-      <header className="flex justify-between items-center p-2 pl-4 pr-4 cursor-pointer select-none">
-        <span className="text-indigo font-thin text-xl">{title}</span>
-      </header>
-    )
-  }
-}
+export const Header = () => (
+  <div className={'bg-gray-400 w-11/12 p-2 mx-auto mt-2 rounded-t text-center'}>
+    <Title level={1}>{i18n.HEADER_TITLE}</Title>
+  </div>
+)

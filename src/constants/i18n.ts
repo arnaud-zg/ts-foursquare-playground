@@ -20,4 +20,14 @@ export const i18n = {
   RESET: 'Reset',
   SEND: 'Send',
   SUCCESS: 'Success',
+  CHECK_DOCUMENTATION: 'check the documentation',
+  AUTH_SETUP_ACCOUNT_TITLE: 'Setup your account for authenticated endpoints',
+  AUTH_SETUP_ACCOUNT_DESCRIPTION:
+    'Versioning is controlled by the `v` parameter, which is a date that represents the “version” of the API for which you expect from Foursquare, `ts-foursquare` uses version `20191028`.',
+  WELCOME_PROJECT_TITLE: 'How is this project useful?',
+  WELCOME_PROJECT_DESCRIPTION:
+    "I started to work on a project and I quickly noticed that I need an interface that gives me enough information about the Foursquare API. So, I decided to write a library named `ts-foursquare`, it's a simple SDK let you to communicate with Foursquare API and give responses with types.",
+  WELCOME_DOCUMENTATION_TITLE: 'How does it work?',
+  WELCOME_DOCUMENTATION_DESCRIPTION:
+    'Before you start, read the documentation of `ts-foursquare`',
 }
