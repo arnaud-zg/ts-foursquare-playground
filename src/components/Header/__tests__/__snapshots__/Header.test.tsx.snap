@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Component/Header renders correctly 1`] = `
-<header
-  className="flex justify-between items-center p-2 pl-4 pr-4 cursor-pointer select-none"
+<div
+  className="bg-gray-400 w-11/12 p-2 mx-auto mt-2 rounded-t text-center"
 >
-  <span
-    className="text-indigo font-thin text-xl"
+  <h1
+    className="font-sans font-thin text-4xl"
   >
-    Title
-  </span>
-</header>
+    "ts-foursquare" is just a simple library
+  </h1>
+</div>
 `;
