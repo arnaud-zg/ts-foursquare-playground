@@ -2,7 +2,7 @@
 
 exports[`Component/Body renders correctly 1`] = `
 <body
-  className=""
+  className="mx-auto w-11/12"
 >
   <p>
     Custom content

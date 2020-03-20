@@ -2,20 +2,12 @@
 
 exports[`Component/Header renders correctly 1`] = `
 <div
-  className="bg-gray-400 w-full p-2"
+  className="bg-gray-400 w-11/12 p-2 mx-auto mt-2 rounded-t text-center"
 >
-  <div
-    className="container mx-auto rounded-t m-2"
+  <h1
+    className="font-sans font-thin text-4xl"
   >
-    <div
-      className="text-center text-black"
-    >
-      <h1
-        className="font-sans font-thin"
-      >
-        "ts-foursquare" is just a simple library
-      </h1>
-    </div>
-  </div>
+    "ts-foursquare" is just a simple library
+  </h1>
 </div>
 `;
