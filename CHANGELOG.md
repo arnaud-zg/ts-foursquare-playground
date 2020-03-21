@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v1.0.1...v1.0.2) (2020-03-21)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** remove not used dependencies ([#285](https://github.com/arnaud-zg/ts-foursquare-playground/issues/285)) ([1f7e672](https://github.com/arnaud-zg/ts-foursquare-playground/commit/1f7e672f882032182d3956e8b4f645ee448ca83e))
+
+
+### 🔧 Chore
+
+* **deps:** update dependency ts-foursquare to v1.0.1 ([#284](https://github.com/arnaud-zg/ts-foursquare-playground/issues/284)) ([9887d4f](https://github.com/arnaud-zg/ts-foursquare-playground/commit/9887d4fd6ff4e4f051c895e1957748a8d5ddcc09))
+
 ### [1.0.1](https://github.com/arnaud-zg/ts-foursquare-playground/compare/v1.0.0...v1.0.1) (2020-03-20)
 
 
