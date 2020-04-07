@@ -21,14 +21,14 @@ ask_confirm_and_release () {
               yarn
               git checkout release
               git pull origin release
-              git merge develop
+              git rebase develop
               yarn run release
               git checkout master
               git pull origin master
-              git merge release
+              git rebase release
               git checkout develop
               git pull origin develop
-              git merge release
+              git rebase release
               git push origin release
               git push origin develop
               git push origin --follow-tags master
