@@ -22,7 +22,7 @@
     "@types/node": "12.12.32",
     "@types/react-test-renderer": "16.9.2",
     "@types/storybook__react": "4.0.2",
-    "@types/yup": "0.26.33",
+    "@types/yup": "0.26.36",
     "babel-loader": "8.1.0",
     "codecov": "3.6.5",
     "formik": "2.1.4",
