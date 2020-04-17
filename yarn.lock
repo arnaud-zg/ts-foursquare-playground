@@ -2296,10 +2296,10 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@types/yup@0.26.33":
-  version "0.26.33"
-  resolved "https://registry.yarnpkg.com/@types/yup/-/yup-0.26.33.tgz#301faab47b952a4a5f9a06246942cc7cbd09cd95"
-  integrity sha512-QzgcNfDtRIph8CjfoWiu+MJiOUp25Yo7FthuOHLVbtCTyonjOo2YRsFzKo3csDWbTXlw5NedOFH0Nje7yipCrA==
+"@types/yup@0.26.36":
+  version "0.26.36"
+  resolved "https://registry.yarnpkg.com/@types/yup/-/yup-0.26.36.tgz#369d6ef8beb27c80dac73e77d495af9d3f004ef2"
+  integrity sha512-xOlotjSwyrnkIm7ZzpVu5r1TuFWb65atetUvpLVjNATHIhv/f1oGqBeFSdxrhX7tVbUaf2E5pkBb8e+lFpwHPg==
 
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
