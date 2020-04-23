@@ -2273,10 +2273,10 @@
     jest-diff "^25.2.1"
     pretty-format "^25.2.1"
 
-"@types/node@12.12.32":
-  version "12.12.32"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.32.tgz#0ccc836d273e8a3cddf568daf22729cfa57c1925"
-  integrity sha512-44/reuCrwiQEsXud3I5X3sqI5jIXAmHB5xoiyKUw965olNHF3IWKjBLKK3F9LOSUZmK+oDt8jmyO637iX+hMgA==
+"@types/node@12.12.37":
+  version "12.12.37"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.37.tgz#cb4782d847f801fa58316da5b4801ca3a59ae790"
+  integrity sha512-4mXKoDptrXAwZErQHrLzpe0FN/0Wmf5JRniSVIdwUrtDf9wnmEV1teCNLBo/TwuXhkK/bVegoEn/wmb+x0AuPg==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
