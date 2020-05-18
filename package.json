@@ -24,7 +24,7 @@
     "@types/storybook__react": "4.0.2",
     "@types/yup": "0.26.37",
     "babel-loader": "8.1.0",
-    "codecov": "3.6.5",
+    "codecov": "3.7.0",
     "formik": "2.1.4",
     "gh-pages": "2.2.0",
     "jest": "25.4.0",
