@@ -28,7 +28,7 @@
     "formik": "2.1.4",
     "gh-pages": "2.2.0",
     "jest": "25.5.4",
-    "popup-sensor": "0.6.15",
+    "popup-sensor": "0.6.21",
     "query-string": "6.13.0",
     "react-docgen-typescript-loader": "3.7.2",
     "react-test-renderer": "16.13.1",
