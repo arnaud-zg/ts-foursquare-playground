@@ -35,7 +35,7 @@
     "rimraf": "3.0.2",
     "standard-version": "8.0.0",
     "tailwindcss": "1.4.6",
-    "ts-foursquare": "1.0.3",
+    "ts-foursquare": "1.0.10",
     "ts-jest": "26.1.0",
     "ts-loader": "7.0.0",
     "tslint": "6.1.2",
