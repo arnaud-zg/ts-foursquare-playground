@@ -34,7 +34,7 @@
     "react-test-renderer": "16.13.1",
     "rimraf": "3.0.2",
     "standard-version": "8.0.1",
-    "tailwindcss": "1.6.2",
+    "tailwindcss": "1.9.6",
     "ts-foursquare": "1.0.10",
     "ts-jest": "26.1.4",
     "ts-loader": "7.0.5",
