@@ -20,7 +20,7 @@
     "@types/classnames": "2.2.10",
     "@types/jest": "26.0.8",
     "@types/node": "12.12.37",
-    "@types/react-test-renderer": "16.9.2",
+    "@types/react-test-renderer": "16.9.5",
     "@types/storybook__react": "4.0.2",
     "@types/yup": "0.29.3",
     "babel-loader": "8.1.0",
