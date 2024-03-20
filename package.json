@@ -22,7 +22,7 @@
     "@types/node": "12.12.37",
     "@types/react-test-renderer": "16.9.2",
     "@types/storybook__react": "4.0.2",
-    "@types/yup": "0.29.3",
+    "@types/yup": "0.32.0",
     "babel-loader": "8.1.0",
     "codecov": "3.7.2",
     "formik": "2.1.5",
@@ -43,7 +43,7 @@
     "tslint-eslint-rules": "5.4.0",
     "tslint-react": "4.1.0",
     "typescript": "3.9.7",
-    "yup": "0.29.2"
+    "yup": "0.32.11"
   },
   "scripts": {
     "build:storybook:report": "yarn run build:storybook && percy-storybook --widths=360,1080 --build_dir=docs",
